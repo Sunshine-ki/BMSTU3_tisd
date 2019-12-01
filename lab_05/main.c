@@ -11,6 +11,23 @@
 #define ERROR_INPUT -1
 #define ERROR_BUFFER -2
 
+void waiting(time_s *t, queue_s *queue_list1, queue_s *queue_list2)
+{
+    double mini = min(t->t_list_queue1, t->t_list_queue2, t->t_service_unit);
+
+    if (!isempty_list(queue_list1))
+    {
+        for (list_s *i = queue_list1->first; i; i = i->ptr)
+            i->data += mini;
+    }
+
+    if (!isempty_list(queue_list2))
+    {
+        for (list_s *i = queue_list2->first; i; i = i->ptr)
+            i->data += mini;
+    }
+}
+
 int main(void)
 {
     srand(time(NULL));
@@ -46,6 +63,8 @@ int main(void)
         // printf("__________________________\n");
         generic_time(&t);
         // printf("t.Q1 %f, t.Q2 %f, t.service %f ", t.t_list_queue1, t.t_list_queue2, t.t_service_unit);
+        waiting(&t, queue_list1, queue_list2);
+        //
         sleep_time(&t);
         // printf("\n После: Q1 %f, Q2 %f, service %f \n", t.t_list_queue1, t.t_list_queue2, t.t_service_unit);
 
@@ -92,6 +111,8 @@ int main(void)
                 printf("Cреднее время обслуживания заявок 1-ого типа %f\n", t.t_service_1 / ((double)request.out_1));
             else
                 printf("Нет среднего времени обслуживания заявок 1-ого типа\n");
+            printf("Среднее время ожидания заявок в очереди 1-ого типа %f\n", t.t_waiting1 / ((double)request.in_1));
+
             // printf("Cреднее время пребывания заявок 1-ого типа %f\n", // Cреднее время моделирования - cреднее время обслуживания.
             //    (t.t_modeling_1 / ((double)request.in_1)) - t.t_service_1 / ((double)request.out_1));
             // printf("Cреднее время пребывания заявок 1-ого типа %f\n", request.in_1);
@@ -106,9 +127,10 @@ int main(void)
 
             printf("Cреднее время моделирования заявок 2-ого типа %f\n", t.t_modeling_2 / ((double)request.in_2));
             if (((double)request.out_2) > EPS)
-                printf("Cреднее время обслуживания заявок 1-ого типа %f\n", t.t_service_2 / ((double)request.out_2));
+                printf("Cреднее время обслуживания заявок 2-ого типа %f\n", t.t_service_2 / ((double)request.out_2));
             else
                 printf("Нет среднего времени обслуживания заявок 2-ого типа\n");
+            printf("Среднее время ожидания заявок в очереди 2-ого типа %f\n", t.t_waiting2 / ((double)request.in_2));
 
             // printf("Cреднее время пребывания заявок 2-ого типа %f\n", // Cреднее время моделирования - cреднее время обслуживания.
             //    (t.t_modeling_2 / ((double)request.in_2)) - t.t_service_2 / ((double)request.out_2));

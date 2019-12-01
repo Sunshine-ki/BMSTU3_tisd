@@ -77,7 +77,7 @@ void sleep_time(time_s *t)
 void insert_queue(time_s *t, queue_s *queue_list1, queue_s *queue_list2, //
                   request_s *request, array_s *queue_array1, array_s *queue_array2)
 {
-    int a;
+    int a = 0;
 
     if (t->t_list_queue1 < EPS)
     {
@@ -87,7 +87,7 @@ void insert_queue(time_s *t, queue_s *queue_list1, queue_s *queue_list2, //
             init_array(queue_array1);
         }
 
-        a = random(10, 100);
+        // a = random(10, 100);
         insert_list(queue_list1, a);
         insert_array(queue_array1, a);
 
@@ -107,7 +107,7 @@ void insert_queue(time_s *t, queue_s *queue_list1, queue_s *queue_list2, //
             init_array(queue_array2);
         }
 
-        a = random(10, 100);
+        // a = random(10, 100);
         insert_list(queue_list2, a);
         insert_array(queue_array2, a);
 
@@ -134,7 +134,7 @@ void service_queue(time_s *t, queue_s *queue_list1, queue_s *queue_list2, int *i
             temp = TIME_SERVICE_1;
             t->t_service_unit = temp;
             // t->t_modeling_1 += temp;
-            remove_list(queue_list1);
+            t->t_waiting1 += remove_list(queue_list1);
             remove_array(queue_array1);
             (*i)++;
             *flag = TRUE;
@@ -150,7 +150,7 @@ void service_queue(time_s *t, queue_s *queue_list1, queue_s *queue_list2, int *i
             temp = TIME_SERVICE_2;
             t->t_service_unit = temp;
             // t->t_modeling_2 += temp;
-            remove_list(queue_list2);
+            t->t_waiting2 += remove_list(queue_list2);
             remove_array(queue_array2);
             t->t_service_2 += temp;
             (request->out_2)++;

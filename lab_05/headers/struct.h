@@ -35,9 +35,9 @@ typedef struct
     double t_modeling_2;    // Время моделирования заявок 2-ого типа.
     double t_service_1;     // Время обслуживания заявок первого типа.
     double t_service_2;     // Время обслуживания заявок второго типа.
-    // double t_expectation1;  // Времени пребывания заявок 1 типа в очереди.
-    // double t_expectation2;  // Времени пребывания заявок 2 типа в очереди.
-    double delay; // Прсотой.
+    double t_waiting1;      // Времени пребывания заявок 1 типа в очереди.
+    double t_waiting2;      // Времени пребывания заявок 2 типа в очереди.
+    double delay;           // Прсотой.
 
 } time_s;
 
