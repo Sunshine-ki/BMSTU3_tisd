@@ -151,7 +151,7 @@ int main(void)
 
     // green();
     blue();
-    printf("Время моделирования %f\n", t.t_modeling_1 + t.t_service_1 + t.delay);
+    printf("Время моделирования %f\n", t.t_service_1 + t.t_service_2 + t.delay);
     // printf("Время моделирования заявок 1-ого типа %f\n", t.t_modeling_1);
     // printf("Время обработки заявок 1-ого типа %f\n", t.t_service_1);
 

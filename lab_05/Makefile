@@ -3,6 +3,9 @@ CFLAGS := -std=c99 -g
 FILE_O := $(subst .c,.o,$(wildcard functions/*.c))
 HEADERS_DIR := headers/
 
+fragmentation.exe:  fragmentation.o $(FILE_O)
+	gcc -o fragmentation.exe $^  $(CFLAGS)
+
 app.exe:  main.o $(FILE_O)
 	gcc -o app.exe $^  $(CFLAGS)
 
