@@ -10,10 +10,10 @@ typedef struct
     char name[MAX_LEN_WORD];
 } value_s;
 
-// hash table
-typedef struct
+typedef struct hash_s
 {
     int hash_index;
+    // char name[MAX_LEN_WORD];
     value_s hash_value;
     struct hash_s *next;
 } hash_s;
