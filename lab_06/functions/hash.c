@@ -46,16 +46,14 @@ void del_element_hash_table(FILE *f, hash_s hash_table[MAX_LEN_HASH_TABLE])
 
     if (!strcmp(hash_table[h].hash_value.name, word))
     {
-        free(hash_table[h]);
-        hash_table[h] = *hash_table[h].next;
-        // if (hash_table[h].next)
-        // {
-        //     hash_s *temp = hash_table[h].next;
+        if (hash_table[h].next)
+        {
+            hash_s *temp = hash_table[h].next;
 
-        //     hash_table[h].hash_index = temp->hash_index;
-        //     strcpy(hash_table[h].hash_value.name, temp->hash_value.name);
-        //     hash_table[h].next = temp->next;
-        // }
+            hash_table[h].hash_index = temp->hash_index;
+            strcpy(hash_table[h].hash_value.name, temp->hash_value.name);
+            hash_table[h].next = temp->next;
+        }
         else
         {
             hash_table[h].hash_index = EMPTY;
