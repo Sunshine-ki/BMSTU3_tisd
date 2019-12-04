@@ -18,4 +18,16 @@ typedef struct hash_s
     struct hash_s *next;
 } hash_s;
 
+typedef struct node_t
+{
+    char *value;         // значение в вершине
+    unsigned int height; // высота дерева в данной вершине
+    struct node_t *left;
+    struct node_t *right;
+    // конструктор вершины (то есть функция, которая создает вершину
+    // со значением k)
+    // node(int k) { key = k; left = right = 0; height = 1; }
+    // node_t node = {value, height, left, right}
+} node_t;
+
 #endif

@@ -46,14 +46,16 @@ void del_element_hash_table(FILE *f, hash_s hash_table[MAX_LEN_HASH_TABLE])
 
     if (!strcmp(hash_table[h].hash_value.name, word))
     {
-        if (hash_table[h].next)
-        {
-            hash_s *temp = hash_table[h].next;
+        free(hash_table[h]);
+        hash_table[h] = *hash_table[h].next;
+        // if (hash_table[h].next)
+        // {
+        //     hash_s *temp = hash_table[h].next;
 
-            hash_table[h].hash_index = temp->hash_index;
-            strcpy(hash_table[h].hash_value.name, temp->hash_value.name);
-            hash_table[h].next = temp->next;
-        }
+        //     hash_table[h].hash_index = temp->hash_index;
+        //     strcpy(hash_table[h].hash_value.name, temp->hash_value.name);
+        //     hash_table[h].next = temp->next;
+        // }
         else
         {
             hash_table[h].hash_index = EMPTY;
@@ -182,15 +184,13 @@ value_s find_hash(char word[MAX_LEN_WORD], hash_s hash_table[MAX_LEN_HASH_TABLE]
         data = hash_table[h].hash_value;
 
     // Если по данному хешу уже есть слово
-    if (hash_table[h].next)
+
+    for (hash_s *t = hash_table[h].next; t; t = t->next)
     {
-        for (hash_s *t = hash_table[h].next; t; t = t->next)
+        if (!strcmp(t->hash_value.name, word))
         {
-            if (!strcmp(t->hash_value.name, word))
-            {
-                data = t->hash_value;
-                break;
-            }
+            data = t->hash_value;
+            break;
         }
     }
 
