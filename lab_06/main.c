@@ -41,7 +41,12 @@ int main(void)
     }
 
     hash_s **hash_table = create_hash_table();
-    bin_search_s *root = NULL;
+
+    bin_search_s *root = NULL; // ДДП
+    bin_search_s *find_root = NULL;
+
+    node_t *tree_avl = NULL; // АВЛ
+    node_t *find_node_avl = NULL;
 
     while (answer)
     {
@@ -54,7 +59,7 @@ int main(void)
             instruction_bst();
             break;
         case MODE_BALANCED_TREE:
-            // ...
+            instruction_bst();
             break;
         }
 
@@ -98,7 +103,19 @@ int main(void)
                 }
                 break;
             case MODE_BALANCED_TREE:
-                // ...
+                if (tree_avl)
+                {
+                    yellow();
+                    print_avl(tree_avl, "root", 0);
+                    white();
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
+
                 break;
             }
             break;
@@ -117,7 +134,7 @@ int main(void)
                 insert_bin_search(&root, word);
                 break;
             case MODE_BALANCED_TREE:
-                // ...
+                tree_avl = insert(tree_avl, word);
                 break;
             }
             break;
@@ -157,7 +174,16 @@ int main(void)
                 }
                 break;
             case MODE_BALANCED_TREE:
-                // ...
+                if (tree_avl)
+                {
+                    tree_avl = remove_tree(tree_avl, word);
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
                 break;
             }
             break;
@@ -189,9 +215,20 @@ int main(void)
             case MODE_BST:
                 if (root)
                 {
-                    yellow(); //find_bin_search
-                    printf("Найдено: %s\n", find_bin_search(root, word)->data);
-                    white();
+                    find_root = find_bin_search(root, word);
+
+                    if (find_root)
+                    {
+                        yellow();
+                        printf("Найдено: %s\n", find_root->data);
+                        white();
+                    }
+                    else
+                    {
+                        red();
+                        printf("\nНет данного элемента.\n");
+                        white();
+                    }
                 }
                 else
                 {
@@ -201,7 +238,29 @@ int main(void)
                 }
                 break;
             case MODE_BALANCED_TREE:
-                // data = ...;
+                if (tree_avl)
+                {
+                    find_node_avl = find_avl(tree_avl, word);
+
+                    if (find_node_avl)
+                    {
+                        yellow();
+                        printf("Найдено: %s\n", find_node_avl->value);
+                        white();
+                    }
+                    else
+                    {
+                        red();
+                        printf("\nНет данного элемента.\n");
+                        white();
+                    }
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
                 break;
             }
             break;
@@ -229,7 +288,11 @@ int main(void)
                 fclose(f);
                 break;
             case MODE_BALANCED_TREE:
-                // ...
+                f = fopen("text/text_bin_search.txt", "r");
+
+                input_tree(f, &tree_avl);
+
+                fclose(f);
                 break;
             }
             break;

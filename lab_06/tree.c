@@ -10,48 +10,56 @@
 
 #define OK 0
 
+// for avl
 int main(void)
 {
-    bin_search_s *root = NULL;
+    char word[MAX_LEN_WORD];
 
-    insert_bin_search(&root, "d");
-    insert_bin_search(&root, "c");
-    insert_bin_search(&root, "b");
-    insert_bin_search(&root, "a");
+    FILE *f = fopen("text/text_bin_search.txt", "r");
 
-    // insert_bin_search(&root, "g");
-    // insert_bin_search(&root, "b");
-    // insert_bin_search(&root, "c");
-    // insert_bin_search(&root, "d");
-    // insert_bin_search(&root, "e");
-    // insert_bin_search(&root, "f");
-    // insert_bin_search(&root, "a");
+    node_t *tree = NULL;
 
-    print_bin_search(root, "root", 0);
-    printf("---------------\n");
+    input_tree(f, &tree);
 
-    delete_bin_search(&root, "d");
-    print_bin_search(root, "root", 0);
-    printf("---------------\n");
+    print_avl(tree, "root", 0);
+
+    printf("______\n");
+
+    tree = remove_tree(tree, "a");
+    tree = remove_tree(tree, "b");
+    tree = remove_tree(tree, "c");
+
+    print_avl(tree, "root", 0);
+
+    fclose(f);
 
     return OK;
 }
 
-// for bin_tree
+// for bin_tree (bst)
 // int main(void)
 // {
-//     char word[MAX_LEN_WORD];
+//     bin_search_s *root = NULL;
 
-//     FILE *f = fopen("text/text2.txt", "r");
+//     insert_bin_search(&root, "d");
+//     insert_bin_search(&root, "c");
+//     insert_bin_search(&root, "b");
+//     insert_bin_search(&root, "a");
 
-//     node_t *tree = create_node("1");
+//     // insert_bin_search(&root, "g");
+//     // insert_bin_search(&root, "b");
+//     // insert_bin_search(&root, "c");
+//     // insert_bin_search(&root, "d");
+//     // insert_bin_search(&root, "e");
+//     // insert_bin_search(&root, "f");
+//     // insert_bin_search(&root, "a");
 
-//     input_tree(f, &tree);
-//     // printf("%d\n", height(tree));
+//     print_bin_search(root, "root", 0);
+//     printf("---------------\n");
 
-//     apply_pre(tree, stdout);
-
-//     fclose(f);
+//     delete_bin_search(&root, "d");
+//     print_bin_search(root, "root", 0);
+//     printf("---------------\n");
 
 //     return OK;
 // }

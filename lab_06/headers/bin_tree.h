@@ -6,6 +6,10 @@
 
 int input_tree(FILE *f, node_t **p);
 
+node_t *find_avl(node_t *p, char word[MAX_LEN_WORD]);
+
+void print_avl(node_t *root, const char *dir, int level);
+
 node_t *create_node(char word[MAX_LEN_WORD]);
 
 unsigned int height(node_t *p);

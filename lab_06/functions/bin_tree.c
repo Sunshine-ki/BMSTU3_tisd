@@ -5,6 +5,16 @@
 #include "struct.h"
 #include "bin_tree.h"
 
+void print_avl(node_t *root, const char *dir, int level)
+{
+	if (root)
+	{
+		printf("lvl %d %s = %s\n", level, dir, root->value);
+		print_avl(root->left, "left", level + 1);
+		print_avl(root->right, "right", level + 1);
+	}
+}
+
 node_t *create_node(char word[MAX_LEN_WORD])
 {
 	node_t *node = (node_t *)malloc(sizeof(node_t));
@@ -88,13 +98,30 @@ node_t *insert(node_t *p, char word[MAX_LEN_WORD]) // вставка ключа 
 	if (!p)
 		return create_node(word);
 
-	if (strcmp(p->value, word) < 0)
+	if (strcmp(p->value, word) > 0)
 		p->left = insert(p->left, word);
 
-	else if (strcmp(p->value, word) > 0)
+	else if (strcmp(p->value, word) < 0)
 		p->right = insert(p->right, word);
 
 	return balance(p);
+}
+
+node_t *find_avl(node_t *p, char word[MAX_LEN_WORD])
+{
+	node_t *target;
+
+	if (!p)
+		return NULL;
+
+	if (strcmp(word, p->value) < 0)
+		target = find_avl(p->left, word);
+	else if (strcmp(word, p->value) > 0)
+		target = find_avl(p->right, word);
+	else
+		return p;
+
+	return target;
 }
 
 int input_tree(FILE *f, node_t **p)
@@ -131,10 +158,10 @@ node_t *remove_tree(node_t *p, char word[MAX_LEN_WORD]) // удаление кл
 	if (!p)
 		return NULL;
 
-	if (strcmp(p->value, word) < 0)
+	if (strcmp(p->value, word) > 0)
 		p->left = remove_tree(p->left, word);
 
-	else if (strcmp(p->value, word) > 0)
+	else if (strcmp(p->value, word) < 0)
 		p->right = remove_tree(p->right, word);
 
 	else //  k == p->key
@@ -153,56 +180,56 @@ node_t *remove_tree(node_t *p, char word[MAX_LEN_WORD]) // удаление кл
 }
 
 // --------------------------
-void to_dot(node_t *tree, FILE *f);
-void export_to_dot(FILE *f, const char *tree_name, node_t *tree);
-void apply_pre(node_t *tree, FILE *f);
+// void to_dot(node_t *tree, FILE *f);
+// void export_to_dot(FILE *f, const char *tree_name, node_t *tree);
+// void apply_pre(node_t *tree, FILE *f);
 
-// Функция вывода дерева
-void print_tree(node_t *p)
-{
-	if (p)
-	{
-		print_tree(p->left);
-		printf("%d %s\n", p->height, p->value);
-		print_tree(p->right);
-	}
-}
+// // Функция вывода дерева
+// void print_tree(node_t *p)
+// {
+// 	if (p)
+// 	{
+// 		print_tree(p->left);
+// 		printf("%d %s\n", p->height, p->value);
+// 		print_tree(p->right);
+// 	}
+// }
 
-// .....
+// // .....
 
-// обход дерева
-void apply_pre(node_t *tree, FILE *f)
-{
-	if (tree == NULL)
-	{
-		return;
-	}
+// // обход дерева
+// void apply_pre(node_t *tree, FILE *f)
+// {
+// 	if (tree == NULL)
+// 	{
+// 		return;
+// 	}
 
-	to_dot(tree, f);
-	apply_pre(tree->left, f);
-	apply_pre(tree->right, f);
-}
+// 	to_dot(tree, f);
+// 	apply_pre(tree->left, f);
+// 	apply_pre(tree->right, f);
+// }
 
-void export_to_dot(FILE *f, const char *tree_name, node_t *tree)
-{
-	fprintf(f, "digraph %s {\n", tree_name);
+// void export_to_dot(FILE *f, const char *tree_name, node_t *tree)
+// {
+// 	fprintf(f, "digraph %s {\n", tree_name);
 
-	apply_pre(tree, f);
+// 	apply_pre(tree, f);
 
-	fprintf(f, "}\n");
-}
+// 	fprintf(f, "}\n");
+// }
 
-void to_dot(node_t *tree, FILE *f)
-{
+// void to_dot(node_t *tree, FILE *f)
+// {
 
-	if (tree->left)
-	{
-		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->left->value);
-	}
+// 	if (tree->left)
+// 	{
+// 		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->left->value);
+// 	}
 
-	if (tree->right)
-	{
-		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->right->value);
-	}
-}
+// 	if (tree->right)
+// 	{
+// 		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->right->value);
+// 	}
+// }
 // .....
