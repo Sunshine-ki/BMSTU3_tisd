@@ -26,7 +26,7 @@ int hash_function(char word[MAX_LEN_WORD])
     return sum % REMAINDER_DIVISION;
 }
 
-void add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD])
+int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD])
 {
     // Узнаем хeш слова.
     int h = hash_function(word);
@@ -46,13 +46,15 @@ void add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD
                 red();
                 printf("Коллизия!(Hash = %d)\n", h);
                 white();
-                return;
+                return 0;
             }
         }
         temp->next = add_list(word);
     }
     else
         hash_table[h] = add_list(word);
+
+    return 1;
 }
 
 void del_element_hash_table(hash_s **hash_table, char word[MAX_LEN_WORD])
@@ -122,8 +124,8 @@ int input_hash_table(FILE *f, hash_s **hash_table)
     // Итерируемся, пока не конец файла и записываем слово в word.
     while (!feof(f) && fscanf(f, "%s", word))
     {
-        add_element_hash_table(f, hash_table, word); // Добавляем элемент
-        count++;                                     // Считаем кол-во слов.
+        // Добавляем элемент и считаем кол-во слов.
+        count += add_element_hash_table(f, hash_table, word);
     }
 
     return count; // Возвращаем кол-во слов.

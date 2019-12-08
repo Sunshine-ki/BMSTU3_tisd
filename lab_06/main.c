@@ -5,6 +5,8 @@
 #include "instructions.h"
 #include "struct.h"
 #include "hash.h"
+#include "bin_tree.h"
+#include "binary_search_tree.h"
 
 #define MAX_COUNT_COLLISIONS 10
 #define LEN_HASH_TABLE 10
@@ -20,11 +22,13 @@ int main(void)
     char word[MAX_LEN_WORD];
     int answer = -1;
 
+    FILE *f;
+
     green();
     printf("Выберите с чем желаете работать:\n\
     \n1 - Хеш-таблица\
     \n2 - Двоичное дерево поиска (ДДП)\
-    \n3 - Сбалансированное дерево\n");
+    \n3 - Сбалансированное дерево (АВЛ)\n");
     white();
 
     int mode = scanf_answer();
@@ -33,10 +37,11 @@ int main(void)
         red();
         printf("Нет данного действия");
         white();
+        return OK;
     }
 
-    FILE *f = fopen("text/text2.txt", "r");
     hash_s **hash_table = create_hash_table();
+    bin_search_s *root = NULL;
 
     while (answer)
     {
@@ -79,7 +84,18 @@ int main(void)
 
                 break;
             case MODE_BST:
-                // ...
+                if (root)
+                {
+                    yellow();
+                    print_bin_search(root, "root", 0);
+                    white();
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
                 break;
             case MODE_BALANCED_TREE:
                 // ...
@@ -91,7 +107,19 @@ int main(void)
             printf("Введите слово, которое хотели бы добавить: ");
             white();
             scanf("%s", word);
-            add_element_hash_table(stdin, hash_table, word);
+
+            switch (mode)
+            {
+            case MODE_HASH_TABLE:
+                add_element_hash_table(stdin, hash_table, word);
+                break;
+            case MODE_BST:
+                insert_bin_search(&root, word);
+                break;
+            case MODE_BALANCED_TREE:
+                // ...
+                break;
+            }
             break;
         case 3:
             green();
@@ -115,7 +143,18 @@ int main(void)
 
                 break;
             case MODE_BST:
-                // ...
+                if (root)
+                {
+                    yellow();
+                    delete_bin_search(&root, word);
+                    white();
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
                 break;
             case MODE_BALANCED_TREE:
                 // ...
@@ -134,26 +173,36 @@ int main(void)
             {
             case MODE_HASH_TABLE:
                 data = find_hash(hash_table, word);
+                if (!strcmp(data.name, ""))
+                {
+                    red();
+                    printf("\nНет данного элемента.\n");
+                    white();
+                }
+                else
+                {
+                    green();
+                    printf("Информация: %s.\n", data.name);
+                    white();
+                }
                 break;
             case MODE_BST:
-                // data = ...;
+                if (root)
+                {
+                    yellow(); //find_bin_search
+                    printf("Найдено: %s\n", find_bin_search(root, word)->data);
+                    white();
+                }
+                else
+                {
+                    red();
+                    printf("Дерево пусто!\n");
+                    white();
+                }
                 break;
             case MODE_BALANCED_TREE:
                 // data = ...;
                 break;
-            }
-
-            if (!strcmp(data.name, ""))
-            {
-                red();
-                printf("\nНет данного элемента.\n");
-                white();
-            }
-            else
-            {
-                green();
-                printf("Информация: %s.\n", data.name);
-                white();
             }
             break;
         case 5:
@@ -161,11 +210,23 @@ int main(void)
             switch (mode)
             {
             case MODE_HASH_TABLE:
-                fseek(f, 0, 0);
-                input_hash_table(f, hash_table);
+                f = fopen("text/text.txt", "r");
+
+                // fseek(f, 0, 0);
+                green();
+                printf("\nДобавлено %d элементов!\n", input_hash_table(f, hash_table));
+                white();
+
+                fclose(f);
                 break;
             case MODE_BST:
-                // ...
+                f = fopen("text/text_bin_search.txt", "r");
+
+                green();
+                printf("Добавлено %d элементов!\n", input_bin_search(f, &root));
+                white();
+
+                fclose(f);
                 break;
             case MODE_BALANCED_TREE:
                 // ...
@@ -186,8 +247,6 @@ int main(void)
 
     destruct_hash_table(hash_table);
     free(hash_table);
-
-    fclose(f);
 
     return OK;
 }

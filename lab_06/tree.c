@@ -10,36 +10,29 @@
 
 #define OK 0
 
-int main()
+int main(void)
 {
     bin_search_s *root = NULL;
 
-    insert_bin_search(&root, "g");
-    insert_bin_search(&root, "b");
-    insert_bin_search(&root, "c");
     insert_bin_search(&root, "d");
-    insert_bin_search(&root, "e");
-    insert_bin_search(&root, "f");
+    insert_bin_search(&root, "c");
+    insert_bin_search(&root, "b");
     insert_bin_search(&root, "a");
 
+    // insert_bin_search(&root, "g");
+    // insert_bin_search(&root, "b");
+    // insert_bin_search(&root, "c");
+    // insert_bin_search(&root, "d");
+    // insert_bin_search(&root, "e");
+    // insert_bin_search(&root, "f");
+    // insert_bin_search(&root, "a");
+
     print_bin_search(root, "root", 0);
+    printf("---------------\n");
 
-    printf("max = %s\n", find_max_node(root)->value);
-    printf("min = %s\n", find_min_node(root)->value);
-
-    // delete_bin_search(root, "4");
-    // printf("parent of 7 is %s\n", find_bin_search(root, "7")->parent->value);
-
-    // print_bin_search(root, "root", 0);
-    // delete_bin_search(root, "8");
-    // print_bin_search(root, "root", 0);
-
-    printf("------------------\n");
-    // if (root->left && root->right)
-    // printf("я тут\n");
-
-    delete_bin_search(root, "g");
+    delete_bin_search(&root, "d");
     print_bin_search(root, "root", 0);
+    printf("---------------\n");
 
     return OK;
 }

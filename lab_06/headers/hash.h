@@ -13,7 +13,7 @@
 #define TRUE 1
 #define FALSE 0
 
-void add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]);
+int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]);
 
 void del_element_hash_table(hash_s **hash_table, char word[MAX_LEN_WORD]);
 

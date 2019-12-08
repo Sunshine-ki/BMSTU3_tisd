@@ -21,7 +21,7 @@ typedef struct hash_s
 // ДДП _BINARY_SEARCH_TREE_
 typedef struct bin_search_s
 {
-    char value[MAX_LEN_WORD];
+    char data[MAX_LEN_WORD];
     struct bin_search_s *left;
     struct bin_search_s *right;
     struct bin_search_s *parent;
