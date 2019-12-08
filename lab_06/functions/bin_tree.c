@@ -1,21 +1,11 @@
 #include <stdlib.h>
 #include <string.h>
+#include <stdio.h>
 
 #include "struct.h"
+#include "bin_tree.h"
 
-// typedef struct node_t
-// {
-// 	char *value;		 // значение в вершине
-// 	unsigned int height; // высота дерева в данной вершине
-// 	struct node_t *left;
-// 	struct node_t *right;
-// 	// конструктор вершины (то есть функция, которая создает вершину
-// 	// со значением k)
-// 	// node(int k) { key = k; left = right = 0; height = 1; }
-// 	// node_t node = {value, height, left, right}
-// } node_t;
-
-node_t *create_node(const char *const value)
+node_t *create_node(char word[MAX_LEN_WORD])
 {
 	node_t *node = (node_t *)malloc(sizeof(node_t));
 	if (!node)
@@ -23,7 +13,7 @@ node_t *create_node(const char *const value)
 
 	node->height = 1;
 	node->left = (node->right = NULL);
-	node->value;
+	strcpy(node->value, word);
 	return node;
 }
 
@@ -71,7 +61,7 @@ node_t *rotate_left(node_t *q)
 	return p;
 }
 
-//
+// Балансировка
 node_t *balance(node_t *p)
 {
 	fix_height(p);
@@ -89,22 +79,37 @@ node_t *balance(node_t *p)
 			p->left = rotate_left(p->left);
 		return rotate_right(p);
 	}
-	// балансировка не нужна
+	// балансировка не нужна.
 	return p;
 }
 
-node_t *insert(node_t *p, const char *const value) // вставка ключа k в дерево с корнем p
+node_t *insert(node_t *p, char word[MAX_LEN_WORD]) // вставка ключа k в дерево с корнем p
 {
 	if (!p)
-		return create_node(value);
+		return create_node(word);
 
-	if (strcmp(p->value, value) < 0)
-		p->left = insert(p->left, value);
+	if (strcmp(p->value, word) < 0)
+		p->left = insert(p->left, word);
 
-	else if (strcmp(p->value, value) > 0)
-		p->right = insert(p->right, value);
+	else if (strcmp(p->value, word) > 0)
+		p->right = insert(p->right, word);
 
 	return balance(p);
+}
+
+int input_tree(FILE *f, node_t **p)
+{
+	char word[MAX_LEN_WORD]; // Слово.
+	int count = 0;			 // Кол-во слов.
+
+	// Итерируемся, пока не конец файла и записываем слово в word.
+	while (!feof(f) && fscanf(f, "%s", word))
+	{
+		*p = insert(*p, word);
+		count++; // Считаем кол-во слов.
+	}
+
+	return count; // Возвращаем кол-во слов.
 }
 
 //
@@ -121,16 +126,16 @@ node_t *remove_min(node_t *p) // удаление узла с минимальн
 	return balance(p);
 }
 
-node_t *remove(node_t *p, const char *const value) // удаление ключа k из дерева p
+node_t *remove_tree(node_t *p, char word[MAX_LEN_WORD]) // удаление ключа k из дерева p
 {
 	if (!p)
 		return NULL;
 
-	if (strcmp(p->value, value) < 0)
-		p->left = remove(p->left, value);
+	if (strcmp(p->value, word) < 0)
+		p->left = remove_tree(p->left, word);
 
-	else if (strcmp(p->value, value) > 0)
-		p->right = remove(p->right, value);
+	else if (strcmp(p->value, word) > 0)
+		p->right = remove_tree(p->right, word);
 
 	else //  k == p->key
 	{
@@ -146,3 +151,58 @@ node_t *remove(node_t *p, const char *const value) // удаление ключ�
 	}
 	return balance(p);
 }
+
+// --------------------------
+void to_dot(node_t *tree, FILE *f);
+void export_to_dot(FILE *f, const char *tree_name, node_t *tree);
+void apply_pre(node_t *tree, FILE *f);
+
+// Функция вывода дерева
+void print_tree(node_t *p)
+{
+	if (p)
+	{
+		print_tree(p->left);
+		printf("%d %s\n", p->height, p->value);
+		print_tree(p->right);
+	}
+}
+
+// .....
+
+// обход дерева
+void apply_pre(node_t *tree, FILE *f)
+{
+	if (tree == NULL)
+	{
+		return;
+	}
+
+	to_dot(tree, f);
+	apply_pre(tree->left, f);
+	apply_pre(tree->right, f);
+}
+
+void export_to_dot(FILE *f, const char *tree_name, node_t *tree)
+{
+	fprintf(f, "digraph %s {\n", tree_name);
+
+	apply_pre(tree, f);
+
+	fprintf(f, "}\n");
+}
+
+void to_dot(node_t *tree, FILE *f)
+{
+
+	if (tree->left)
+	{
+		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->left->value);
+	}
+
+	if (tree->right)
+	{
+		fprintf(f, "\"%s \" -> \"%s \";\n", tree->value, tree->right->value);
+	}
+}
+// .....

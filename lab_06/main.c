@@ -9,9 +9,11 @@
 #define MAX_COUNT_COLLISIONS 10
 #define LEN_HASH_TABLE 10
 
-#define MODE_BALANCED_TREE 1
-#define MODE_DDP 2
-#define MODE_HASH_TABLE 3
+#define MODE_HASH_TABLE 1
+#define MODE_BST 2 // BINARY SEARCH TREE.
+#define MODE_BALANCED_TREE 3
+
+#define OK 0
 
 int main(void)
 {
@@ -20,9 +22,9 @@ int main(void)
 
     green();
     printf("Выберите с чем желаете работать:\n\
-    \n1 - Сбалансированное дерево\
+    \n1 - Хеш-таблица\
     \n2 - Двоичное дерево поиска (ДДП)\
-    \n3 - Хеш-таблица\n");
+    \n3 - Сбалансированное дерево\n");
     white();
 
     int mode = scanf_answer();
@@ -38,7 +40,19 @@ int main(void)
 
     while (answer)
     {
-        instruction();
+        switch (mode)
+        {
+        case MODE_HASH_TABLE:
+            instruction_hash();
+            break;
+        case MODE_BST:
+            instruction_bst();
+            break;
+        case MODE_BALANCED_TREE:
+            // ...
+            break;
+        }
+
         answer = scanf_answer();
 
         switch (answer)
@@ -50,9 +64,21 @@ int main(void)
             switch (mode)
             {
             case MODE_HASH_TABLE:
-                output_hash_table(stdout, hash_table);
+                if (is_empty_hash_table(hash_table))
+                {
+                    red();
+                    printf("Таблица пуста!\n");
+                    white();
+                }
+                else
+                {
+                    yellow();
+                    output_hash_table(stdout, hash_table);
+                    white();
+                }
+
                 break;
-            case MODE_DDP:
+            case MODE_BST:
                 // ...
                 break;
             case MODE_BALANCED_TREE:
@@ -76,9 +102,19 @@ int main(void)
             switch (mode)
             {
             case MODE_HASH_TABLE:
-                del_element_hash_table(hash_table, word);
+                if (is_empty_hash_table(hash_table))
+                {
+                    red();
+                    printf("Нет данного слова!\n");
+                    white();
+                }
+                else
+                {
+                    del_element_hash_table(hash_table, word);
+                }
+
                 break;
-            case MODE_DDP:
+            case MODE_BST:
                 // ...
                 break;
             case MODE_BALANCED_TREE:
@@ -99,7 +135,7 @@ int main(void)
             case MODE_HASH_TABLE:
                 data = find_hash(hash_table, word);
                 break;
-            case MODE_DDP:
+            case MODE_BST:
                 // data = ...;
                 break;
             case MODE_BALANCED_TREE:
@@ -125,9 +161,10 @@ int main(void)
             switch (mode)
             {
             case MODE_HASH_TABLE:
+                fseek(f, 0, 0);
                 input_hash_table(f, hash_table);
                 break;
-            case MODE_DDP:
+            case MODE_BST:
                 // ...
                 break;
             case MODE_BALANCED_TREE:
@@ -151,5 +188,6 @@ int main(void)
     free(hash_table);
 
     fclose(f);
-    return 0;
+
+    return OK;
 }

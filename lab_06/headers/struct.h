@@ -18,10 +18,20 @@ typedef struct hash_s
     struct hash_s *next;
 } hash_s;
 
+// ДДП _BINARY_SEARCH_TREE_
+typedef struct bin_search_s
+{
+    char value[MAX_LEN_WORD];
+    struct bin_search_s *left;
+    struct bin_search_s *right;
+    struct bin_search_s *parent;
+} bin_search_s;
+
+//АВЛ
 typedef struct node_t
 {
-    char *value;         // значение в вершине
-    unsigned int height; // высота дерева в данной вершине
+    char value[MAX_LEN_WORD]; // значение в вершине
+    unsigned int height;      // высота дерева в данной вершине
     struct node_t *left;
     struct node_t *right;
     // конструктор вершины (то есть функция, которая создает вершину

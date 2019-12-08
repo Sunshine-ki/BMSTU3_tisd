@@ -4,6 +4,16 @@
 #include "hash.h"
 #include "colors.h"
 
+int is_empty_hash_table(hash_s **hash_table)
+{
+    // Итерируемся по всему массиву.
+    for (int i = 0; i < MAX_LEN_HASH_TABLE; i++)
+        if (hash_table[i])
+            return FALSE;
+
+    return TRUE;
+}
+
 int hash_function(char word[MAX_LEN_WORD])
 {
     int sum = 0;
@@ -20,6 +30,7 @@ void add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD
 {
     // Узнаем хeш слова.
     int h = hash_function(word);
+    int count = 1;
 
     hash_s *temp = hash_table[h];
 
@@ -27,7 +38,17 @@ void add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD
     if (hash_table[h])
     {
         while (temp->next)
+        {
             temp = temp->next;
+            count++;
+            if (count > COLLISION)
+            {
+                red();
+                printf("Коллизия!(Hash = %d)\n", h);
+                white();
+                return;
+            }
+        }
         temp->next = add_list(word);
     }
     else
@@ -41,15 +62,33 @@ void del_element_hash_table(hash_s **hash_table, char word[MAX_LEN_WORD])
 
     hash_s *out;
 
-    while (hash_table[h])
+    if (!hash_table[h])
     {
-        if (!strcmp(word, hash_table[h]->hash_value.name))
+        red();
+        printf("Нет данного слова!");
+        white();
+        return;
+    }
+
+    if (!strcmp(word, hash_table[h]->hash_value.name))
+    {
+        out = hash_table[h];
+        hash_table[h] = hash_table[h]->next;
+        free(out);
+        return;
+    }
+
+    hash_s *temp = hash_table[h];
+    while (temp->next)
+    {
+        out = temp->next;
+        if (!strcmp(word, out->hash_value.name))
         {
-            out = hash_table[h];
-            hash_table[h] = hash_table[h]->next;
+            temp->next = out->next;
+            free(out);
             break;
         }
-        hash_table[h] = hash_table[h]->next;
+        temp = temp->next;
     }
 }
 
@@ -96,7 +135,7 @@ int output_hash_table(FILE *f, hash_s **hash_table)
 
     hash_s *temp;
 
-    printf("Table:\n");
+    printf("%4s %25s\n\n", "HASH", "VALUES");
 
     // Итерируемся по всему массиву.
     for (int i = 0; i < MAX_LEN_HASH_TABLE; i++)
@@ -104,11 +143,12 @@ int output_hash_table(FILE *f, hash_s **hash_table)
         // Если есть слово, то выводим слово.
         if (hash_table[i])
         {
+            printf("%4d ", hash_table[i]->hash_index);
             temp = hash_table[i];
             // printf("%d ", temp->hash_index);
             while (temp)
             {
-                printf("%d %s ", temp->hash_index, temp->hash_value.name);
+                printf(" -> %8s", temp->hash_value.name);
                 temp = temp->next;
             }
             puts("");

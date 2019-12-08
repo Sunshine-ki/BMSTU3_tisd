@@ -6,7 +6,9 @@
 
 #define MAX_LEN_ANSWER 32
 
-void instruction();
+void instruction_hash();
+
+void instruction_bst();
 
 int scanf_answer();
 
