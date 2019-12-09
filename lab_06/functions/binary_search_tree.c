@@ -40,6 +40,7 @@ void insert_bin_search(bin_search_s **head, char value[MAX_LEN_WORD])
 {
     bin_search_s *tmp = NULL;
     bin_search_s *ins = NULL;
+
     if (*head == NULL)
     {
         *head = create_bin_search(value, NULL);

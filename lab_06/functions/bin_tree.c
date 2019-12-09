@@ -5,6 +5,34 @@
 #include "struct.h"
 #include "bin_tree.h"
 
+int input_tree(FILE *f, node_t **p)
+{
+	char word[MAX_LEN_WORD]; // Слово.
+	int count = 0;			 // Кол-во слов.
+
+	// Итерируемся, пока не конец файла и записываем слово в word.
+	while (!feof(f) && fscanf(f, "%s", word))
+	{
+		*p = insert(*p, word);
+		count++; // Считаем кол-во слов.
+	}
+
+	return count; // Возвращаем кол-во слов.
+}
+
+node_t *balance_tree(bin_search_s *bts, node_t **tree_avl)
+{
+	if (bts)
+	{
+		// printf("зашёл\n");
+		*tree_avl = insert(*tree_avl, bts->data);
+		balance_tree(bts->left, tree_avl);
+		balance_tree(bts->right, tree_avl);
+	}
+
+	return *tree_avl;
+}
+
 void print_avl(node_t *root, const char *dir, int level)
 {
 	if (root)
@@ -104,10 +132,12 @@ node_t *insert(node_t *p, char word[MAX_LEN_WORD]) // вставка ключа 
 	else if (strcmp(p->value, word) < 0)
 		p->right = insert(p->right, word);
 
+	// return p;
+	// printf(" ");
 	return balance(p);
 }
 
-node_t *find_avl(node_t *p, char word[MAX_LEN_WORD])
+node_t *find_avl(node_t *p, char word[MAX_LEN_WORD], count_s *count_all)
 {
 	node_t *target;
 
@@ -115,28 +145,19 @@ node_t *find_avl(node_t *p, char word[MAX_LEN_WORD])
 		return NULL;
 
 	if (strcmp(word, p->value) < 0)
-		target = find_avl(p->left, word);
+	{
+		(count_all->count_avl_find)++;
+		target = find_avl(p->left, word, count_all);
+	}
 	else if (strcmp(word, p->value) > 0)
-		target = find_avl(p->right, word);
+	{
+		(count_all->count_avl_find)++;
+		target = find_avl(p->right, word, count_all);
+	}
 	else
 		return p;
 
 	return target;
-}
-
-int input_tree(FILE *f, node_t **p)
-{
-	char word[MAX_LEN_WORD]; // Слово.
-	int count = 0;			 // Кол-во слов.
-
-	// Итерируемся, пока не конец файла и записываем слово в word.
-	while (!feof(f) && fscanf(f, "%s", word))
-	{
-		*p = insert(*p, word);
-		count++; // Считаем кол-во слов.
-	}
-
-	return count; // Возвращаем кол-во слов.
 }
 
 //

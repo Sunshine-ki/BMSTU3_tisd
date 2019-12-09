@@ -51,11 +51,14 @@ int main(void)
     time_s my_time = {0};
     count_s count_all = {0};
 
+    int collision = 0;
+
     FILE *f = fopen(FILE_OPEN_HASH, "r");
 
     int count_hash = 1;
 
     hash_s **hash_table = create_hash_table(f, &count_hash); // Хеш-таблица
+    int flag;
     // value_s data = {0};
     int data;
     printf("Слов = %d\n", count_hash);
@@ -111,6 +114,15 @@ int main(void)
 
             scanf("%s", word);
 
+            // if (find_hash(hash_table, word, &count_all))
+            // {
+            //     // count_all.count_hash_find = 0;
+            //     green();
+            //     printf("Уже имеется данный элемент!\n");
+            //     white();
+            //     break;
+            // }
+
             my_time.time_bst_add_start = clock();
             insert_bin_search(&root, word);
             my_time.time_bst_add_end = clock();
@@ -121,13 +133,22 @@ int main(void)
             white();
 
             my_time.time_hash_add_start = clock();
-            add_element_hash_table(stdin, hash_table, word);
+            flag = add_element_hash_table(stdin, hash_table, word, &collision);
             my_time.time_hash_add_end = clock();
 
+            // if (flag == 1)
+            // {
             green();
             printf("Добавлено в хеш-таблицу за :  %f\n", //
                    my_time.time_hash_add_end - my_time.time_hash_add_start);
             white();
+            // }
+            // else if (flag == 2)
+            // {
+            //     green();
+            //     printf("Уже имеется данный элемент!\n");
+            //     white();
+            // }
 
             f = fopen(FILE_OPEN_HASH, "a");
             my_time.time_file_add_start = clock();
@@ -139,6 +160,18 @@ int main(void)
             printf("Добавлено в файл за :  %f\n", //
                    my_time.time_file_add_end - my_time.time_file_add_start);
             white();
+
+            if (tree_avl)
+            {
+                my_time.time_avl_add_start = clock();
+                tree_avl = insert(tree_avl, word);
+                my_time.time_avl_add_end = clock();
+
+                green();
+                printf("Добавлено в АВЛ дерево за :  %f\n", //
+                       my_time.time_avl_add_end - my_time.time_avl_add_start);
+                white();
+            }
 
             break;
         // case 4:
@@ -179,9 +212,14 @@ int main(void)
             white();
 
             scanf("%s", word);
+            // int h = hash_function(word);
 
             if (root)
             {
+                count_all.count_hash_find = 0;
+                count_all.count_avl_find = 0;
+                count_all.count_bst_find = 0;
+
                 my_time.time_bst_find_start = clock();
                 find_root = find_bin_search(root, word, &count_all);
                 my_time.time_bst_find_end = clock();
@@ -189,22 +227,36 @@ int main(void)
                 if (find_root)
                 {
                     green();
-                    printf("\nНайдено в дереве за :  %f\n", //
-                           my_time.time_bst_find_end - my_time.time_bst_find_start);
+                    // printf("\nНайдено в дереве за :  %f\n", //
+                    //    my_time.time_bst_find_end - my_time.time_bst_find_start);
 
                     printf("Кол-во сравнений : %d\n", count_all.count_bst_find + 1);
-                    count_all.count_bst_find = 0;
                     white();
                 }
-                else
+                // else
+                // {
+                //     red();
+                //     printf("\nНет данного элемента.(Для дерева)\n");
+                //     white();
+                // }
+            }
+
+            if (tree_avl)
+            {
+                my_time.time_avl_find_start = clock();
+                find_node_avl = find_avl(tree_avl, word, &count_all);
+                my_time.time_avl_find_end = clock();
+
+                if (find_node_avl)
                 {
-                    red();
-                    printf("\nНет данного элемента.(Для дерева)\n");
+                    green();
+                    // printf("\nНайдено в АВЛ дереве за :  %f\n", //
+                    //    my_time.time_avl_find_end - my_time.time_avl_find_start);
+                    printf("Кол-во сравнений : %d\n", count_all.count_avl_find + 1);
                     white();
                 }
             }
 
-            // int h = hash_function(word);
             my_time.time_hash_find_start = clock();
             data = find_hash(hash_table, word, &count_all);
             my_time.time_hash_find_end = clock();
@@ -212,16 +264,16 @@ int main(void)
             if (!data)
             {
                 red();
-                printf("\nНет данного элемента.(Для хеш-таблицы)\n");
+                printf("\nНет данного элемента.\n");
                 white();
             }
             else
             {
+                //  ((double) end - start) / ((double) CLOCKS_PER_SEC));
                 green();
-                printf("\nНайдено в хеш-таблце за :  %f\n", //
-                       my_time.time_hash_find_end - my_time.time_hash_find_start);
+                // printf("\nНайдено в хеш-таблце за :  %f\n", //
+                //    my_time.time_hash_find_end - my_time.time_hash_find_start);
                 printf("Кол-во сравнений : %d\n", count_all.count_hash_find + 1);
-                count_all.count_hash_find = 0;
                 // printf("\nНайдено: (Для хеш-таблицы)  %s.\n", data.name);
                 white();
             }
@@ -230,15 +282,58 @@ int main(void)
         case 5:
             f = fopen(FILE_OPEN_HASH, "r");
 
-            green();
-            printf("\nДобавлено %d элементов!(Для хеш-таблицы)\n", input_hash_table(f, hash_table));
-            white();
+            input_hash_table(f, hash_table, &collision);
             fseek(f, 0, 0);
+            input_bin_search(f, &root);
+
             green();
-            printf("Добавлено %d элементов!(Для дерева)\n", input_bin_search(f, &root));
+            printf("\nДобавлено");
             white();
 
+            // green();
+            // printf("\nДобавлено %d элементов!(Для хеш-таблицы)\n", input_hash_table(f, hash_table)); // &collision);
+            // white();
+            // fseek(f, 0, 0);
+            // green();
+            // printf("Добавлено %d элементов!(Для дерева)\n", input_bin_search(f, &root));
+            // white();
+
             fclose(f);
+            break;
+        case 6:
+
+            if (root)
+            {
+                my_time.time_balance_tree_start = clock();
+                tree_avl = balance_tree(root, &tree_avl);
+                my_time.time_balance_tree_end = clock();
+
+                green();
+                printf("Веремя балансировки :  %f\n", //
+                       my_time.time_balance_tree_end - my_time.time_balance_tree_start);
+            }
+            else
+            {
+                red();
+                printf("Заполните дерево, чтобы получить АВЛ дерево!\n");
+                white();
+            }
+
+            break;
+        case 7:
+            if (tree_avl)
+            {
+                green();
+                print_avl(tree_avl, "root", 0);
+                white();
+            }
+            else
+            {
+                red();
+                printf("Сбалансируйте дерево, чтобы получить АВЛ дерево!\n");
+                white();
+            }
+
             break;
         default:
             printf("\33[31m");

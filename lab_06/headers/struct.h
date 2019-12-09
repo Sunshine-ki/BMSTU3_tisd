@@ -42,25 +42,37 @@ typedef struct node_t
 
 typedef struct
 {
+
     double time_hash_find_start;
     double time_hash_find_end;
-    double time_bst_find_start;
-    double time_bst_find_end;
 
     double time_hash_add_start;
     double time_hash_add_end;
+
+    double time_bst_find_start;
+    double time_bst_find_end;
+    double time_avl_find_start;
+    double time_avl_find_end;
 
     double time_bst_add_start;
     double time_bst_add_end;
 
     double time_file_add_start;
     double time_file_add_end;
+
+    double time_avl_add_start;
+    double time_avl_add_end;
+
+    double time_balance_tree_start;
+    double time_balance_tree_end;
+
 } time_s;
 
 typedef struct
 {
     int count_hash_find;
     int count_bst_find;
+    int count_avl_find;
 } count_s;
 
 #endif

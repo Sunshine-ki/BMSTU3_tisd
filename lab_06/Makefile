@@ -4,7 +4,7 @@ HEADERS_DIR := headers/
 
 tree.exe:  tree.o $(FILE_O)
 	gcc -o tree.exe $^  $(CFLAGS)
-
+	
 app.exe:  main.o $(FILE_O)
 	gcc -o app.exe $^  $(CFLAGS)
 

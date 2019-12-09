@@ -44,7 +44,7 @@ int hash_function(char word[MAX_LEN_WORD]) //, int redmainder_division)
     return sum % REMAINDER_DIVISION;
 }
 
-int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD])
+int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD], int *collision)
 {
     // Узнаем хeш слова.
     int h = hash_function(word);
@@ -65,12 +65,17 @@ int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]
             count++;
             // printf("!%d\n", strcmp(temp->hash_value.name, word));
             if (strcmp(temp->hash_value.name, word) == 0)
-                return 0;
+                return 2;
 
-            if (count > COLLISION - 1)
+            printf("Collision%d %d\n", count, *collision);
+            if (count == COLLISION - 1)
+            {
+                (*collision)++;
+            }
+            if (*collision > 3)
             {
                 red();
-                printf("Коллизия!(Hash = %d)\n", h);
+                printf("Коллизия!(Hash = %d) Реструктуризируйте таблицу!\n", h);
                 white();
                 return 0;
             }
@@ -156,7 +161,7 @@ int find_hash(hash_s **hash_table, char word[MAX_LEN_WORD], count_s *count_h)
     return FALSE;
 }
 
-int input_hash_table(FILE *f, hash_s **hash_table)
+int input_hash_table(FILE *f, hash_s **hash_table, int *collision)
 {
     char word[MAX_LEN_WORD]; // Слово.
     int count = 0;           // Кол-во слов.
@@ -165,7 +170,7 @@ int input_hash_table(FILE *f, hash_s **hash_table)
     while (!feof(f) && fscanf(f, "%s", word))
     {
         // Добавляем элемент и считаем кол-во слов.
-        count += add_element_hash_table(f, hash_table, word);
+        count += add_element_hash_table(f, hash_table, word, collision);
     }
 
     return count; // Возвращаем кол-во слов.
