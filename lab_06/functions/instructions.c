@@ -49,6 +49,29 @@ void instruction_hash()
     white();
 }
 
+int instruction()
+{
+    blue();
+    printf("\n\t\t\t\t\t\t\t\t\t\tМеню:\n\
+    \t\t\t\t\t\t\t▍▹ 1. %-30s\n\
+    \t\t\t\t\t\t\t▍▹ 2. %-30s\n\
+    \t\t\t\t\t\t\t▍▸ 3. %-30s\n\
+    \t\t\t\t\t\t\t▍▹ 4. %-30s\n\
+    \t\t\t\t\t\t\t▍▸ 5. %-30s\n\
+    \t\t\t\t\t\t\t▍▹ 6. %-30s\n\
+    \t\t\t\t\t\t\t▍▸ 0. %-30s\n",
+           "Вывод хеш-таблицы",
+           "Вывод дерева",
+           "Добавить элемент",
+           "Удалить элемент",
+           "Найти элемент",
+           "Заполнить (Из файла)",
+           "Выход");
+    green();
+    printf("\t\t\t\t\t\t\t\t\tВыберите действие: ");
+    white();
+}
+
 int scanf_answer()
 {
     char answer_char[MAX_LEN_ANSWER];

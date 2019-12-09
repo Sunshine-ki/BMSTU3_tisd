@@ -10,6 +10,8 @@ void instruction_hash();
 
 void instruction_bst();
 
+int instruction();
+
 int scanf_answer();
 
 #endif

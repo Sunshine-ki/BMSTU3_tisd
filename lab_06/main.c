@@ -15,6 +15,8 @@
 #define MODE_BST 2 // BINARY SEARCH TREE.
 #define MODE_BALANCED_TREE 3
 
+#define FILE_OPEN_HASH "text/text.txt"
+
 #define OK 0
 
 int main(void)
@@ -22,7 +24,7 @@ int main(void)
     char word[MAX_LEN_WORD];
     int answer = -1;
 
-    FILE *f;
+    FILE *f = fopen(FILE_OPEN_HASH, "r");
 
     green();
     printf("Выберите с чем желаете работать:\n\
@@ -40,7 +42,7 @@ int main(void)
         return OK;
     }
 
-    hash_s **hash_table = create_hash_table();
+    hash_s **hash_table = create_hash_table(f);
 
     bin_search_s *root = NULL; // ДДП
     bin_search_s *find_root = NULL;
@@ -269,8 +271,7 @@ int main(void)
             switch (mode)
             {
             case MODE_HASH_TABLE:
-                f = fopen("text/text.txt", "r");
-
+                f = fopen(FILE_OPEN_HASH, "r");
                 // fseek(f, 0, 0);
                 green();
                 printf("\nДобавлено %d элементов!\n", input_hash_table(f, hash_table));

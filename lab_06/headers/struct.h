@@ -40,4 +40,10 @@ typedef struct node_t
     // node_t node = {value, height, left, right}
 } node_t;
 
+typedef struct
+{
+    int time_hash_find;
+    int time_bst_find;
+} time_s;
+
 #endif

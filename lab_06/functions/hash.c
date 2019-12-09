@@ -4,17 +4,35 @@
 #include "hash.h"
 #include "colors.h"
 
-int is_empty_hash_table(hash_s **hash_table)
+int is_simple(int a)
+{
+    for (int i = a - 1; i > 1; i--)
+        if (a % i == 0)
+            return FALSE;
+
+    return TRUE;
+}
+
+int find_simple(int a)
+{
+    for (int i = a;; i++)
+    {
+        if (is_simple(i))
+            return i;
+    }
+}
+
+int is_empty_hash_table(hash_s **hash_table, int count)
 {
     // Итерируемся по всему массиву.
-    for (int i = 0; i < MAX_LEN_HASH_TABLE; i++)
+    for (int i = 0; i < count; i++)
         if (hash_table[i])
             return FALSE;
 
     return TRUE;
 }
 
-int hash_function(char word[MAX_LEN_WORD])
+int hash_function(char word[MAX_LEN_WORD]) //, int redmainder_division)
 {
     int sum = 0;
 
@@ -37,11 +55,19 @@ int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]
     // Если по данному хешу уже есть слово.
     if (hash_table[h])
     {
+        // printf("!%d\n", strcmp(temp->hash_value.name, word));
+        if (strcmp(temp->hash_value.name, word) == 0)
+            return 0;
+
         while (temp->next)
         {
             temp = temp->next;
             count++;
-            if (count > COLLISION)
+            // printf("!%d\n", strcmp(temp->hash_value.name, word));
+            if (strcmp(temp->hash_value.name, word) == 0)
+                return 0;
+
+            if (count > COLLISION - 1)
             {
                 red();
                 printf("Коллизия!(Hash = %d)\n", h);
@@ -131,7 +157,7 @@ int input_hash_table(FILE *f, hash_s **hash_table)
     return count; // Возвращаем кол-во слов.
 }
 
-int output_hash_table(FILE *f, hash_s **hash_table)
+int output_hash_table(FILE *f, hash_s **hash_table, int count)
 {
     char word[MAX_LEN_WORD];
 
@@ -140,7 +166,7 @@ int output_hash_table(FILE *f, hash_s **hash_table)
     printf("%4s %25s\n\n", "HASH", "VALUES");
 
     // Итерируемся по всему массиву.
-    for (int i = 0; i < MAX_LEN_HASH_TABLE; i++)
+    for (int i = 0; i < count; i++)
     {
         // Если есть слово, то выводим слово.
         if (hash_table[i])
@@ -169,9 +195,9 @@ hash_s *add_list(char word[MAX_LEN_WORD])
     return temp;
 }
 
-void destruct_hash_table(hash_s **hash_table)
+void destruct_hash_table(hash_s **hash_table, int count)
 {
-    for (int i = 0; i < MAX_LEN_HASH_TABLE; i++)
+    for (int i = 0; i < count; i++)
     {
         if (hash_table[i])
             while (hash_table[i])
@@ -183,7 +209,12 @@ void destruct_hash_table(hash_s **hash_table)
     }
 }
 
-hash_s **create_hash_table()
+hash_s **create_hash_table(FILE *f, int *count)
 {
-    return (hash_s **)malloc(sizeof(hash_s *) * MAX_LEN_HASH_TABLE);
+    char word[MAX_LEN_WORD];
+
+    while (!feof(f) && fscanf(f, "%s", word))
+        (*count)++; // Cчитаем кол-во слов.
+
+    return (hash_s **)malloc(sizeof(hash_s *) * (*count));
 }
