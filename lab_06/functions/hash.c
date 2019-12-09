@@ -120,26 +120,40 @@ void del_element_hash_table(hash_s **hash_table, char word[MAX_LEN_WORD])
     }
 }
 
-value_s find_hash(hash_s **hash_table, char word[MAX_LEN_WORD])
+int find_hash_test(hash_s *hash_table, char word[MAX_LEN_WORD], count_s *count_h)
 {
-    value_s data = {0};
-
-    // Узнаем хeш слова.
-    int h = hash_function(word);
-
-    hash_s *temp = hash_table[h];
-
-    while (temp)
+    while (hash_table)
     {
-        if (!strcmp(word, temp->hash_value.name))
+        if (!strcmp(word, hash_table->hash_value.name))
         {
-            data = temp->hash_value;
-            break;
+            count_h->count_hash_find++;
+            return TRUE;
         }
-        temp = temp->next;
+        hash_table = hash_table->next;
     }
 
-    return data;
+    return FALSE;
+}
+
+int find_hash(hash_s **hash_table, char word[MAX_LEN_WORD], count_s *count_h)
+{
+    int h = hash_function(word);
+
+    while (hash_table[h])
+    {
+        if (!strcmp(word, hash_table[h]->hash_value.name))
+        {
+            return TRUE;
+        }
+        else
+        {
+            (count_h->count_hash_find)++;
+        }
+
+        hash_table[h] = hash_table[h]->next;
+    }
+
+    return FALSE;
 }
 
 int input_hash_table(FILE *f, hash_s **hash_table)
@@ -189,6 +203,7 @@ hash_s *add_list(char word[MAX_LEN_WORD])
     hash_s *temp = (hash_s *)malloc(sizeof(hash_s));
 
     strcpy(temp->hash_value.name, word);
+    strcpy(temp->name1, word);
     temp->hash_index = hash_function(word);
     temp->next = NULL;
 

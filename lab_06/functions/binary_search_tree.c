@@ -100,17 +100,22 @@ bin_search_s *find_max_bin_search(bin_search_s *root)
     return root;
 }
 
-bin_search_s *find_bin_search(bin_search_s *root, char value[MAX_LEN_WORD])
+// #define CMP_EQ(a, b) (strcmp(a, b) == 0)
+// #define CMP_LT(a, b) (strcmp(a, b) < 0)
+// #define CMP_GT(a, b) (strcmp(a, b) > 0)
+bin_search_s *find_bin_search(bin_search_s *root, char value[MAX_LEN_WORD], count_s *count_h)
 {
     while (root)
     {
         if (CMP_GT(root->data, value))
         {
+            (count_h->count_bst_find)++;
             root = root->left;
             continue;
         }
         else if (CMP_LT(root->data, value))
         {
+            (count_h->count_bst_find)++;
             root = root->right;
             continue;
         }
@@ -185,7 +190,8 @@ void remove_bin_search(bin_search_s *target)
 
 void delete_bin_search(bin_search_s **root, char value[MAX_LEN_WORD])
 {
-    bin_search_s *target = find_bin_search(*root, value);
+    count_s count_all;
+    bin_search_s *target = find_bin_search(*root, value, &count_all);
     if (target == NULL)
     {
         printf("Нет данного узла.\n");

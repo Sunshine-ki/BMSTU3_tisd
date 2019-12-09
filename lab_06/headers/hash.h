@@ -21,7 +21,9 @@ int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]
 
 void del_element_hash_table(hash_s **hash_table, char word[MAX_LEN_WORD]);
 
-value_s find_hash(hash_s **hash_table, char word[MAX_LEN_WORD]);
+int find_hash(hash_s **hash_table, char word[MAX_LEN_WORD], count_s *count_h);
+
+// int find_hash(hash_s **hash_table, char word[MAX_LEN_WORD]);
 
 int output_hash_table(FILE *f, hash_s **hash_table, int count);
 
@@ -36,5 +38,7 @@ int hash_function(char word[MAX_LEN_WORD]); //, int redmainder_division);
 hash_s *add_list(char word[MAX_LEN_WORD]);
 
 hash_s **create_hash_table(FILE *f, int *count);
+
+int find_hash_test(hash_s *hash_table, char word[MAX_LEN_WORD], count_s *count_h);
 
 #endif

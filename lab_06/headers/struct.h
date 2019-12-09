@@ -13,7 +13,7 @@ typedef struct
 typedef struct hash_s
 {
     int hash_index;
-    // char name[MAX_LEN_WORD];
+    char name1[MAX_LEN_WORD];
     value_s hash_value;
     struct hash_s *next;
 } hash_s;
@@ -42,8 +42,25 @@ typedef struct node_t
 
 typedef struct
 {
-    int time_hash_find;
-    int time_bst_find;
+    double time_hash_find_start;
+    double time_hash_find_end;
+    double time_bst_find_start;
+    double time_bst_find_end;
+
+    double time_hash_add_start;
+    double time_hash_add_end;
+
+    double time_bst_add_start;
+    double time_bst_add_end;
+
+    double time_file_add_start;
+    double time_file_add_end;
 } time_s;
+
+typedef struct
+{
+    int count_hash_find;
+    int count_bst_find;
+} count_s;
 
 #endif

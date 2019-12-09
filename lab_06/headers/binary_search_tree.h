@@ -6,7 +6,7 @@
 
 bin_search_s *create_bin_search(char value[MAX_LEN_WORD], bin_search_s *parent);
 
-bin_search_s *find_bin_search(bin_search_s *root, char value[MAX_LEN_WORD]);
+bin_search_s *find_bin_search(bin_search_s *root, char value[MAX_LEN_WORD], count_s *count_h);
 
 void insert_bin_search(bin_search_s **head, char value[MAX_LEN_WORD]);
 

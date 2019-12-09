@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
+#include <time.h>
 
 #include "instructions.h"
 #include "struct.h"
@@ -17,6 +18,7 @@
 #include "instructions.h"
 #include "struct.h"
 #include "hash.h"
+#include "file.h"
 #include "bin_tree.h"
 #include "binary_search_tree.h"
 
@@ -27,21 +29,35 @@
 #define MODE_BST 2 // BINARY SEARCH TREE.
 #define MODE_BALANCED_TREE 3
 
-#define FILE_OPEN_HASH "text/text_bin_search.txt" // "text/text.txt"
+#define FILE_OPEN_HASH "text/text.txt" // "text/text_bin_search.txt"
 
 #define OK 0
 
+// double time_prog_start = clock();
+
+// double time_prog_end = clock();
+
+// printf("Time progs %f\n", time_prog_end - time_prog_start);
+
 int main(void)
 {
+    // double a = clock();
+    // value_s dataa = {0};
+    // double b = clock();
+    // printf("b - a%f\n", b - a);
+
     char word[MAX_LEN_WORD];
     int answer = -1;
+    time_s my_time = {0};
+    count_s count_all = {0};
 
     FILE *f = fopen(FILE_OPEN_HASH, "r");
 
     int count_hash = 1;
 
     hash_s **hash_table = create_hash_table(f, &count_hash); // Хеш-таблица
-    value_s data = {0};
+    // value_s data = {0};
+    int data;
     printf("Слов = %d\n", count_hash);
 
     bin_search_s *root = NULL; // ДДП
@@ -95,72 +111,89 @@ int main(void)
 
             scanf("%s", word);
 
-            add_element_hash_table(stdin, hash_table, word);
-
+            my_time.time_bst_add_start = clock();
             insert_bin_search(&root, word);
+            my_time.time_bst_add_end = clock();
 
-            break;
-        case 4:
             green();
-            printf("Введите слово, которое хотели бы удалить: ");
+            printf("Добавлено в дерево за :  %f\n", //
+                   my_time.time_bst_add_end - my_time.time_bst_add_start);
             white();
 
-            scanf("%s", word);
+            my_time.time_hash_add_start = clock();
+            add_element_hash_table(stdin, hash_table, word);
+            my_time.time_hash_add_end = clock();
 
-            if (root)
-            {
-                yellow();
-                delete_bin_search(&root, word);
-                white();
-            }
-            else
-            {
-                red();
-                printf("Пусто!(Для дерева)\n");
-                white();
-            }
+            green();
+            printf("Добавлено в хеш-таблицу за :  %f\n", //
+                   my_time.time_hash_add_end - my_time.time_hash_add_start);
+            white();
 
-            if (!is_empty_hash_table(hash_table, count_hash))
-            {
-                del_element_hash_table(hash_table, word);
-            }
-            else
-            {
-                red();
-                printf("Пусто!(Для хеш-таблицы)\n");
-                white();
-            }
+            f = fopen(FILE_OPEN_HASH, "a");
+            my_time.time_file_add_start = clock();
+            add_element_in_file(f, word);
+            my_time.time_file_add_end = clock();
+            fclose(f);
+
+            green();
+            printf("Добавлено в файл за :  %f\n", //
+                   my_time.time_file_add_end - my_time.time_file_add_start);
+            white();
 
             break;
-        case 5:
+        // case 4:
+        //     green();
+        //     printf("Введите слово, которое хотели бы удалить: ");
+        //     white();
+
+        //     scanf("%s", word);
+
+        //     if (root)
+        //     {
+        //         yellow();
+        //         delete_bin_search(&root, word);
+        //         white();
+        //     }
+        //     else
+        //     {
+        //         red();
+        //         printf("Пусто!(Для дерева)\n");
+        //         white();
+        //     }
+
+        //     if (!is_empty_hash_table(hash_table, count_hash))
+        //     {
+        //         del_element_hash_table(hash_table, word);
+        //     }
+        //     else
+        //     {
+        //         red();
+        //         printf("Пусто!(Для хеш-таблицы)\n");
+        //         white();
+        //     }
+
+        //     break;
+        case 4:
             green();
             printf("Введите слово, которое нужно найти: ");
             white();
 
             scanf("%s", word);
 
-            data = find_hash(hash_table, word);
-            if (!strcmp(data.name, ""))
-            {
-                red();
-                printf("\nНет данного элемента.(Для хеш-таблицы)\n");
-                white();
-            }
-            else
-            {
-                green();
-                printf("\nНайдено: (Для хеш-таблицы)  %s.\n", data.name);
-                white();
-            }
-
             if (root)
             {
-                find_root = find_bin_search(root, word);
+                my_time.time_bst_find_start = clock();
+                find_root = find_bin_search(root, word, &count_all);
+                my_time.time_bst_find_end = clock();
 
                 if (find_root)
                 {
                     green();
-                    printf("\nНайдено:(Для дерева)  %s\n", find_root->data);
+                    printf("\nНайдено в дереве за :  %f\n", //
+                           my_time.time_bst_find_end - my_time.time_bst_find_start);
+
+                    printf("Кол-во сравнений : %d\n", count_all.count_bst_find + 1);
+                    count_all.count_bst_find = 0;
                     white();
                 }
                 else
@@ -171,8 +204,30 @@ int main(void)
                 }
             }
 
+            // int h = hash_function(word);
+            my_time.time_hash_find_start = clock();
+            data = find_hash(hash_table, word, &count_all);
+            my_time.time_hash_find_end = clock();
+
+            if (!data)
+            {
+                red();
+                printf("\nНет данного элемента.(Для хеш-таблицы)\n");
+                white();
+            }
+            else
+            {
+                green();
+                printf("\nНайдено в хеш-таблце за :  %f\n", //
+                       my_time.time_hash_find_end - my_time.time_hash_find_start);
+                printf("Кол-во сравнений : %d\n", count_all.count_hash_find + 1);
+                count_all.count_hash_find = 0;
+                // printf("\nНайдено: (Для хеш-таблицы)  %s.\n", data.name);
+                white();
+            }
+
             break;
-        case 6:
+        case 5:
             f = fopen(FILE_OPEN_HASH, "r");
 
             green();
