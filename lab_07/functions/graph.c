@@ -1,15 +1,22 @@
 #include "graph.h"
 
-void print_matrix(int matrix[LEN][LEN], int n)
+void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n)
 {
+    printf("             ");
+    for (int i = 0; i < n; i++)
+        printf("%25s ", array_station[i]);
+
+    puts("\n");
+
     for (int i = 0; i < n; i++)
     {
+        printf("%10s ", array_station[i]);
         for (int j = 0; j < n; j++)
         {
-            if (matrix[i][j] == infinity)
-                printf("   oo   ");
+            if (matrix[i][j] == INFINITY)
+                printf("    oo    ");
             else
-                printf("   %d   ", matrix[i][j]);
+                printf("    %7d    ", matrix[i][j]);
         }
         printf("\n\n\n");
     }
@@ -28,40 +35,43 @@ void min_way_matrix(int matrix[LEN][LEN], int matrix_p[LEN][LEN], int n) // Sear
                 if (matrix[i][j] > matrix[i][k] + matrix[k][j])
                 {
                     matrix[i][j] = matrix[i][k] + matrix[k][j];
-                    matrix_p[i][j] = k + 1;
+                    matrix_p[i][j] = k;
+                    // matrix_p[i][j] = k + 1;
                 }
             }
         }
     }
 }
 
-void print_way(int matrix[LEN][LEN], int n, int a, int b)
+void print_way(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n, int a, int b)
 {
     printf("%d ", a + 1);
 
     for (int i = 0; i < n; i++)
     {
         if (matrix[a][i] != 0)
-            printf(" -> %d", matrix[a][i]);
+            printf(" -> %s", array_station[matrix[a][i]]);
+
+        // printf(" -> %d", matrix[a][i]);
     }
 
     printf(" -> %d ", b + 1);
-}
+} // {
+//     // printf("%s ", array_station[a]);
 
-// int main(void)
-// {
-//     int matrix[LEN][LEN] = {{infinity, 3, infinity, infinity}, {8, infinity, 3, infinity}, {15, 5, infinity, 2}, {10, 7, 9, infinity}};
-//     int matrix_p[LEN][LEN] = {0};
+//     for (int i = 0; i < n; i++)
+//     {
+//         if (matrix[i][a] != 0)
+//             printf(" -> %s", array_station[matrix[a][i]]);
+//         // printf(" -> %d", matrix[a][i]);
+//     }
 
-//     min_way_matrix(matrix, matrix_p, 4);
-
-//     printf("Матрица:\n\n");
-//     print_matrix(matrix, LEN);
-//     printf("Матрица путей:\n\n");
-//     print_matrix(matrix_p, LEN);
-//     printf("\nПуть из 1 в 4 :\n");
-//     print_way(matrix_p, LEN, 0, 3);
-
-//     printf("\n");
-//     return 0;
+//     // printf(" -> %s ", array_station[b]);
 // }
+
+void reset_function(int matrix[LEN][LEN], int n)
+{
+    for (int i = 0; i < n; i++)
+        for (int j = 0; j < n; j++)
+            matrix[i][j] = INFINITY;
+}

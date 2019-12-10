@@ -4,12 +4,14 @@
 
 #include <stdio.h>
 
-#include "struct.h"
+#include "define.h"
 
-void print_matrix(int matrix[LEN][LEN], int n);
+void print_way(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n, int a, int b);
+
+void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n);
 
 void min_way_matrix(int matrix[LEN][LEN], int matrix_p[LEN][LEN], int n); // Search
 
-void print_way(int matrix[LEN][LEN], int n, int a, int b);
+void reset_function(int matrix[LEN][LEN], int n);
 
 #endif

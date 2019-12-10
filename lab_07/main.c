@@ -14,29 +14,54 @@
 #include <time.h>
 
 #include "instructions.h"
-#include "struct.h"
+#include "define.h"
 #include "colors.h"
 
 #include "graph.h"
-
-#define MAX_LEN_STATION 128
+#include "parser.h"
 
 #define OK 0
 
 int main(void)
 {
-    int matrix[LEN][LEN] = {{infinity, 3, infinity, infinity}, {8, infinity, 3, infinity}, {15, 5, infinity, 2}, {10, 7, 9, infinity}};
-    int matrix_p[LEN][LEN] = {0};
+    int matrix[LEN][LEN];
+    int matrix_p[LEN][LEN] = {0}; // Матрица путей
+    char array_station[LEN][MAX_LEN_STATION];
 
-    min_way_matrix(matrix, matrix_p, 4);
+    FILE *f = fopen(FILE_NAME, "r");
 
-    printf("Матрица:\n\n");
-    print_matrix(matrix, LEN);
-    printf("Матрица путей:\n\n");
-    print_matrix(matrix_p, LEN);
-    printf("\nПуть из 1 в 4 :\n");
-    print_way(matrix_p, LEN, 0, 3);
+    int count = input_array_station(f, array_station);
+    reset_function(matrix, count);
 
+    print_station(array_station, count);
+
+    parser_matrix(f, array_station, matrix);
+
+    // print_matrix(array_station, matrix, count);
+
+    print_matrix(array_station, matrix, count);
+
+    min_way_matrix(matrix, matrix_p, count);
+
+    printf("Матрица путей: \n");
+    print_matrix(array_station, matrix, count);
+    print_matrix(array_station, matrix_p, count);
+
+    // printf("Из %s в %s Путь: \n", array_station[4], array_station[0]);
+    // print_way(array_station, matrix_p, count, 4, 0);
+
+    // strcpy(array_station[0], "Alice");
+    // printf("!%s\n", array_station[0]);
+    // min_way_matrix(matrix, matrix_p, 4);
+
+    // printf("Матрица:\n\n");
+    // print_matrix(matrix, LEN);
+    // printf("Матрица путей:\n\n");
+    // print_matrix(matrix_p, LEN);
+    // printf("\nПуть из 1 в 4 :\n");
+    // print_way(matrix_p, LEN, 0, 3);
+
+    fclose(f);
     printf("\n");
     return OK;
 }
