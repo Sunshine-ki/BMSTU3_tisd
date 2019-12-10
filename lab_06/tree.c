@@ -6,18 +6,6 @@
 #include "instructions.h"
 #include "struct.h"
 #include "hash.h"
-#include "bin_tree.h"
-#include "binary_search_tree.h"
-
-#define OK 0
-
-#include <stdio.h>
-#include <string.h>
-#include <stdlib.h>
-
-#include "instructions.h"
-#include "struct.h"
-#include "hash.h"
 #include "file.h"
 #include "bin_tree.h"
 #include "binary_search_tree.h"
@@ -32,12 +20,6 @@
 #define FILE_OPEN_HASH "text/text.txt" // "text/text_bin_search.txt"
 
 #define OK 0
-
-// double time_prog_start = clock();
-
-// double time_prog_end = clock();
-
-// printf("Time progs %f\n", time_prog_end - time_prog_start);
 
 int main(void)
 {

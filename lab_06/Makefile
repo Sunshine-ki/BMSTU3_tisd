@@ -5,6 +5,9 @@ HEADERS_DIR := headers/
 tree.exe:  tree.o $(FILE_O)
 	gcc -o tree.exe $^  $(CFLAGS)
 	
+collisions.exe:  collisions.o $(FILE_O)
+	gcc -o collisions.exe $^  $(CFLAGS)
+	
 app.exe:  main.o $(FILE_O)
 	gcc -o app.exe $^  $(CFLAGS)
 

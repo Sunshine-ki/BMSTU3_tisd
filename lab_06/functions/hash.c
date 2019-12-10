@@ -67,7 +67,7 @@ int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]
             if (strcmp(temp->hash_value.name, word) == 0)
                 return 2;
 
-            printf("Collision%d %d\n", count, *collision);
+            // printf("Collision%d %d\n", count, *collision);
             if (count == COLLISION - 1)
             {
                 (*collision)++;
@@ -75,7 +75,7 @@ int add_element_hash_table(FILE *f, hash_s **hash_table, char word[MAX_LEN_WORD]
             if (*collision > 3)
             {
                 red();
-                printf("Коллизия!(Hash = %d) Реструктуризируйте таблицу!\n", h);
+                // printf("Коллизия!(Hash = %d)\n", h);
                 white();
                 return 0;
             }
