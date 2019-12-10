@@ -1,7 +1,7 @@
 graph G
 {
         edge[color="gray54",fontcolor="blue",fontsize=12, len=5, style="dashed"];
-        node[color="indigo",fontsize=14];
+        node[color="indigo",fontsize=14, shape="septagon"];
 
         Коломинская -- Октябрьская [label="500, 100"];
         Октябрьская -- Таганская [label="750, 120"];

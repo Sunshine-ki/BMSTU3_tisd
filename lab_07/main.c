@@ -17,33 +17,47 @@
 #include "struct.h"
 #include "colors.h"
 
+#include "graph.h"
+
 #define MAX_LEN_STATION 128
 
 #define OK 0
 
 int main(void)
 {
-    char in_station[MAX_LEN_STATION];
-    char out_station[MAX_LEN_STATION];
+    int matrix[LEN][LEN] = {{infinity, 3, infinity, infinity}, {8, infinity, 3, infinity}, {15, 5, infinity, 2}, {10, 7, 9, infinity}};
+    int matrix_p[LEN][LEN] = {0};
 
-    green();
-    printf("Откуда: ");
-    white();
-    scanf("%s", in_station);
+    min_way_matrix(matrix, matrix_p, 4);
 
-    green();
-    printf("Куда: ");
-    white();
-    scanf("%s", out_station);
-
-    green();
-    printf("Самый быстрый и бюджетный путь:\n");
-
-    // system("xdg-open graph/graph.png");
+    printf("Матрица:\n\n");
+    print_matrix(matrix, LEN);
+    printf("Матрица путей:\n\n");
+    print_matrix(matrix_p, LEN);
+    printf("\nПуть из 1 в 4 :\n");
+    print_way(matrix_p, LEN, 0, 3);
 
     printf("\n");
     return OK;
 }
+
+// char in_station[MAX_LEN_STATION];
+// char out_station[MAX_LEN_STATION];
+
+// green();
+// printf("Откуда: ");
+// white();
+// scanf("%s", in_station);
+
+// green();
+// printf("Куда: ");
+// white();
+// scanf("%s", out_station);
+
+// green();
+// printf("Самый быстрый и бюджетный путь:\n");
+
+// system("xdg-open graph/graph.png");
 
 // while (answer)
 // {
