@@ -20,6 +20,12 @@
 
 int main(void)
 {
+    int answer = -1;
+
+    while (answer)
+    {
+        answer = scanf_answer();
+    }
 
     printf("\n");
     return OK;
