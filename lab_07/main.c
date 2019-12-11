@@ -32,23 +32,42 @@ int main(void)
 
     int count = input_array_station(f, array_station);
     reset_function(matrix, count);
+    reset_function(matrix_p, count);
 
     print_station(array_station, count);
 
     parser_matrix(f, array_station, matrix);
 
+    //___________________
+
+    // for (int u = 0; u < count; ++u)
+    //     for (int v = 0; v < count; ++v)
+    //         if (matrix[u][v] || u == v)
+    //         {
+    //             matrix_p[u][v] = v;
+    //             // dist[u][v] = matrix[u][v];
+    //         }
+    //         else
+    //         {
+    //             matrix_p[u][v] = LEN;
+    //             // dist[u][v] = INFINITY;
+    //         }
+    //__________________
+
     // print_matrix(array_station, matrix, count);
 
     print_matrix(array_station, matrix, count);
+    printf("Матрица путей: \n");
+    print_matrix(array_station, matrix_p, count);
 
     min_way_matrix(matrix, matrix_p, count);
 
-    printf("Матрица путей: \n");
     print_matrix(array_station, matrix, count);
+    printf("\n\nМатрица путей: \n");
     print_matrix(array_station, matrix_p, count);
 
     // printf("Из %s в %s Путь: \n", array_station[4], array_station[0]);
-    // print_way(array_station, matrix_p, count, 4, 0);
+    // print_way(array_station, matrix_p, count, 0, 3);
 
     // strcpy(array_station[0], "Alice");
     // printf("!%s\n", array_station[0]);
