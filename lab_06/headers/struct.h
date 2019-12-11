@@ -34,6 +34,8 @@ typedef struct node_t
     unsigned int height;      // высота дерева в данной вершине
     struct node_t *left;
     struct node_t *right;
+    struct node_t *parent;
+
     // конструктор вершины (то есть функция, которая создает вершину
     // со значением k)
     // node(int k) { key = k; left = right = 0; height = 1; }

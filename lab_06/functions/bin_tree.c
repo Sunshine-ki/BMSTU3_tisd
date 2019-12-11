@@ -37,7 +37,7 @@ void print_avl(node_t *root, const char *dir, int level)
 {
 	if (root)
 	{
-		printf("lvl %d %s = %s\n", level, dir, root->value);
+		printf("lvl %d %s = %s (left %s) (right %s)\n", level, dir, root->value, root->left->value, root->right->value);
 		print_avl(root->left, "left", level + 1);
 		print_avl(root->right, "right", level + 1);
 	}

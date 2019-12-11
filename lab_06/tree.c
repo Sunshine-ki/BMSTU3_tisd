@@ -21,6 +21,18 @@
 
 #define OK 0
 
+int count_word(FILE *f)
+{
+    int count = 0;
+    char word[MAX_LEN_WORD];
+
+    while (!feof(f) && fscanf(f, "%s", word))
+    {
+        count++; // Cчитаем кол-во слов.}
+    }
+    return count;
+}
+
 int main(void)
 {
     // double a = clock();
@@ -39,7 +51,14 @@ int main(void)
 
     int count_hash = 1;
 
-    hash_s **hash_table = create_hash_table(f, &count_hash); // Хеш-таблица
+    green();
+    printf("Кол-во слов в файле : %d\nВведите размерность Хеш-таблицы : ", count_word(f));
+    white();
+    fseek(f, 0, 0);
+    scanf("%d", &count_hash);
+
+    hash_s **hash_table = (hash_s **)malloc(sizeof(hash_s *) * count_hash);
+    // hash_s **hash_table = create_hash_table(f, &count_hash); // Хеш-таблица
     int flag;
     // value_s data = {0};
     int data;
@@ -115,7 +134,7 @@ int main(void)
             white();
 
             my_time.time_hash_add_start = clock();
-            flag = add_element_hash_table(stdin, hash_table, word, &collision);
+            flag = add_element_hash_table(stdin, hash_table, word, &collision, count_hash);
             my_time.time_hash_add_end = clock();
 
             // if (flag == 1)
@@ -240,7 +259,7 @@ int main(void)
             }
 
             my_time.time_hash_find_start = clock();
-            data = find_hash(hash_table, word, &count_all);
+            data = find_hash(hash_table, word, &count_all, count_hash);
             my_time.time_hash_find_end = clock();
 
             if (!data)
@@ -264,7 +283,7 @@ int main(void)
         case 5:
             f = fopen(FILE_OPEN_HASH, "r");
 
-            input_hash_table(f, hash_table, &collision);
+            input_hash_table(f, hash_table, &collision, count_hash);
             fseek(f, 0, 0);
             input_bin_search(f, &root);
 
