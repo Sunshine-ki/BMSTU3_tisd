@@ -74,7 +74,7 @@ int main()
             || station_start >= count || station_end >= count)
         {
             red();
-            printf("\nНекорректный ввод станции!\n");
+            printf("\nНекорректный ввод индекса станции!\n");
             white();
             print_station(array_station, count);
             continue;
