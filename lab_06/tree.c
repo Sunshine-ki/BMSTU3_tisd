@@ -231,7 +231,7 @@ int main(void)
                     // printf("\nНайдено в дереве за :  %f\n", //
                     //    my_time.time_bst_find_end - my_time.time_bst_find_start);
 
-                    printf("Кол-во сравнений : %d\n", count_all.count_bst_find + 1);
+                    printf("Кол-во сравнений (ДДП): %d\n", count_all.count_bst_find + 1);
                     white();
                 }
                 // else
@@ -253,7 +253,7 @@ int main(void)
                     green();
                     // printf("\nНайдено в АВЛ дереве за :  %f\n", //
                     //    my_time.time_avl_find_end - my_time.time_avl_find_start);
-                    printf("Кол-во сравнений : %d\n", count_all.count_avl_find + 1);
+                    printf("Кол-во сравнений (АВЛ): %d\n", count_all.count_avl_find + 1);
                     white();
                 }
             }
@@ -274,7 +274,7 @@ int main(void)
                 green();
                 // printf("\nНайдено в хеш-таблце за :  %f\n", //
                 //    my_time.time_hash_find_end - my_time.time_hash_find_start);
-                printf("Кол-во сравнений : %d\n", count_all.count_hash_find + 1);
+                printf("Кол-во сравнений (Хеш-таблица): %d\n", count_all.count_hash_find + 1);
                 // printf("\nНайдено: (Для хеш-таблицы)  %s.\n", data.name);
                 white();
             }
