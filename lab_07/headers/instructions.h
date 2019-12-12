@@ -6,8 +6,10 @@
 
 #include "colors.h"
 
-int instruction();
+void instruction();
 
 int scanf_answer();
+
+void task();
 
 #endif

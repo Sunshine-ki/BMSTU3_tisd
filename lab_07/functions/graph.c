@@ -1,4 +1,7 @@
+#include <string.h>
+
 #include "graph.h"
+#include "parser.h"
 
 void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n)
 {
@@ -13,7 +16,7 @@ void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN]
         printf("%10s ", array_station[i]);
         for (int j = 0; j < n; j++)
         {
-            if (matrix[i][j] == INFINITY)
+            if (matrix[i][j] == INF)
                 printf("    oo    ");
             else
                 printf("    %7d    ", matrix[i][j]);
@@ -22,58 +25,83 @@ void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN]
     }
 }
 
-void min_way_matrix(int matrix[LEN][LEN], int matrix_p[LEN][LEN], int n) // Search
-{
-    for (int i = 0; i < n; i++) // k
-    {
-        for (int j = 0; j < n; j++) // u
-        {
-            for (int k = 0; k < n; k++) // v
-            {
-                if (i == j || i == k || j == k)
-                    continue;
-                if (matrix[i][j] > matrix[i][k] + matrix[k][j])
-                {
-                    matrix[i][j] = matrix[i][k] + matrix[k][j];
-                    matrix_p[j][k] = matrix_p[j][i];
-                    // path[u][v] = path[u][k];
-
-                    // matrix_p[i][j] = k;
-                    // printf("i = %d, j = %d, k = %d, matrix[i][j] %d > matrix[i][k] = %d  + matrix[k][j] = %d\n", i, j, k, matrix[i][j], matrix[i][k], matrix[k][j]);
-                    // matrix_p[i][j] = k + 1;
-                }
-            }
-        }
-    }
-}
-
-void print_way(char array_station[LEN][MAX_LEN_STATION], int way[LEN][LEN], int n, int a, int b)
-{
-    printf("%s -> ", array_station[a]);
-
-    while (way[a][b])
-    {
-        printf(" %s - > ", array_station[way[a][b]]);
-        a = way[a][b];
-    }
-
-    printf("%s", array_station[b]);
-} // {
-//     // printf("%s ", array_station[a]);
-
-//     for (int i = 0; i < n; i++)
-//     {
-//         if (matrix[i][a] != 0)
-//             printf(" -> %s", array_station[matrix[a][i]]);
-//         // printf(" -> %d", matrix[a][i]);
-//     }
-
-//     // printf(" -> %s ", array_station[b]);
-// }
-
 void reset_function(int matrix[LEN][LEN], int n)
 {
     for (int i = 0; i < n; i++)
         for (int j = 0; j < n; j++)
-            matrix[i][j] = INFINITY;
+            matrix[i][j] = INF;
+}
+
+void parser_matrix(FILE *f, char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN])
+{
+    char station_first[MAX_LEN_STATION];
+    char station_second[MAX_LEN_STATION];
+    int length;
+    int price;
+
+    int count = 0;
+
+    fseek(f, COUNT_INFO, 0);
+
+    while (!feof(f))
+    {
+        fscanf(f, "%s -- %s [label=\" %d, %d \"];", station_first, station_second, &length, &price);
+
+        if (!strcmp(station_first, "}") || !strcmp(station_second, "}"))
+            break;
+
+        matrix[find_station(array_station, station_first)][find_station(array_station, station_second)] = length + price;
+        matrix[find_station(array_station, station_second)][find_station(array_station, station_first)] = length + price;
+
+        // printf("%d = %s -- %d = %s\n", find_station(array_station, station_first), station_first, find_station(array_station, station_second), station_second);
+        // printf("%s -- %s [label=\" %d, %d \"];\n", station_first, station_second, length, price);
+    }
+}
+
+void floid(int count, int matrix[LEN][LEN], int path[LEN][LEN], int dist[LEN][LEN])
+{
+    // инициализация матриц путей и расстояний
+    for (int u = 0; u < count; ++u)
+        for (int v = 0; v < count; ++v)
+            if (matrix[u][v] || u == v)
+            {
+                path[u][v] = v;
+                dist[u][v] = matrix[u][v];
+            }
+            else
+            {
+                path[u][v] = LEN;
+                dist[u][v] = INF;
+            }
+
+    // сам алгоритм флойда
+    for (int k = 0; k < count; ++k)
+        for (int u = 0; u < count; ++u)
+            if (dist[u][k] != INF)
+                for (int v = 0; v < count; ++v)
+                    if (dist[u][v] > dist[u][k] + dist[k][v])
+                    {
+                        dist[u][v] = dist[u][k] + dist[k][v];
+                        path[u][v] = path[u][k];
+                    }
+}
+
+void show_path(int start, int end, int path[LEN][LEN], int dist[LEN][LEN], char station[LEN][MAX_LEN_STATION])
+{
+
+    // вывод пути из вершины u в v и расстояния между ними
+    if (path[start][end] == LEN)
+    {
+        printf("Нет пути!\n");
+        return;
+    }
+
+    int x = start;
+
+    printf("%10s", station[x]);
+    while (x != end)
+    {
+        printf(" %10s", station[x = path[x][end]]);
+    }
+    printf(" (S + P = %d)\n", dist[start][end]);
 }

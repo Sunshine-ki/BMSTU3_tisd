@@ -22,115 +22,66 @@
 
 #define OK 0
 
-int main(void)
+int main()
 {
-    int matrix[LEN][LEN];
-    int matrix_p[LEN][LEN] = {0}; // Матрица путей
     char array_station[LEN][MAX_LEN_STATION];
+    int station_start, station_end;
+    int matrix[LEN][LEN]; // матрица смежности
+    int path[LEN][LEN];   // матрица путей
+    int dist[LEN][LEN];   // матрица расстояний
+    int rc;
 
     FILE *f = fopen(FILE_NAME, "r");
 
     int count = input_array_station(f, array_station);
-    reset_function(matrix, count);
-    reset_function(matrix_p, count);
-
-    print_station(array_station, count);
 
     parser_matrix(f, array_station, matrix);
-
-    //___________________
-
-    // for (int u = 0; u < count; ++u)
-    //     for (int v = 0; v < count; ++v)
-    //         if (matrix[u][v] || u == v)
-    //         {
-    //             matrix_p[u][v] = v;
-    //             // dist[u][v] = matrix[u][v];
-    //         }
-    //         else
-    //         {
-    //             matrix_p[u][v] = LEN;
-    //             // dist[u][v] = INFINITY;
-    //         }
-    //__________________
-
     // print_matrix(array_station, matrix, count);
 
-    print_matrix(array_station, matrix, count);
-    printf("Матрица путей: \n");
-    print_matrix(array_station, matrix_p, count);
+    // task();
+    print_station(array_station, count);
 
-    min_way_matrix(matrix, matrix_p, count);
+    floid(count, matrix, path, dist);
 
-    print_matrix(array_station, matrix, count);
-    printf("\n\nМатрица путей: \n");
-    print_matrix(array_station, matrix_p, count);
+    yellow();
+    printf("\nДля выхода нажмите Ctrl + D\n");
+    printf("S - сумма длин дорог пути\
+    \nP - сумма пошлин проезжаемых дорог");
+    white();
 
-    // printf("Из %s в %s Путь: \n", array_station[4], array_station[0]);
-    // print_way(array_station, matrix_p, count, 0, 3);
+    while (1)
+    {
+        green();
+        printf("\n\nВведите начальную и конечную вершину: (По индексу) ");
+        white();
+        rc = scanf("%d %d", &station_start, &station_end);
+        if (rc == EOF)
+        {
+            green();
+            printf("\nУспешное завершение программы!\n");
+            white();
+            break;
+        }
+        else if (rc != 2)
+        {
+            red();
+            printf("\nНекорректный ввод!\nЗавершение программы!\n");
+            white();
+            break;
+        }
 
-    // strcpy(array_station[0], "Alice");
-    // printf("!%s\n", array_station[0]);
-    // min_way_matrix(matrix, matrix_p, 4);
-
-    // printf("Матрица:\n\n");
-    // print_matrix(matrix, LEN);
-    // printf("Матрица путей:\n\n");
-    // print_matrix(matrix_p, LEN);
-    // printf("\nПуть из 1 в 4 :\n");
-    // print_way(matrix_p, LEN, 0, 3);
+        if (station_start < 0 || station_end < 0 //
+            || station_start >= count || station_end >= count)
+        {
+            red();
+            printf("\nНекорректный ввод станции!\n");
+            white();
+            print_station(array_station, count);
+            continue;
+        }
+        show_path(station_start, station_end, path, dist, array_station);
+    }
 
     fclose(f);
-    printf("\n");
-    return OK;
+    return 0;
 }
-
-// char in_station[MAX_LEN_STATION];
-// char out_station[MAX_LEN_STATION];
-
-// green();
-// printf("Откуда: ");
-// white();
-// scanf("%s", in_station);
-
-// green();
-// printf("Куда: ");
-// white();
-// scanf("%s", out_station);
-
-// green();
-// printf("Самый быстрый и бюджетный путь:\n");
-
-// system("xdg-open graph/graph.png");
-
-// while (answer)
-// {
-//     instruction();
-//     answer = scanf_answer();
-
-//     switch (answer)
-//     {
-//     case 0:
-//         /* code */
-//         break;
-//     case 1:
-//         /* Найти путь*/
-//         break;
-//     case 2:
-//         /* Вывести граф */
-//         break;
-//     case 3:
-//         /* Вывести граф */
-//         break;
-//     case 4:
-//         system("xdg-open graph.png");
-//         /* Вывести граф */
-//         break;
-
-//     default:
-//         red();
-//         printf("\t\t\t\t\t\t\t\t\tНет данного действия!\n");
-//         white();
-//         break;
-//     }
-// }

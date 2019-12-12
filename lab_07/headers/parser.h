@@ -4,8 +4,6 @@
 
 #include "define.h"
 
-void parser_matrix(FILE *f, char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN]);
-
 int input_array_station(FILE *f, char array_station[LEN][MAX_LEN_STATION]);
 
 int find_station(char array_station[LEN][MAX_LEN_STATION], char station[MAX_LEN_STATION]);

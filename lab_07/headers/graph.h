@@ -6,12 +6,14 @@
 
 #include "define.h"
 
-void print_way(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n, int a, int b);
-
-void print_matrix(char array_station[LEN][MAX_LEN_STATION], int way[LEN][LEN], int n);
-
-void min_way_matrix(int matrix[LEN][LEN], int matrix_p[LEN][LEN], int n); // Search
+void print_matrix(char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN], int n);
 
 void reset_function(int matrix[LEN][LEN], int n);
+
+void parser_matrix(FILE *f, char array_station[LEN][MAX_LEN_STATION], int matrix[LEN][LEN]);
+
+void floid(int count, int matrix[LEN][LEN], int path[LEN][LEN], int dist[LEN][LEN]);
+
+void show_path(int start, int end, int path[LEN][LEN], int dist[LEN][LEN], char station[LEN][MAX_LEN_STATION]);
 
 #endif

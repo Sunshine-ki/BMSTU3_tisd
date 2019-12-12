@@ -4,7 +4,7 @@
 
 #include "instructions.h"
 
-int instruction()
+void instruction()
 {
     blue();
     printf("\n\t\t\t\t\t\t\t\t\t\tМеню:\n\
@@ -46,4 +46,16 @@ int scanf_answer()
 
     white();
     return answer;
+}
+
+void task()
+{
+    yellow();
+    printf("В системе двусторонних дорог за проезд 13, 28 \
+каждой дороги взимается некоторая пошлина.\
+Найти путь из города A в город B с\
+минимальной величиной S+P, где S - сумма\
+длин дорог пути, а P - сумма пошлин\
+проезжаемых дорог");
+    blue();
 }
