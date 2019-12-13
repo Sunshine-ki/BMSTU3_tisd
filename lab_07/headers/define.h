@@ -6,7 +6,7 @@
 #define INF 1e6
 #define MAX_LEN_STATION 128
 
-#define FILE_NAME "graph/graph.gv" // "graph/grh2.gv"
+#define FILE_NAME "graph/grh2.gv" // "graph/graph.gv" // "graph/grh2.gv"
 #define COUNT_INFO 152
 
 #define TRUE 1
