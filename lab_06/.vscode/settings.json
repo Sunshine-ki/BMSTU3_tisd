@@ -1,0 +1,13 @@
+{
+    "files.associations": {
+        "instructions.h": "c",
+        "type_traits": "c",
+        "stdio.h": "c",
+        "array": "c",
+        "string": "c",
+        "string_view": "c",
+        "struct.h": "c",
+        "typeinfo": "c",
+        "bin_tree.h": "c"
+    }
+}
