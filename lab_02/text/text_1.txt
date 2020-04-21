@@ -1,0 +1,48 @@
+Jantet	Paradise:_Love	Cummings,_Quitzon_and_Gleason	358	0	IT	1	0	1974
+Cornilli	Flags_of_Our_Fathers	McGlynn-Jast	769	0	psychology	1	1	1927
+Manntschke	All_That_Heaven_Allows	Grimes,_Yost_and_Moen	527	0	chemistry	1	1	2018
+Reubbens	Amer	Collier,_Rutherford_and_Schuster	292	0	biology	0	1	1944
+Meadowcraft	Welcome_Home,_Roscoe_Jenkins	Nader,_Terry_and_Wilderman	324	2	0
+Danihelka	Murderous_Maids_(Blessures_assassines,_Les)	Emmerich-Greenfelder	539	1	2
+Gobourn	Nature_Calls	Morissette_LLC	336	2	1
+Maskall	Herbie_Goes_Bananas	Brekke-Rowe	384	2	0
+D'eathe	Hong_Kong_Confidential_(Amaya)	Hegmann_Inc	994	1	2
+Braidon	Day_the_Universe_Changed,_The	Wehner_Inc	668	0	maths	1	1	2014
+Itzhaki	Birdy	Kirlin,_Blanda_and_Rath	29	0	psychology	0	0	2007
+Mottley	Bride_Came_C.O.D.,_The	Koss_Group	72	2	0
+Serris	Just_Looking	Conn_Inc	798	0	psychology	1	1	1899
+Clothier	Artist,_The_(El_Artista)	Okuneva-Nader	421	1	2
+Bubeer	Delivery_Man	Dickens,_Kohler_and_Prohaska	664	1	1
+Top	Beats_Rhymes_&_Life:_The_Travels_of_a_Tribe_Called_Quest	Murphy,_Batz_and_Watsica	135	1	1
+Blackwood	Patrik_Age_1.5_(Patrik_1,5)	Romaguera_and_Sons	990	0	psychology	1	0	1926
+June	Amber_Lake_	Hackett_LLC	288	1	0
+Banner	Summer_of_'04_(Sommer_'04)	Christiansen-Murray	634	0	maths	0	1	1948
+Wisham	Last_Casino,_The	Denesik_LLC	69	2	0
+Pawellek	Bone_Collector,_The	Wiegand,_Stokes_and_Gerhold	479	1	2
+Speek	Coming_Home	Yundt,_Emard_and_West	99	1	0
+Gurry	Bag_Man,_The	Ebert_and_Sons	773	1	0
+Eversley	Rage_in_Placid_Lake,_The	Greenholt_Group	797	0	psychology	1	0	1960
+Siemon	Normal_Life	Swift-Rempel	619	2	1
+Thorsen	Dilemma,_The	Turner_LLC	853	2	1
+Sprowson	Wedding_in_Blood_(Noces_rouges,_Les)	Berge_Group	58	0	psychology	0	1	2005
+Sphinxe	Resident_Evil:_Extinction	Corkery,_Lynch_and_Gutkowski	889	2	0
+Deesly	Around_the_World	Hills,_Lindgren_and_Bins	882	2	0
+Jones	Scarlet_Pimpernel,_The	Moen-Monahan	873	1	1
+Ioannou	Bloodsuckers	Jaskolski-Torp	747	1	2
+Juris	Two_Night_Stand	Zieme,_Adams_and_Funk	797	0	IT	1	1	1979
+Thrift	Chained_Heat	Douglas_and_Sons	334	2	0
+Peasnone	Han_Gong-ju	Lubowitz_and_Sons	620	2	1
+Flament	Force_Majeure_(Turist)	Waelchi,_Prohaska_and_Koelpin	190	1	0
+Mastrantone	Adonis_Factor,_The	Heaney,_Lakin_and_Marquardt	649	0	maths	1	1	1992
+Gorgler	Secret_Glory,_The	Waters,_Corwin_and_Batz	543	2	1
+Ovens	Redhead_from_Wyoming,_The	Schowalter_LLC	300	0	maths	0	0	1945
+Dienes	Inn_of_the_Sixth_Happiness,_The	Schultz_LLC	557	1	0
+Cagan	Repo!_The_Genetic_Opera	Koepp-Spencer	81	1	1
+Gummer	Fever_Pitch	Adams_Inc	915	1	0
+Eggar	Punk's_Dead:_SLC_Punk!_2	Grimes-Erdman	351	2	0
+Blackster	The_Count_of_Monte_Cristo	Feest_LLC	832	1	0
+O'Spillane	Price_of_Milk,_The	VonRueden_and_Sons	282	0	psychology	1	0	1969
+Senn	Joe_Versus_the_Volcano	Gibson,_Conn_and_Legros	408	1	2
+Vaughn	Stuck_Between_Stations	Feil,_Thompson_and_Runolfsdottir	765	0	physics	0	1	2018
+Ambroix	Undead,_The	Ullrich-Stamm	169	1	1
+O'Shirine	The_Blood_of_Fu_Manchu	Sporer-Funk	417	1	0

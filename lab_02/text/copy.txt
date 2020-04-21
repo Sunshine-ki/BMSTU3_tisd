@@ -1,0 +1,900 @@
+Rounce	Battery,_The	709	2	1
+Walter	With_Friends_Like_These...	689	0	physics	0	1	1938
+Nolda	Anguish_(Angustia)	1050	2	0
+Copyn	French_Lieutenant's_Woman,_The	559	1	2
+Toland	Deadly_Blessing	618	2	1
+Haruard	Frances	780	2	1
+Hutchcraft	Punchline	1244	2	1
+Knight	Two_Kilers_(Kilerów_2-óch)	1330	0	psychology	0	0	1928
+McCarney	Black_Heaven_(L'autre_monde)_(Other_World,_The)	431	2	0
+Argent	Federico_Fellini's_Autobiography_(Federico_Fellini_-_un_autoritratto_ritrovato)	519	0	IT	0	1	1910
+McNickle	It's_My_Party	1537	0	maths	0	0	1929
+Wickins	Penthouse_North	458	0	IT	0	0	1975
+Corkitt	Alice_Doesn't_Live_Here_Anymore	280	0	IT	0	0	1948
+Toman	Jiminy_Glick_in_La_La_Wood	1424	1	2
+L'Amie	Mandingo	310	2	1
+Crackel	Crane_World_(Mundo_grúa)	1032	0	physics	0	1	1912
+Pettitt	Broadway_Melody,_The	115	2	0
+Ilyasov	Great_Escape,_The	812	2	0
+Domerq	Slumber_Party_Massacre,_The	1057	1	0
+Mortlock	William_S._Burroughs:_A_Man_Within	1937	0	IT	1	0	1928
+L'Episcopi	Blood_Alley	490	1	0
+Trusslove	Ricky_Gervais_Live:_Animals	1685	1	0
+Sendley	Othello_(Tragedy_of_Othello:_The_Moor_of_Venice,_The)	1388	1	2
+Lander	Crow:_Salvation,_The	1646	0	biology	1	0	1923
+Hatchette	Charge_of_the_Light_Brigade,_The	110	1	1
+Urey	Operation_Dumbo_Drop	140	2	1
+Tumulty	No_Nukes	1783	1	1
+Hymas	Half_Life_of_Timofey_Berezin,_The_(PU-239)	1538	0	maths	1	1	1950
+Syplus	Wisconsin_Death_Trip	545	2	1
+Barff	Over-Eater,_The_(L'outremangeur)	402	1	1
+Renon	Long_Night,_The	1094	1	1
+Petruszka	Tales_from_the_Crypt_Presents:_Demon_Knight	522	2	0
+Schulkins	V_for_Vendetta	788	2	1
+Beddon	Talk_to_Me	328	1	1
+Challes	Tokyo-Ga	1936	0	chemistry	0	0	1934
+Creboe	Battle_of_Algiers,_The_(La_battaglia_di_Algeri)	1986	1	1
+Fazan	Titanic	1628	1	2
+Fittall	Miss_Julie	262	0	chemistry	1	1	1959
+Mackie	What_to_Do_in_Case_of_Fire_(Was_tun,_wenn's_brennt?)	1520	1	0
+Martinyuk	Blitz	1580	2	0
+Ferrierio	Sense_of_History,_A	350	1	0
+Ciccotti	Coming_Home	1756	0	biology	0	0	2011
+Karpushkin	Laputa:_Castle_in_the_Sky_(Tenkû_no_shiro_Rapyuta)	1062	1	0
+Spurway	Frontrunners	831	0	IT	0	1	1923
+Savil	Bat_People,_The	1198	0	psychology	0	1	1965
+Farney	Hard_Core_Logo	287	0	IT	1	1	1942
+Zuker	American_Adobo	1101	1	2
+Dine-Hart	Purple_Rain	1349	0	biology	1	1	1929
+Kilford	Hiding_Place,_The	1922	2	0
+Greggersen	Stage_Fright	151	1	2
+McColm	Burglar	353	1	0
+Killick	Velvet_Goldmine	414	2	0
+Berresford	Alien_Nation	1777	2	1
+Sarjeant	Gracie's_Choice	1412	0	physics	1	1	2009
+Jacobsson	Streamers	230	1	1
+McCurlye	Jew_in_the_Lotus,_The	1405	2	1
+Pavelka	Dancer,_Texas_Pop._81	1147	0	chemistry	0	0	2000
+Leydon	End_of_the_Century:_The_Story_of_the_Ramones	99	0	maths	1	1	1960
+Schott	Phil_Ochs:_There_But_for_Fortune	1391	2	0
+Headford	Married_to_It	898	0	chemistry	0	0	1952
+Laight	Alien_Nation:_Body_and_Soul	451	0	maths	1	0	1951
+Woodyear	Drifting_Clouds_(Kauas_pilvet_karkaavat)	845	2	1
+Warne	Life_After_Beth	212	2	1
+Shankland	I_Saw_the_Devil_(Akmareul_boatda)	145	0	psychology	0	0	1981
+Mossbee	Modify_	1423	2	0
+Koene	Final_Cut	1124	0	chemistry	0	0	1926
+Hartridge	Bronies:_The_Extremely_Unexpected_Adult_Fans_of_My_Little_Pony	1201	1	1
+Neilson	Conversation_Piece_(Gruppo_di_famiglia_in_un_interno)	1686	2	1
+Costi	Calling,_The	688	0	physics	0	0	2018
+Jozsa	Experts,_The	1143	2	0
+Stanley	Blue_Denim	993	1	0
+Beetham	What_A_Man	1857	2	1
+Bogace	Mammoth_(Mammut)	1407	2	0
+Fandrich	Blubberella	1633	2	1
+Brigham	Just_an_American_Boy	305	2	1
+Nurden	JCVD	302	1	1
+Stanbrooke	Trekkies_2	1555	1	1
+Goracci	Nazareno_Cruz_and_the_Wolf	287	2	1
+Kettlesing	Woman_in_the_Moon_(By_Rocket_to_the_Moon)_(Frau_im_Mond)	1348	0	maths	1	1	1973
+Di_Dello	Great_Gabbo,_The	1131	1	2
+Press	Easy_Rider	935	1	2
+Dybald	Hijacking_Catastrophe:_9/11,_Fear_&_the_Selling_of_American_Empire	179	0	IT	0	1	1908
+McVittie	That_Kiljunen_Family_(Kiljusen_herrasväki)	243	0	physics	1	1	1969
+Leaf	Angélique,_marquise_des_anges	195	2	0
+Ettles	Bill_Cunningham_New_York	993	0	physics	0	0	1921
+Gowling	Short_Film_About_John_Bolton,_A	1345	1	1
+Glide	Zorro,_the_Gay_Blade	1516	0	chemistry	0	0	1921
+Lenahan	Librarian:_Return_to_King_Solomon's_Mines,_The	1589	1	2
+Ransfield	Canterbury_Tale,_A	1562	0	chemistry	0	1	1933
+de_Glanville	White_Dog	1368	2	1
+Yeo	Nitro_Circus:_The_Movie	888	1	2
+Gilbee	Die_Bademeister_–_Weiber,_saufen,_Leben_retten	1475	1	2
+Dyet	Best_of_Everything,_The	1351	2	1
+Gauld	Big_Game	1550	0	IT	0	0	1987
+Corneille	Nueba_Yol	569	0	chemistry	1	1	1906
+Longman	Kiss_for_Corliss,_A_(Almost_a_Bride)	986	2	0
+Tortoise	Habana_Blues	675	2	0
+Floyed	Magic_of_Belle_Isle,_The	707	1	2
+Prangle	Going_the_Distance	685	2	1
+Mincini	Victim	1022	1	2
+McRae	God_is_Great,_I'm_Not_(Dieu_est_grand,_je_suis_toute_petite)	1662	1	1
+Jamary	Thomas_and_the_Magic_Railroad	1051	0	psychology	1	1	1933
+Paolino	Living_in_Oblivion	1499	2	1
+Theurer	Ransom	361	2	1
+Salla	Club_Dread	1128	2	0
+Lope	Things_to_Do_in_Denver_When_You're_Dead	971	0	IT	1	0	2006
+Fradson	Altered_States	1156	2	0
+Odby	Grandpa_for_Christmas,_A_(Bert_&_Becca)	767	0	IT	0	1	1954
+Worsfold	Cadillac_Man	1325	1	1
+Solway	Rare_Exports:_A_Christmas_Tale_(Rare_Exports)	1834	2	0
+Piffe	Red_Corner	420	0	maths	0	1	1978
+Woodburn	Strapped	199	1	2
+Corp	Killing_Zoe	1168	0	chemistry	0	1	1957
+Thickin	Amreeka	131	2	1
+Tomashov	Boy_in_Blue,_The	1758	0	biology	0	0	1916
+Greystock	Urban_Ghost_Story	1395	1	0
+Kelledy	Forbidden_City_Cop_(Dai_lap_mat_tam_008)	358	2	1
+Rolse	Things_Change	151	0	psychology	1	0	1915
+Peaurt	Harder_They_Come,_The	1865	2	0
+Sandys	Killer_Meteors,_The_(Feng_yu_shuang_liu_xing)	1671	1	0
+Odgers	Hardware	1505	0	psychology	0	0	1958
+Stickland	The_Imitation_Game	1413	2	1
+Lougheed	America's_Heart_and_Soul	836	0	biology	1	1	1973
+Custed	I'll_Be_Home_For_Christmas	947	2	0
+Woodrough	Godfather:_Part_III,_The	592	2	1
+Bownass	Matrix_Reloaded,_The	818	2	1
+Mamwell	Secret_of_Moonacre,_The	483	0	physics	0	1	1981
+Tuddall	Danika	1967	0	biology	1	0	2012
+Amy	Rubin_and_Ed	1919	2	0
+Bartolijn	Marci_X	1743	0	maths	1	0	2018
+Pulteneye	The_Rag_Man	1942	2	0
+Paulley	Story_of_My_Death	1600	1	2
+Kynsey	Like_Mike_2:_Streetball	1611	0	chemistry	1	0	1942
+Welbrock	Winter_of_Frozen_Dreams	726	0	biology	1	0	2006
+Mc_Pake	Dragon_Ball_Z:_Super_Android_13!_(Doragon_bôru_Z_7:_Kyokugen_batoru!!_San_dai_sûpâ_saiyajin)	1606	1	1
+Vispo	Un_vampiro_para_dos	1936	2	0
+Fowells	Wittgenstein	1454	1	2
+Maughan	Last_Time_I_Saw_Archie,_The	1111	2	1
+Harlowe	Julia	966	1	2
+Grievson	The_Valley_of_Gwangi	1039	1	1
+Sleith	Iron_Eagle	1889	2	1
+Macak	Mother,_I_Love_You	1331	0	chemistry	0	1	1890
+Earry	Harvard_Beats_Yale_29-29	199	0	physics	1	0	1961
+Crafter	Thirty-Nine_Steps,_The	702	0	biology	1	1	1967
+Hazeman	Future_Cops_(Chao_ji_xue_xiao_ba_wang)	829	0	maths	1	0	1960
+Pelcheur	River_Runs_Through_It,_A	1677	0	IT	1	0	1981
+Ovett	Day_&_Night	504	1	1
+McTrustie	Enchanted	1717	2	0
+Hastie	Autumn_Sonata_(Höstsonaten)	1673	2	1
+O'Halloran	Flesh_Merchant,_The_(Wild_and_Wicked,_The)	1306	2	0
+Coggen	Freeheld	1160	2	1
+Dow	Deadly_Prey	1003	0	chemistry	1	1	1987
+MacGill	Summer_Magic	1221	0	maths	0	1	1993
+Kaubisch	Zidane:_A_21st_Century_Portrait_(Zidane,_un_portrait_du_21e_siècle)	675	0	biology	1	0	1995
+Tilmouth	You_Don't_Know_Jack	802	2	0
+Pullar	Cinema_Verite	71	0	chemistry	0	1	1919
+Sutterby	All_Things_Fair_(Lust_och_fägring_stor)	1838	1	1
+Meddick	Too_Big_to_Fail	1214	2	1
+Lavielle	Shakespeare-Wallah	1904	0	biology	1	1	1928
+Cahillane	Twilight_Saga:_Eclipse,_The	1014	1	2
+Jannasch	Valentine_Road	1313	2	0
+Gristwood	Calcium_Kid,_The	197	1	2
+Offner	Down_with_Love	1734	0	IT	0	1	1981
+Senett	Sabretooth	209	1	0
+Skirling	Hellsing_Ultimate_OVA_Series	1344	1	0
+Duigenan	Moving_Alan	1218	2	1
+Mulrean	Good_Morning_(Ohayô)	1880	2	0
+Fritter	Confessions_of_an_Opium_Eater	505	1	2
+Drejer	Dangerous_Corner	890	0	IT	1	0	1951
+Murcott	The_Baker's_Wife	829	1	0
+Duell	King_of_New_York	1941	2	1
+Camamill	Waiting_Game,_The	1753	0	psychology	0	1	2016
+Dorricott	Films_to_Keep_You_Awake:_The_Christmas_Tale_(Películas_para_no_dormir:_Cuento_de_navidad)	424	0	biology	0	1	1991
+Last	You_Got_Served	1636	1	0
+Feria	8_Diagram_Pole_Fighter,_The_(a.k.a._Invincible_Pole_Fighter)_(Wu_Lang_ba_gua_gun)	1232	1	1
+Bartomeu	G	1700	2	0
+Cambell	Comebacks,_The	1688	0	psychology	0	1	1914
+Hymor	I_Spit_on_Your_Grave_(Day_of_the_Woman)	628	1	1
+Habbershon	Swing_Vote	35	1	0
+Viggers	Silverado	1511	0	physics	0	0	1961
+McMillian	Gold_Diggers:_The_Secret_of_Bear_Mountain	1123	0	IT	1	1	1927
+Geeraert	Invasion_of_the_Body_Snatchers	902	0	physics	1	1	1977
+Dufaur	Hello_Herman	557	2	0
+Damato	What's_New,_Pussycat	462	2	0
+Gabb	The_Man_Who_Wouldn't_Die	427	0	maths	0	1	1965
+Keyho	American_Boy:_A_Profile_of:_Steven_Prince	315	0	psychology	0	0	1895
+Tiplady	Back_to_the_Garden,_Flower_Power_Comes_Full_Circle	652	0	biology	0	0	1907
+Hosten	Purple_Butterfly_(Zi_hudie)	752	2	0
+Fearick	Why_Does_Herr_R._Run_Amok?_(Warum_läuft_Herr_R._Amok?)	1552	1	2
+Poon	Striking_Range	867	2	1
+Ransome	Eve_of_Destruction	168	2	0
+Sharer	Norma_Jean_&_Marilyn	1057	1	0
+Snaden	Romero	1879	0	maths	0	1	1896
+Shearston	Othello	1397	0	psychology	1	1	2010
+Hildred	Haunted_Strangler,_The_(Grip_of_the_Strangler)	556	2	1
+Henrych	Northeast	167	1	2
+Healy	Frozen	164	2	0
+Cossentine	Feiern	1193	0	biology	1	0	1979
+Pariss	The_Fifth_Season	72	1	2
+Hollebon	Deadly_Circuit_(Mortelle_randonnée)	112	0	psychology	1	1	1908
+Bruhke	Children_of_Noisy_Village,_The_(a.k.a_Children_of_Bullerby_Village,_The)_(Alla_vi_barn_i_Bullerbyn)	1055	2	1
+Estevez	Show_People	79	1	2
+Pybworth	DEFCON:_The_Documentary	816	0	physics	0	0	1921
+Kinnoch	Shake_Hands_with_the_Devil	1531	1	0
+Beert	Ikiru	1553	2	1
+Gammidge	Watchmen:_Tales_of_the_Black_Freighter	174	1	1
+Bettesworth	Suspended_Animation	193	0	IT	1	1	1989
+Swait	If_You_Love_(Jos_rakastat)	1126	1	2
+Scaddon	L.A._Story	281	1	0
+Carlet	Zatoichi's_Revenge_(Zatôichi_nidan-kiri)_(Zatôichi_10)	648	0	chemistry	0	1	2002
+Thrustle	The_Man_Who_Shook_the_Hand_of_Vicente_Fernandez	119	1	0
+Simonelli	Dead_Men_Walk	1225	0	IT	0	0	1996
+Rexworthy	Mile..._Mile_&_a_Half	68	1	2
+Segot	Warriors_of_Virtue	1978	1	0
+Ounsworth	Chicago	1401	0	physics	0	0	1976
+Mangon	Stargate:_The_Ark_of_Truth	1974	0	IT	1	0	1922
+Androck	Living_Daylights,_The	254	2	1
+Holson	Winter's_Bone	770	2	0
+Botton	Besieged_(a.k.a._L'_Assedio)	1408	1	2
+Petruska	Clock,_The	389	0	physics	1	0	2001
+Curragh	Series_7:_The_Contenders	1976	0	maths	1	0	1944
+Kinvan	Little_Fish	1931	0	chemistry	1	0	1952
+Zannetti	Beck_-_Familjen	581	2	0
+Nuttall	Labyrinth_of_Passion_(Laberinto_de_Pasiones)	921	2	1
+Cheevers	Rocket,_The_(a.k.a._Maurice_Richard)	172	2	1
+Melia	Abominable_Dr._Phibes,_The	1138	2	0
+Asprey	Other_Side_of_Midnight,_The	1720	0	IT	1	1	1960
+Dufaire	Twelve_Chairs,_The	569	2	1
+Kubik	Cat_and_Dog	245	2	1
+Yezafovich	I_Think_I_Love_My_Wife	997	2	1
+Offill	Pawn_Shop_Chronicles	1322	0	chemistry	1	1	1925
+Airdrie	Lost,_Lost,_Lost_	1635	0	psychology	0	0	2001
+Rhucroft	Anthony_Zimmer	1810	1	1
+Bovis	State_of_Grace	1249	1	2
+Mariolle	Heidi_Fleiss:_Hollywood_Madam	13	0	chemistry	0	0	1939
+Lewinton	Sparrow_(a.k.a._Cultured_Bird)_(Man_jeuk)	480	1	2
+Ouslem	Strong_Man,_The	1232	2	0
+Cuttelar	Year_of_the_Horse	769	2	1
+Geekin	Guns_of_Fort_Petticoat,_The	1326	0	IT	1	0	2017
+Scoates	Bill_Cosby,_Himself	1100	2	1
+Ditt	Barber,_The	1405	0	biology	1	0	1920
+Karmel	If_You_Don't_Stop_It..._You'll_Go_Blind!!!	1285	0	psychology	1	1	1946
+Rouzet	Argo	1388	0	chemistry	1	1	1954
+McKinley	Untraceable	1221	1	2
+Beavon	A_House_of_Secrets:_Exploring_'Dragonwyck'	425	2	0
+Tosney	See_No_Evil,_Hear_No_Evil	667	2	0
+Dorie	Scott_Pilgrim_vs._the_World	822	0	psychology	1	0	2015
+Coyne	The_Snow_White_Murder_Case	437	1	1
+Lote	Carne_de_gallina_(Chicken_Skin)	892	2	1
+Braddock	Southern_Yankee,_A	255	2	0
+Riatt	Girl_in_the_Cadillac	1210	2	0
+Mapholm	Stop-Loss	1330	2	1
+Brumbye	Magic	1132	2	1
+Dawney	Rio_Sex_Comedy	1226	1	2
+Sirmon	Tropico	1653	0	physics	0	0	1963
+Budik	Good_Doctor,_The	1221	2	1
+Sevin	Camille	1301	0	psychology	1	0	1996
+Mousdall	Flim-Flam_Man,_The	1463	1	2
+Batte	Nobody_Walks	1103	1	2
+Bezarra	Aurora	491	2	0
+Greve	Congress,_The	1516	2	1
+Jiroutka	Effect_of_Gamma_Rays_on_Man-in-the-Moon_Marigolds,_The	904	0	chemistry	0	1	1987
+Boice	Ran	433	2	0
+Gouthier	Ator,_the_Fighting_Eagle_(Ator_l'invincibile)	1949	0	chemistry	0	0	1915
+Prandoni	Early_Years:_Erik_Nietzsche_Part_1,_The_(De_unge_år:_Erik_Nietzsche)	1678	2	0
+Dansie	Bubba_Ho-tep	1133	2	0
+Casina	Rescuers,_The	100	1	0
+Treadger	Change-Up,_The	220	1	2
+Jocelyn	Angel-A	1597	0	maths	0	1	1940
+Iannelli	Night_Flight	1180	2	0
+Burgoin	Insomnia	1837	0	physics	0	1	1912
+Natalie	Story_of_My_Life,_The_(Mensonges_et_trahisons_et_plus_si_affinités...)	14	0	IT	1	1	1966
+Sharma	Viva_Villa!	1017	1	0
+Kirkby	Sometimes_in_April	832	0	psychology	0	0	1940
+Tilliards	Halloween_is_Grinch_Night	1255	0	psychology	0	0	1964
+Ettels	Guest_from_the_Future_(Gostya_iz_buduschego)	1354	0	maths	1	0	1891
+Paolo	MC5*:_A_True_Testimonial	732	2	1
+Rides	Massacre_at_Central_High	1590	0	biology	1	1	1992
+Ligerton	It's_Alive_2:_It_Lives_Again	1774	2	1
+Roach	Mother,_Jugs_&_Speed	1832	2	0
+Dunbobbin	A_Chinese_in_a_Coma	231	1	0
+Kilmurry	Janky_Promoters,_The	464	1	2
+Pengilley	Autumn_Sonata_(Höstsonaten)	1055	2	1
+Garritley	There's_Something_About_Mary	234	2	1
+Tapner	White_Dwarf,_The_(Valkoinen_kääpiö)	719	2	1
+McNelly	IMAX:_Hubble_3D	907	0	biology	1	1	1951
+Peabody	Grand_Day_Out_with_Wallace_and_Gromit,_A	133	0	physics	1	1	1910
+de_Quincey	Heart_and_Souls	1668	2	0
+Howling	Kiler	1500	1	1
+Kilfeather	Merry_Gentleman,_The	1198	1	0
+Blowers	Material_Girls	1350	0	biology	0	1	1955
+McManamon	Profound_Desires_of_the_Gods_(Kamigami_no_fukaki_yokubo)_	1880	2	1
+Eilhermann	Mail_Order_Bride	1677	1	0
+Daybell	Mission_Congo	759	0	physics	0	1	1896
+Griston	Foosball_(Metegol)	1871	0	physics	1	0	1927
+Maric	Passion_Flower	633	1	1
+Dethloff	Don't_Blink	708	1	2
+McGougan	Covenant,_The	869	2	0
+Bugge	Arn:_The_Kingdom_at_Road's_End_(Arn:_Riket_vid_vägens_slut)	22	2	0
+Barles	Expendables,_The	1840	0	psychology	1	1	1951
+Hendriks	Time_to_Die_(Tiempo_de_morir)	1100	1	0
+Spatari	Star_Is_Born,_A	1011	1	0
+Barth	Superman/Batman:_Apocalypse	1570	0	IT	1	0	1966
+McKim	Come_September	93	0	chemistry	1	1	2012
+Lamplugh	The_Odyssey	986	2	0
+Sibbet	Field,_The	826	2	1
+Diamond	Love_Hina_Again	783	0	biology	0	1	1920
+Wannop	Fog,_The	782	0	IT	0	0	1925
+Abbie	Home_Alone_2:_Lost_in_New_York	1817	2	0
+Schimoni	The_Haunting_of_Helena	1353	0	physics	0	1	1965
+Mullord	Madame_Rosa_(La_vie_devant_soi)	1315	2	0
+Vince	Dogville	625	2	0
+Gillean	Don't_Worry,_I'm_Fine_(Je_vais_bien,_ne_t'en_fais_pas)	1823	1	1
+Girkins	Miss_Castaway_and_the_Island_Girls	1107	1	1
+Tyrer	Happy_Here_and_Now	967	2	1
+Youll	Other_Side_of_Heaven,_The	1883	0	IT	0	0	1957
+Crewes	Mean_Creek	1818	2	0
+Arnecke	7_Seconds	970	2	0
+Fawthrop	Flyboys	1536	0	chemistry	0	0	1915
+Dace	Celebration,_The_(Festen)	601	2	1
+Pechard	The_Lost_Continent	815	1	0
+Melladew	Russian_Roulette	1368	1	1
+Adney	Unforgotten:_Twenty-Five_Years_After_Willowbrook	810	1	0
+Eveque	Pellet_(Bola,_El)	1063	0	physics	0	1	1936
+Petrazzi	Haunting_at_Silver_Falls,_A	101	2	0
+Worts	Flying_Down_to_Rio	1237	0	physics	1	0	1942
+Willerstone	Lone_Wolf_and_Cub:_Baby_Cart_at_the_River_Styx_(Kozure_Ôkami:_Sanzu_no_kawa_no_ubaguruma)	112	0	IT	0	0	1996
+Carous	Quest_for_Camelot	1454	0	maths	0	0	1931
+Morey	Antibodies_(Antikörper)	1930	0	IT	1	0	2009
+Wattingham	Scooby-Doo!_Curse_of_the_Lake_Monster	1372	0	chemistry	0	1	1966
+Piatkow	Letzte_schöne_Herbsttag,_Der	1601	1	2
+Teffrey	Annie_Get_Your_Gun	1042	1	2
+Bullough	Moving_Midway	998	0	psychology	1	0	1943
+Salle	Christmas_in_August_(Palwolui_Christmas)	1462	1	1
+Blunkett	Man_Next_Door,_The_(El_hombre_de_al_lado)	1088	0	psychology	1	0	1996
+Ramage	Berlin_Babylon	461	2	0
+L'Hommee	4.3.2.1	1050	0	biology	0	1	1948
+Courson	Tale_of_Two_Cities,_A	884	2	0
+Dizlie	Scissere	1264	0	psychology	1	1	1955
+Danelet	Abandon_Ship!_(Seven_Waves_Away)	1225	1	1
+Galero	Barbarosa	647	2	0
+Barck	Alien_Autopsy	763	2	0
+Greenroyd	Bluebeard	1278	0	biology	0	1	1973
+Larkings	Open_Heart	1999	1	0
+Walczynski	Takedown:_The_DNA_of_GSP	1692	2	1
+Duffett	Why_Do_Fools_Fall_In_Love?	1895	2	0
+Hansie	Sniper_2	1864	2	0
+Dreger	Hollow_Man	965	2	0
+Puddifer	Broken_Bridges	1345	0	IT	0	1	2014
+Vasse	Bang	1258	0	chemistry	1	0	1970
+Lilburne	Diary_of_a_Nymphomaniac_(Diario_de_una_Ninfómana)	1997	1	2
+Verick	Dot_the_I	1125	2	1
+Akenhead	Caterina_in_the_Big_City_(Caterina_va_in_città)	746	0	physics	0	1	1923
+Andreazzi	In_Gold_We_Trust_(600_kilos_d'or_pur)	758	2	1
+Nower	Dude,_Where's_My_Car?	1051	2	1
+Sedwick	Maverick	1688	2	1
+Cullum	Pacifier,_The	1061	2	1
+Moseby	The_Italian_Connection	1618	0	biology	0	1	1894
+Ceaplen	Fred_&_Vinnie	781	0	biology	1	0	1905
+Neil	Oliver_Twist	1060	0	biology	1	0	1970
+Macklin	Leviathan	541	1	0
+Bortolini	Zaat	1340	1	2
+Vince	Chinatown	1892	0	IT	0	1	1932
+Tesoe	Death_in_Buenos_Aires_(Muerte_en_Buenos_Aires)	274	1	0
+Niblett	Sword_of_Gideon	1791	2	1
+Stanyer	Mr_Hockey_The_Gordie_Howe_Story	1470	1	1
+Esp	Mandela:_Long_Walk_to_Freedom	756	1	0
+Villa	Righteous_Kill	624	2	0
+Rubinowitsch	Rundown,_The	673	0	psychology	0	1	2016
+Sandilands	Alexandria..._Why?_(Iskanderija..._lih?)	383	1	0
+Stutte	Passionate_Friends,_The_(a.k.a._One_Woman's_Story)	1214	2	0
+Pendrigh	Littlest_Rebel,_The	1975	2	0
+Fayerman	Living_Skeleton,_The_(Kyûketsu_dokuro-sen)	211	0	chemistry	1	1	2002
+Biasio	I_Got_the_Hook_Up	81	2	0
+Stave	Blues_in_the_Night	724	1	0
+Braganca	Police_Academy_4:_Citizens_on_Patrol	1623	0	psychology	1	1	1994
+Igglesden	Nothing_to_Lose	1532	0	IT	1	1	1901
+Panniers	Long_Riders,_The	1132	2	1
+Hatchman	Life_of_Crime	269	1	0
+Sybe	Judex	1163	1	2
+Sissens	Infernal_Affairs_2_(Mou_gaan_dou_II)	1541	2	0
+Marrian	Nightwatch_(Nattevagten)	1379	1	2
+Killoran	Small_Roads	822	1	0
+Ayce	Holy_Man,_The_(Mahapurush)	1423	1	2
+Carley	Lions_For_Lambs	1803	0	IT	0	1	1892
+Malham	Roman	901	0	maths	1	0	1972
+Gull	Inherit_the_Wind	49	0	maths	1	0	1911
+Josefovic	Cannonball	1701	1	1
+Abad	Follow_That_Dream	1673	0	IT	1	1	1993
+Luciano	Song_Remains_the_Same,_The	1279	1	2
+O'Leary	Faithless	303	2	1
+McAlarney	Inspectors,_The	1954	0	IT	0	1	1938
+Thursby	Alfie	505	2	0
+Laurenzi	Confessions_of_a_Driving_Instructor	1082	1	1
+Phipson	Dalton,_Les	1759	1	0
+Bordis	Wild_Wild_West	39	0	chemistry	0	1	1890
+Condliffe	Road_to_Zanzibar	716	0	physics	0	0	1939
+Druce	Up_the_River	206	1	2
+Berkely	Show_Me	567	0	psychology	0	0	2018
+Gatch	If_Lucy_Fell	1721	1	2
+McIllrick	Lentsu	665	2	1
+Nicholes	What_Time_Is_It_There?_(Ni_neibian_jidian)	559	2	1
+Petzolt	Layer_Cake	1147	1	0
+Christauffour	Cult_of_the_Cobra	379	2	0
+Menichino	Return_of_Frank_James,_The	883	2	1
+Augur	Arabesque	232	0	chemistry	1	1	1894
+Kaasman	Floating_Skyscrapers	184	0	maths	1	1	1901
+Dosedale	Ultimate_Accessory,The_(100%_cachemire)	1825	1	1
+Plaschke	Beats_Being_Dead_(Dreileben_-_Etwas_Besseres_als_den_Tod)	1617	1	2
+Tumasian	Man_Who_Shot_Liberty_Valance,_The	315	0	physics	0	1	1926
+Nezey	House_of_Bamboo	1688	1	1
+Kynder	Mummy:_Tomb_of_the_Dragon_Emperor,_The	982	0	IT	0	0	1992
+Clayborn	All_About_the_Feathers_(Por_Las_Plumas)	1307	0	biology	1	1	1903
+Messitt	Sketches_of_Frank_Gehry	709	0	physics	0	1	1927
+Dochon	Pleasure_of_Being_Robbed,_The	1499	1	1
+Hairesnape	Murder_by_Decree	214	2	0
+Sarle	Flipper	1568	2	0
+Mingaud	I_Spit_on_Your_Grave_(Day_of_the_Woman)	493	2	1
+Nayer	Fruitvale_Station	759	0	chemistry	0	0	1984
+Shore	Made_for_Each_Other	1241	1	2
+Skeemer	Tai-Pan	932	0	biology	0	1	1975
+Batrim	King_Kong	489	0	IT	1	0	1967
+Rubberts	Decameron,_The_(Decameron,_Il)	1107	2	0
+Frango	Junior	435	0	chemistry	0	0	1933
+Potebury	Crush	363	1	0
+Dundredge	Show,_The	140	1	2
+Pogue	The_Land_Before_Time_IV:_Journey_Through_the_Mists	870	2	0
+Starzaker	Overnight	913	2	1
+Presidey	Into_the_Woods	678	1	1
+Londesborough	Teeth	131	1	2
+Kemish	Day_of_the_Triffids,_The	466	0	psychology	1	1	1970
+Haller	Man_from_Planet_X,_The	1952	1	0
+Kinnin	George_Washington_Slept_Here	1437	1	2
+Dunnico	Red_Hook_Summer	212	2	0
+Spandley	Best_and_the_Brightest,_The	60	1	2
+Shieldon	Hitler:_A_Film_from_Germany_(Hitler_-_ein_Film_aus_Deutschland)	1812	2	0
+Bluschke	Presentation,_or_Charlotte_and_Her_Steak_(Présentation_ou_Charlotte_et_son_steak)	308	2	0
+Kubu	Heavenly_Body,_The	1221	2	1
+De_Winton	Modern_Times	503	2	1
+Deakin	Let's_Be_Cops	1113	2	1
+Hoppner	Frankenstein_90	457	2	1
+Burdon	Goke,_Body_Snatcher_from_Hell_(Kyuketsuki_Gokemidoro)	85	0	physics	1	1	1916
+Rawdales	Spring_Break_Shark_Attack	1876	0	maths	1	0	1923
+Eagland	Funny_Ha_Ha	1178	1	0
+Cramb	Why_Not_Me?_(Pourquoi_pas_moi_?)	596	2	1
+Kitchinham	Ghoulies	652	0	biology	0	1	1914
+Farleigh	10.5	207	1	2
+Walcar	Thousand_Words,_A	1353	2	1
+Osselton	Cadillac_Man	15	1	1
+Gooders	Trial_of_the_Incredible_Hulk,_The	115	2	0
+Bullus	Inevitable_Defeat_of_Mister_&_Pete,_The	295	2	0
+Jennins	Sister_Helen_	249	2	1
+Young	Stooge,_The	1696	0	biology	1	1	2018
+Gierek	Without_Warning	1771	1	2
+Blyde	Crazy_in_Alabama	284	1	2
+Hazlegrove	Darker_Than_Night	721	1	1
+Mistry	Animal_Love_(Tierische_Liebe)	1150	0	biology	0	1	2011
+Gartenfeld	Kiwi!	1389	1	2
+Pensom	Homer_&_Eddie	274	0	biology	1	1	2004
+Boyce	Goliath_Awaits	1427	1	0
+Breem	Martha	622	0	IT	1	1	1932
+Bartolic	Central_Park_Five,_The	605	1	1
+Tofano	Highlander:_Endgame_(Highlander_IV)	751	1	1
+Challener	Here_on_Earth	1379	1	2
+Sheere	Deadly_Spawn,_The	1338	1	1
+Sidwick	Hell_Comes_to_Frogtown	287	1	2
+Spaughton	Take,_The	439	1	0
+Cliss	21-87	1411	0	maths	0	0	1978
+Cradoc	Def-Con_4	1679	2	0
+Hassell	Berlin_Express	906	2	0
+Woodcock	American_Promise	1372	2	0
+Backman	Risky_Business	144	1	0
+Patley	Emotion	960	1	0
+Barwood	Bodyguard,_The_(Karate_Kiba)	1335	2	1
+Simonaitis	Brothers_(Brødre)	1586	2	1
+Absolem	Room_for_One_More	751	1	0
+Hutchason	Je_m'appelle_Elisabeth	285	1	2
+Bartlomiej	The_Grump	551	0	physics	1	0	1954
+Barlass	Hammer,_The	1142	0	physics	0	0	2014
+Bywaters	Band's_Visit,_The_(Bikur_Ha-Tizmoret)	430	1	0
+Kofax	Christine	640	2	0
+Tunaclift	Center_Stage	973	2	1
+Jealous	The_Hatchet_Man	1872	0	IT	1	1	1975
+Ipsley	Captain_Mike_Across_America_(Slacker_Uprising)	1233	2	1
+Hayball	Hypocrites	1310	0	maths	1	1	1925
+Slinger	Army_Brats_(Schatjes!)	1370	2	0
+Kobelt	Halloween_Tree,_The	1354	2	0
+Wimmer	Wedding_Weekend,_The_(Sing_Now_or_Forever_Hold_Your_Peace)_(Shut_Up_and_Sing)	1311	0	physics	0	1	1892
+Lottrington	Man_Hunt	631	0	maths	0	0	1898
+Skitch	Forever	1559	1	2
+Horsewood	Truth_or_Consequences,_N.M.	1114	0	maths	1	1	2007
+De_Wolfe	Painted_Skin	692	1	0
+Parks	The_Good_Lie	741	1	1
+Hofton	Charge_of_the_Light_Brigade,_The	868	2	1
+Scoggans	Dark_Angel:_Ascent,_The	1724	1	2
+Gow	Mighty_Wind,_A	1887	1	2
+Jasik	Henry_IV,_Part_II_(Second_Part_of_King_Henry_the_Fourth,_including_his_death_and_the_coronation_of_King_Henry_the_Fifth,_The)	1865	1	2
+Crowch	Vlad_Tepes_(Vlad_&#354;epe&#351;)	1045	1	0
+Ollett	Repo!_The_Genetic_Opera	348	1	1
+Bein	Unsaid,_The	1689	2	0
+Merle	The_Package	1030	1	2
+Ivetts	Watching_the_Detectives	195	2	1
+O'Gormley	Young_Aphrodites_(Mikres_Afrodites)	1246	2	0
+Pretorius	Cecil_B._DeMented	1800	0	chemistry	1	1	1997
+Joubert	The_Cave_of_the_Golden_Rose	1945	2	1
+Parlatt	Carbon_Nation	517	0	biology	0	1	1966
+Marmion	Admiral	1295	1	2
+Wintle	For_Love_of_Ivy	1601	0	physics	0	0	1959
+MacQuist	Loss_of_Sexual_Innocence,_The	49	2	1
+Mayor	Dark_Dungeons	30	1	0
+Reese	Champagne	1379	2	1
+Iamittii	Not_Easily_Broken	1255	0	chemistry	1	1	1891
+Everson	Humanoids_from_the_Deep	459	2	1
+Leverage	Dead_Calm	885	1	0
+Blincowe	Adulthood	1832	0	IT	1	0	1985
+Gerald	Guy_X	415	0	biology	1	1	1896
+Voelker	Princess_O'Rourke	1414	0	psychology	0	1	1986
+Tows	Scenes_of_a_Sexual_Nature	1289	2	0
+Medlar	Split_Second	110	0	biology	0	0	1982
+Jelks	Dillinger	1669	0	biology	0	1	1931
+Baker	My_Fake__Fiance	851	1	1
+Tomlinson	Miracle_of_Morgan's_Creek,_The	784	2	1
+Theml	Miffo	876	0	psychology	0	1	1930
+Ayce	Josie_and_the_Pussycats	720	1	0
+Reek	Scanners_II:_The_New_Order	1231	1	2
+Abrahart	Charlie's_Country	1304	2	0
+Keaton	Breakin'_All_the_Rules	1160	1	1
+Edgell	Trans	1007	1	1
+Whatson	Mighty,_The	60	0	psychology	0	0	1899
+Benko	Blame_It_on_Rio	782	0	psychology	1	0	2012
+Dilnot	Beastmaster,_The	612	2	1
+Viollet	Cinderella	1054	0	biology	0	1	2002
+Orniz	Tsatsiki,_Morsan_och_Polisen	1329	1	2
+ffrench_Beytagh	My_Mother_and_Her_Guest_(Sarangbang_sonnimgwa_eomeoni)	61	0	biology	0	1	1930
+Treslove	Anna_Karenina	503	0	biology	0	0	1897
+Dell	Savages	1895	1	0
+Wybrow	Mark_of_Cain,_The	1502	1	1
+Vella	Toys	1175	1	1
+Vequaud	Night_of_the_Zombies_(a.k.a._Hell_of_the_Living_Dead)_(Virus)	1452	1	1
+Puckey	Joe	1960	1	0
+Gulley	Good_Guys_and_the_Bad_Guys,_The	1484	2	0
+Joriot	I_Hate_Valentine's_Day	958	2	1
+Axelbee	Dracula	1736	2	0
+Carmen	Cell_211_(Celda_211)	1382	2	1
+Delbergue	Blood_Simple	963	1	2
+O'Cleary	North_and_South,_Book_I	1254	0	maths	0	1	1997
+Steel	Gold_Diggers:_The_Secret_of_Bear_Mountain	953	1	0
+Lapthorne	Indiana_Jones_and_the_Last_Crusade	678	1	2
+Schlagman	While_She_Was_Out	660	2	0
+Hallums	Cutlet_for_Three_(Ein_Schnitzel_für_drei)	650	2	0
+Bonnier	Go	224	1	1
+Bohlin	A_Spell_to_Ward_Off_the_Darkness	1512	1	0
+Ebbing	Stephanie_Daley	1622	2	1
+Lukasen	Cord_(Hide_and_Seek)	1468	0	maths	1	0	2009
+Rowes	Beer_Wars	85	1	1
+Marwick	Whitecoats	1047	1	0
+Mollin	So_Much_Water	373	1	2
+Hars	Tom,_Dick_and_Harry	547	2	1
+Mee	Gold_Diggers_of_1935	1793	1	1
+Gerok	2009:_Lost_Memories	863	0	maths	1	0	1927
+Bulcroft	Players,_The_(Les_infidèles)	1692	1	1
+Wernher	Holly	1005	0	biology	0	0	1901
+Vlasov	Dragonworld	456	1	1
+McTeggart	Arnulf_Rainer	439	2	1
+Lukes	Eddie	42	2	0
+Bugdall	Devil_Wears_Prada,_The	1860	1	0
+Bayman	Illegal	829	2	0
+Dawbery	American_Sniper	1609	0	IT	0	1	1948
+Treneer	Bad_Girls_Go_To_Hell	649	0	physics	1	1	2005
+Munsey	Tank_on_the_Moon	281	1	1
+Domm	Happy	1968	2	0
+Cordingley	Best_of_Ernie_and_Bert,_The	1930	1	2
+McCord	Dumb_and_Dumber_To	300	1	2
+Lubman	Hollywood_Sex_Wars	1599	1	0
+Doel	Music_Box,_The	471	0	psychology	0	1	1976
+MacCosto	Still_Life	411	1	0
+De_Lasci	Loved_Ones,_The	1578	2	1
+Dryburgh	Fire_and_Ice	1827	2	1
+Petronis	Yertle_the_Turtle_and_Other_Stories	1349	1	0
+Nisco	On_Probation_(Tiempo_de_Valientes)	881	0	maths	0	0	1934
+Tyrrell	Crime_of_Monsieur_Lange,_The_(Le_crime_de_Monsieur_Lange)	349	1	1
+Grumbridge	Kisses_(Kuchizuke)	374	1	2
+Eliesco	Home_on_the_Range	234	2	0
+Menichi	Cement_Garden,_The	1502	1	1
+Karim	St._Trinian's	123	1	0
+Messingham	Thérèse	966	1	0
+Norwell	Klip_(Clip)	947	0	physics	0	1	1927
+Ghidini	Best_of_Times,_The_(Mei_li_shi_guang)	717	0	chemistry	0	0	1979
+Letherbury	Bedlam	62	1	1
+Meuse	Nightwatching	1516	0	maths	1	1	1956
+Fetherstone	Stagecoach	533	2	0
+Trewartha	When_Father_Was_Away_on_Business_(Otac_na_sluzbenom_putu)	1668	0	IT	0	1	1904
+Sahlstrom	In_Order_Not_to_Be_Here	266	1	0
+Lundie	Assassination_Tango	883	2	0
+Wearne	Love_Liza	1216	2	0
+Pautot	Hedgehog,_The_(Le_hérisson)	1780	2	1
+Huckle	Take_the_Lead	982	2	1
+Stitt	Different_from_the_Others_(Anders_als_die_Andern)	467	0	maths	1	1	1959
+Karpfen	Lion_King_1½,_The	1544	0	physics	0	1	1894
+Gilgryst	Safe_Conduct_(Laissez-Passer)	578	2	1
+Morland	The_Wrecking_Crew	1888	1	1
+Dowdeswell	The_Magic_Crystal	1395	1	1
+Souster	Hellsing_Ultimate_OVA_Series	1147	0	chemistry	0	0	2004
+Jonsson	30_Days_of_Night:_Dark_Days	1003	0	maths	1	1	1895
+Cruikshank	A_Phantasy	76	2	1
+Rambadt	TPB_AFK:_The_Pirate_Bay_Away_from_Keyboard	1642	2	1
+Chitty	What_Price_Hollywood?	573	0	chemistry	0	1	1901
+Rookeby	When_Darkness_Falls_(När_mörkret_faller)	23	0	maths	0	1	1991
+McTavy	Attack_from_Space	643	1	2
+Bortoletti	Kahaani	1587	1	0
+Klimczak	Scooby-Doo!_Abracadabra-Doo	1606	0	chemistry	1	1	1910
+Rodd	The_Old_Gun	776	2	0
+Stiffell	Rosewood	95	1	2
+Firbanks	Stepfather,_The	222	0	psychology	1	1	1929
+Bouch	Pooh's_Heffalump_Movie	818	0	maths	1	1	1949
+Sharple	Headquarters_(Päämaja)_	1999	2	0
+Gockelen	Tables_Turned_on_the_Gardener	1535	2	0
+Tesdale	Faces_of_Death_6	418	1	0
+Agnew	Don't_Stop_Believin':_Everyman's_Journey	1882	2	1
+Drysdall	Space_Jam	1385	1	1
+Lepope	Raanjhanaa	684	0	psychology	1	1	1906
+Kneesha	Tetsuo_III:_The_Bullet_Man	759	1	2
+Tombling	Defiance	772	0	biology	0	1	1893
+Castagne	Suburban_Commando	972	2	0
+Tyrone	Mrs._Henderson_Presents	1544	1	0
+Veracruysse	Chances_Are	1413	0	maths	0	0	1943
+Legendre	Brazil:_In_the_Shadow_of_the_Stadiums	322	1	1
+Fawcitt	Which_Way_Is_Up?	440	1	2
+Piperley	TerrorStorm:_A_History_of_Government-Sponsored_Terrorism	1314	0	biology	0	0	1922
+Kimbly	No_Blade_of_Grass	320	0	chemistry	1	0	2000
+Gasticke	Bang_the_Drum_Slowly	531	1	0
+Tolchard	Road_to_Zanzibar	1602	2	0
+Laraway	Highway_61	895	2	1
+Ploughwright	The_Indian_Fighter	275	0	maths	0	1	1986
+Sly	Chitty_Chitty_Bang_Bang	1750	2	1
+Bartolomeoni	Silence_(Chinmoku)	15	2	0
+Cod	For_a_Few_Dollars_More_(Per_qualche_dollaro_in_più)	1560	1	2
+Brosetti	Rashomon_(Rashômon)	1170	1	1
+Grasser	How_Bruce_Lee_Changed_the_World	1229	2	0
+Caddies	Bringing_Up_Baby	218	1	2
+Looks	Romy_and_Michele's_High_School_Reunion	783	1	2
+Swinnerton	To_Cross_the_Rubicon	201	1	0
+Pergens	Muriel,_or_The_Time_of_Return_(Muriel_ou_Le_temps_d'un_retour)	93	0	physics	1	0	1915
+Domenichelli	Reluctant_Saint,_The	520	1	1
+Davidovics	Blood_for_Dracula_(Andy_Warhol's_Dracula)	691	0	biology	1	0	1996
+Deplacido	Line_of_Sight	1068	2	0
+Izon	Highlander_II:_The_Quickening	498	2	1
+Kays	Kitty	1596	0	chemistry	0	1	1963
+Melmeth	Spend_It_All	877	0	biology	0	1	1957
+Kefford	That_Man_from_Rio	461	0	IT	1	0	1930
+Deluce	Faat_Kiné	852	2	1
+Buckthorpe	Dirty_Money_(Un_flic)	1789	0	IT	0	1	1983
+Murfin	Winning	400	0	psychology	1	1	1997
+Cottier	Ego	1768	0	physics	0	0	1962
+Ashbolt	Nowhere_to_Run	382	1	1
+Avramovich	Deadly_Outlaw:_Rekka_(a.k.a._Violent_Fire)_(Jitsuroku_Andô_Noboru_kyôdô-den:_Rekka)	585	1	2
+Earwicker	After_School_Midnighters_(Hôkago_middonaitâzu)	1223	1	2
+Caulcutt	Pudana_Last_of_the_Line_(Sukunsa_viimeinen)	25	0	IT	0	1	1932
+Ponde	Mysterious_Island	1462	2	0
+Fasse	Standby	649	2	0
+Turford	Bamba,_La	908	1	0
+MacMurray	Delicatessen	1689	1	1
+Ramelot	Cat_Came_Back,_The	1254	1	0
+Lanphere	Express,_The	1626	2	0
+Brittle	Battle_for_Marjah,_The	1036	1	1
+Potkin	Strategy_of_the_Snail,_The_(Estrategia_del_Caracol,_La)	1337	0	psychology	1	1	1981
+Saffon	Seventh_Victim,_The	1897	2	0
+Folkerd	Bratz:_The_Movie	1495	1	0
+Olney	Sibling_Rivalry	1477	2	1
+Duplock	No_One_Knows_About_Persian_Cats_(Kasi_az_gorbehaye_irani_khabar_nadareh)	1162	2	1
+Bothram	Married_to_the_Mob	664	2	1
+Vigus	Ju-on:_The_Curse_2	1738	1	0
+Roxburgh	Natural_Born_Killers	1602	2	1
+Ivakhnov	Blown_Away	596	2	1
+O'_Dooley	Safe_Place,_A	94	0	biology	0	1	1966
+Colman	Hellraiser	289	1	1
+Nisbet	Perils_of_Pauline,_The	835	0	physics	1	0	1910
+Lys	Joanna	1689	2	0
+Gilliver	Hidden_Fortress,_The_(Kakushi-toride_no_san-akunin)	437	0	IT	0	1	1922
+Doree	Eye_Above_the_Well,_The_(Het_oog_boven_de_put)	780	0	chemistry	0	1	1915
+Lewtey	Screaming_Skull,_The	1536	2	1
+Moreland	Escaflowne:_The_Movie_(Escaflowne)	1652	2	1
+Tomasian	Agnes_of_God	1492	0	psychology	0	1	1979
+Gedge	Blackout	1164	2	0
+McBlain	Memory	202	2	1
+Daniaud	Touchy_Feely	1077	1	0
+Demare	Emperor_Jones,_The	1093	1	1
+Loidl	Kiss_of_the_Dragon	1549	2	1
+Wynrehame	Entity	1472	0	biology	1	1	2009
+Lubman	Seeking_a_Friend_for_the_End_of_the_World	565	1	0
+Colbertson	Soldier's_Girl	1218	0	physics	1	1	1943
+Huard	Nana	1771	0	IT	1	1	1944
+Maytom	Joe's_Palace	964	0	physics	1	0	1926
+Woolland	Sometimes_They_Come_Back..._for_More	1451	1	1
+Clac	Temptress,_The	313	0	physics	1	1	1998
+Dendon	That_Day,_on_the_Beach_(Hai_tan_de_yi_tian)	429	2	1
+Trace	I'm_All_Right_Jack	432	2	1
+Maun	Pacific_Rim	1081	0	psychology	0	1	2007
+Featherstonehaugh	Hiding_Place,_The	1365	2	0
+Denisard	Just_Go_with_It	1163	2	0
+Baus	Iron_Man_2	1080	2	1
+Ogley	Adventures_of_Don_Juan	1553	1	1
+Broadberry	Sheitan	1401	2	1
+Warren	Georgy_Girl	1460	2	1
+Gerretsen	Straight_Talk	667	1	2
+Jaspar	Way_Out_West	1720	0	chemistry	0	0	1991
+McGeown	New_in_Town	12	1	1
+Mendus	That_Cold_Day_in_the_Park	853	1	1
+Meindl	Human_Tornado,_The	35	0	chemistry	1	1	1913
+Belverstone	Loving_You	1948	2	1
+Timeby	Fight_for_Your_Right_Revisited	1751	0	physics	0	0	1975
+Stollhofer	Brother_(Brat)	670	0	psychology	0	0	1912
+Pindred	Amityville:_A_New_Generation	207	1	2
+Mitchel	Long,_Long_Trailer,_The	1716	0	maths	1	0	1950
+Drinkhill	Tokyo_Decadence_(Topâzu)	736	1	2
+Grunwald	Jessie_James_Meets_Frankenstein's_Daughter	819	1	0
+Tuohy	Dracula_2000	1799	1	0
+D'Elias	Tiger's_Tail,_The	746	1	1
+Greenhouse	Running_from_Crazy	1173	0	chemistry	1	0	2013
+Thorby	18_Years_Later_(Diciotto_anni_dopo)	1188	1	0
+Lghan	For_All_Mankind	928	1	2
+Burchard	Martin	825	2	0
+Sporton	Infection_(Kansen)	1085	1	2
+Burridge	Goebbels_Experiment,_The_(Das_Goebbels_Experiment)	1926	1	2
+Jewks	Affair_of_the_Necklace,_The	419	0	chemistry	1	1	1998
+Trotton	Spin_(You_Are_Here)	353	2	1
+Prosh	Pandora_and_the_Flying_Dutchman	1161	1	0
+Hayball	They_Bite	1546	0	IT	1	1	1946
+Facher	Couples_Retreat	1171	2	1
+Brickner	Librarian:_Return_to_King_Solomon's_Mines,_The	225	0	psychology	1	1	1942
+Belverstone	Peacock	976	2	0
+Routham	Color_Me_Blood_Red	1614	0	IT	1	1	1933
+Beane	Valley,_The_(Obscured_by_Clouds)_(La_vallée)	323	2	1
+Maleck	Purge,_The	1428	2	0
+Taggerty	Hard_Man,_The	995	1	0
+Skillanders	Keyhole	180	2	0
+Sam	Wild_Love	1922	2	1
+Stepney	Caiman,_The_(Il_caimano)	616	2	1
+Svanetti	Follow_Me,_Boys!	1085	2	0
+Spear	Spencer's_Mountain	1539	1	1
+Redgrove	Friday_the_13th_Part_3:_3D	1010	0	physics	0	0	1905
+Sammars	Spider	1073	0	chemistry	0	1	2010
+Forestel	Shake_Hands_with_the_Devil	1116	2	1
+Powton	Conspiracy	17	2	1
+Falvey	Spanish_Fly	1781	2	0
+Vere	Mardock_Scramble:_The_Second_Combustion	314	1	2
+Gregorio	Unstoppable	457	0	physics	0	0	1892
+Haythorne	Castle,_The_(Das_Schloß)	1122	2	0
+Capoun	Your_Vice_is_a_Locked_Room_and_Only_I_Have_the_Key	1575	2	0
+Lansley	Zarafa	925	0	physics	1	1	1944
+Garm	Cuenca_Crime,_The_(Crimen_de_Cuenca,_El)	1360	0	physics	1	0	1897
+Le_Marchand	Wild_in_the_Streets	1406	2	0
+Pavlasek	Bruce_Almighty	1851	1	2
+Steptoe	Last_Time_I_Saw_Archie,_The	881	0	psychology	0	0	1929
+Slayford	Bank,_The	1754	2	1
+Dowbiggin	Faust	1909	1	2
+Markie	Governess,_The	392	0	psychology	0	0	1899
+Markus	Package,_The	1212	0	chemistry	0	1	1985
+Milbourn	St._George_Shoots_the_Dragon_(Sveti_Georgije_ubiva_azdahu)	1233	0	physics	0	1	1952
+Dewerson	Suddenly,_Last_Summer	1290	0	chemistry	0	0	1992
+Luggar	Curse_of_the_Hedgehog,_The_(Blestemul_ariciului)	784	0	physics	1	0	1909
+Laugherane	Spacehunter:_Adventures_in_the_Forbidden_Zone	774	0	physics	1	1	1981
+Grubb	Third_Star	328	2	1
+Doy	Doll,_The_(Lalka)	1341	2	1
+Parsonage	Good_Men,_Good_Women_(Hao_nan_hao_nu)	442	2	1
+Pedder	Ghost_Ship	1229	1	2
+Siebart	Birdemic:_Shock_and_Terror	731	0	psychology	1	1	1976
+Fumagall	Wendy_and_Lucy	1292	2	0
+World	No_Rest_for_the_Brave_(Pas_de_repos_pour_les_braves)	1474	0	physics	0	0	1930
+Egdal	Russkies	509	1	1
+Proppers	Punksters_&_Youngsters_(Punk_-_Tauti_joka_ei_tapa)	1179	1	1
+Meaden	Lone_Ranger,_The	1610	1	1
+Skill	Next	406	1	0
+De_Ambrosi	Operation_Homecoming:_Writing_the_Wartime_Experience	402	0	biology	0	0	1954
+Cantu	My_Grandfather's_People_(Dedemin_insanlari)	240	0	chemistry	0	0	1922
+McLanaghan	The_Fearmakers	1197	2	1
+Lacey	Bingo	1779	1	0
+Fomichyov	Desert_Trail,_The	482	1	1
+Shawyer	Ass_Backwards	1719	2	1
+Philipps	South_Park:_Bigger,_Longer_and_Uncut	1366	0	chemistry	0	1	1950
+O'Doogan	Finding_Nemo	1031	1	1
+Darth	Ghoulies_IV	1437	0	IT	0	1	1908
+Drake	Generation_X	156	1	0
+Dutch	Teen_Wolf_Too	363	2	1
+Daenen	French_Roast	949	1	1
+McKinlay	Passion_of_Love_(Passione_d'amore)	1845	2	1
+Mehaffey	Take_the_Trash	1612	0	biology	0	0	1964
+Torpie	Trick_or_Treat	1603	0	biology	0	1	1970
+Sterland	Penitentiary_II	1292	0	physics	0	0	1918
+Leyes	Secret_Ceremony	1116	0	biology	0	1	1980
+Perell	Asterix_in_America_(a.k.a_Asterix_Conquers_America)_(Astérix_et_les_Indiens)	1466	2	1
+Chetter	Sleepaway_Camp	1978	0	psychology	0	0	2010
+Cockayne	Goalie's_Anxiety_at_the_Penalty_Kick,_The_(Die_Angst_des_Tormanns_beim_Elfmeter)	695	2	1
+Zottoli	Squeeze	1862	1	2
+Ranald	Time_Tracers	858	0	psychology	0	1	1958
+Woolmer	Bastards_of_the_Party	416	0	biology	1	0	1910
+O'Duggan	About_Face:_Supermodels_Then_and_Now	1058	0	maths	0	0	1904
+Shepard	Ring,_The	992	1	0
+Gilkes	Ten_Commandments,_The	371	1	0
+Norrey	Gentleman_Jim	66	1	1
+Crace	Dark_Side_of_the_Heart,_The_(Lado_oscuro_del_corazón,_El)	1820	2	1
+Dimbleby	Carriers	268	1	2
+Gilloran	Oliver!	1497	0	IT	1	0	1916
+Elsay	Detention	963	2	1
+Moultrie	If_Only	1002	2	1
+Grafton	Battle_of_Britain,_The_(Why_We_Fight,_4)	580	1	0
+Boole	Girl_with_the_Dragon_Tattoo,_The_(Män_som_hatar_kvinnor)	1627	0	biology	0	1	1968
+Buttress	Dead_Man's_Letters_(Pisma_myortvogo_cheloveka)	939	2	0
+Carding	Border,_The	112	0	psychology	0	0	1915
+McLay	Batman_&_Mr._Freeze:_Subzero	101	0	physics	1	1	1971
+Swanson	Female_Vampire_(Les_avaleuses)_(Erotic_Kill)	751	0	physics	0	1	2009
+Aizlewood	Bless_the_Child	1271	1	1
+Haggarth	King_Solomon's_Mines	94	0	biology	1	0	1969
+Dawidowitsch	Stalin	1085	1	0
+Attyeo	Man_on_the_Moon	655	1	0
+Wansbury	Touch	1017	1	2
+Shearmur	Dangerous_Liaisons	1773	0	psychology	1	1	1984
+Swinnerton	In_the_Park	1202	2	1
+Malkin	Second_Chance,_The	1771	2	0
+Gummory	Unloved,_The	322	2	0
+Brislen	It's_a_Wonderful_Life	76	0	maths	0	1	1914
+Muzzini	Human_Centipede_II_(Full_Sequence),_The	1243	1	0
+Gammade	Cherry_2000	1567	2	0
+Agronski	The_Bride_Wore_Red	1059	1	2
+Dorsey	Harvest_Month,_The_(Elokuu)	1385	1	1
+Obington	Vic+Flo_Saw_a_Bear	487	0	IT	0	0	1994
+Marishenko	All_That_Jazz	686	0	chemistry	0	0	1944
+Roggerone	Quartier_Mozart	1436	2	1
+Konrad	Red_Beret,_The	1938	2	1
+Paslow	Celsius_41.11:_The_Temperature_at_Which_the_Brain..._Begins_to_Die	1897	2	0
+Alderwick	Map_of_the_Sounds_of_Tokyo	484	0	maths	1	0	1917
+MacCahee	Madame_Rosa_(La_vie_devant_soi)	855	2	1
+Bates	Thank_You_for_Smoking	1012	2	0
+Asbury	Arsenic_and_Old_Lace	408	1	1
+Maplethorp	Haunted_Castle,_The_(Hiroku_kaibyô-den)	954	0	maths	1	0	1912
+Ostrich	When_the_Bough_Breaks	1842	1	2
+Kirlin	All_the_Brothers_Were_Valiant	1548	2	0
+Henrichsen	Bullets_or_Ballots	1555	0	maths	0	1	1976
+Mayor	Hitchcock	707	1	2
+Keywood	Rooster_Cogburn	435	1	0
+Doulden	Coriolanus	692	1	0
+Campkin	My_Darling_Clementine	788	1	0
+Collyear	Miami_Rhapsody	124	1	0
+Lovering	Children_of_Leningradsky,_The	652	2	1
+McDiarmid	Group,_The	1631	0	IT	0	0	1916
+Skirling	Riviera	1424	1	2
+Ranklin	Lost_Horizon	464	1	0
+Jocelyn	Dante's_Inferno:_An_Animated_Epic	337	0	maths	0	0	1911
+Reolfi	Belles_of_St._Trinian's,_The	111	0	psychology	0	0	1981
+Canaan	Bloody_Murder_2:_Closing_Camp	541	1	0
+Oddy	Vivre_sa_vie:_Film_en_douze_tableaux_(My_Life_to_Live)	636	2	0
+Confort	West_Side_Story	1253	1	2
+Felgat	Career	1804	2	0
+Brimfield	Pumzi	1257	1	2
+Dalliwater	Aziz_Ansari:_Intimate_Moments_for_a_Sensual_Evening	306	1	0
+Gollop	Orlando	135	1	0
+Missen	Unborn,_The	1762	1	0
+Bickerdyke	Best_Defense	249	2	0
+Cleminshaw	Always_Tell_Your_Wife	497	0	physics	1	1	1891
+Croshaw	New_Waterford_Girl	469	1	1
+Baughan	Keys_of_the_Kingdom,_The	1288	1	2
+Pemberton	How_I_Live_Now	468	0	IT	1	1	1965
+Heinert	Bikini_Beach	671	0	maths	0	1	1981
+Shortall	Cape_Fear	1122	2	0
+Cowlam	Magadheera	1419	1	2
+Saxon	Emergency_Squad	896	0	chemistry	1	1	2007
+Cribbins	What_a_Way_to_Go!	34	1	0
+Gentile	Passage_to_India,_A	600	0	biology	0	1	1985
+Dowdall	Rulers_of_the_City	1590	0	physics	0	0	1938
+Please	Boo_to_You_Too!_Winnie_the_Pooh	1914	2	0
+Bagby	Ghost_and_the_Darkness,_The	691	2	0
+Wankel	Glory_Road	1045	2	0
+Fowley	Frozen	1616	1	1
+Tye	Crossfire	1924	2	1
+Bullier	Long_and_Short_of_It,_The	1234	1	2
+Mapplebeck	I'll_Cry_Tomorrow	1393	1	2
+Schuck	Spy_Kids:_All_the_Time_in_the_World_in_4D	254	2	0
+Grene	Godson,_The	1743	0	biology	1	1	1899
+Knappen	Capital_(Le_capital)	80	0	physics	0	0	1955
+Hustings	B._Monkey	804	0	maths	1	1	2002
+Dobrowski	Arguing_the_World	98	2	1
+Rosendale	Miami_Rhapsody	708	2	0
+Marzelli	Dragon_Seed	1904	0	physics	1	0	1952
+Lindl	Bolero	1927	1	1
+Lambswood	Easy_Life,_The_(Il_Sorpasso)	1583	1	2
+Withringten	U.S._Marshals	749	1	1
+Hickenbottom	Elizabeth_I	888	0	chemistry	1	0	1958
+Cadge	The_Questor_Tapes	585	0	IT	0	0	1931
+Gaskin	Running_Man,_The	1577	2	0
+Espadero	Dead_Times_(Temps_morts,_Les)	269	1	1
+Tenant	Mouth_to_Mouth_(Boca_a_boca)	1266	1	2
+Lyall	Hook	1688	2	1
+Riccioppo	Life_Itself	1755	1	1
+Bignold	Trekkies_2	464	1	2
+Dowdam	Clay_Pigeons	1827	0	psychology	0	1	1912
+Kirman	My_Best_Enemy_(Mi_mejor_enemigo)	1252	0	psychology	0	1	1908
+Peacop	Of_Gods_and_Men_(Des_hommes_et_des_dieux)	117	1	2
+Bulbrook	KM_31:_Kilometro_31	1990	0	chemistry	1	1	1900
+Haverson	Shinobi:_Heart_Under_Blade	1778	2	1
+Blondel	Way_Down_East	376	2	1

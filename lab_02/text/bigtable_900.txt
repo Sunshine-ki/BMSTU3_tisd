@@ -1,0 +1,893 @@
+Marriner	Time_Stood_Still_(Il_tempo_si_è_fermato)	Luettgen-Jones	263	0	psychology	1	1	1912
+Ickovicz	Humboldt_County	Stokes,_Kub_and_Conn	82	2	1
+Allenson	Muddy_River	Rosenbaum,_Schulist_and_Shanahan	889	0	psychology	0	1	1953
+Clohisey	Philadelphia	Hand,_Bailey_and_McGlynn	935	1	1
+Fassman	Trishna	Wiegand-Ferry	459	2	0
+Deeprose	Mr._Troop_Mom	Grant-Gottlieb	479	0	biology	0	1	1990
+Stanbridge	Home_Song_Stories,_The	Schaden-Nitzsche	509	1	2
+Geipel	Lover,_The_(Amant,_L')	Lang-Quitzon	36	2	0
+Easton	Other_End_of_the_Line,_The	Haley-Huel	613	2	0
+Hatzar	Cats_Don't_Dance	Emmerich-Osinski	391	1	0
+Hammer	Carne	Carroll-Lowe	474	1	1
+Cavil	Feet_First	Jerde,_Morar_and_Waters	348	1	0
+Bowcock	Gorgon,_The	Hahn,_Bode_and_Kerluke	676	1	2
+Scoggins	Thoughtcrimes	Crona,_Bradtke_and_Fahey	136	2	1
+Ibbitt	Once_Upon_a_Time..._When_We_Were_Colored	McLaughlin,_Lynch_and_Keeling	106	1	1
+Brimilcome	Fly_Away_(Bis_zum_Horizont,_dann_links!)	Cartwright_and_Sons	793	2	1
+Korting	Low_Life,_The	Marquardt,_Green_and_Mertz	694	2	0
+Sumner	Shenandoah	Osinski,_Schuster_and_Reilly	449	0	physics	1	1	1909
+Zavattero	Dragon_Inn_(Sun_lung_moon_hak_chan)	Batz,_Gleason_and_Little	381	2	1
+Bootell	Everybody_Wants_to_Be_Italian	Breitenberg-Koepp	725	1	0
+Bentson	Amityville_II:_The_Possession	Jenkins-Torphy	664	2	0
+Polfer	Creepshow	Muller_and_Sons	624	0	chemistry	0	0	1974
+Dunseath	Music_and_Lyrics	Lesch,_Hodkiewicz_and_Gleason	439	0	chemistry	0	0	1942
+Molian	Daltry_Calhoun	Corkery_LLC	657	2	1
+Rawes	Shiver_(Eskalofrío)	Bergstrom_Group	558	2	1
+Jiroutek	Resurrecting_the_Champ	Casper-Okuneva	640	1	1
+Woodgate	Rahtree:_Flower_of_the_Night_(Buppha_Rahtree)	Casper-Fritsch	746	0	biology	1	1	1929
+Geleman	Far_from_the_Madding_Crowd	Rempel_LLC	324	2	0
+Adamiak	Brass_Target	Schimmel_Group	72	1	0
+De_Atta	Diving_Bell_and_the_Butterfly,_The_(Scaphandre_et_le_papillon,_Le)	Senger,_Mann_and_Mertz	396	0	maths	1	0	1959
+Bibby	Marsh,_The	Armstrong-Frami	805	0	maths	1	1	2009
+Jaume	Robin_and_Marian	Robel-Monahan	874	2	1
+Bullion	Odette_Toulemonde	Ward_LLC	145	1	2
+Dalligan	Good	Murazik-Hamill	950	0	psychology	0	0	1958
+Piers	The_Count_of_Monte_Cristo	Boyle,_Leuschke_and_Beahan	642	2	1
+Fellgate	Counterfeit_Coin,_The_(Istoria_mias_kalpikis_liras)	Predovic_LLC	392	0	chemistry	1	1	1950
+McDuall	Kamome_Diner	Barrows-Mayer	722	2	1
+Lipson	13_Fighting_Men	Klocko_Group	720	1	1
+Heiss	Sorry,_Wrong_Number	Monahan,_Schaden_and_Gulgowski	886	2	1
+Wernher	Mr._Deeds_Goes_to_Town	Shanahan_LLC	505	2	1
+Kibble	'Neath_the_Arizona_Skies	Swaniawski-Osinski	633	1	1
+Moorey	Smokey_and_the_Bandit_III	Roob-Johns	158	0	IT	0	0	1900
+Cairns	Turbo:_A_Power_Rangers_Movie	Mraz-Feeney	155	2	0
+Rideout	Breakheart_Pass	Schaefer-Johnston	709	2	1
+Swedeland	Law_of_the_Lawless_(Brigada)	Abbott-Goodwin	14	2	1
+Andreou	Bodyguard,_The	Greenholt_Group	696	1	0
+Lindeman	Bingo_Long_Traveling_All-Stars_&_Motor_Kings,_The	Berge-Ritchie	97	0	biology	0	1	1921
+Laise	Crumb	Koelpin-Von	547	2	1
+Neligan	Avatar	Casper-Kiehn	986	0	physics	0	1	1996
+Clewett	Immortal_Sergeant	Lemke_and_Sons	329	2	1
+Wigley	Missing_in_Action	Thiel_LLC	733	1	0
+Burnel	All_I_Want_(Try_Seventeen)	Stehr-Kohler	43	1	2
+Cottis	Three_Fugitives	Hettinger,_McLaughlin_and_Cummerata	152	0	biology	0	1	1952
+Marryatt	The_Four_Feathers	Klocko-Stroman	604	2	0
+Kemp	Return_of_the_Vampire,_The	Schmitt_and_Sons	567	2	0
+Oliveras	Trapped_Ashes	Olson_LLC	531	0	physics	1	0	1959
+Ollerton	Beau_Geste	Sporer_Inc	842	2	0
+Keable	Beautiful_Mind,_A	Rempel-Grant	527	2	1
+Fullman	Barbie:_A_Perfect_Christmas	Boyle,_Bogisich_and_Vandervort	535	1	0
+Asprey	Age_of_Ignorance,_The_(a.k.a._Days_of_Darkness)_(L'âge_des_ténèbres)	Hudson,_Hilpert_and_Corkery	986	1	1
+Evamy	New_Jean-Claude,_The_(Le_nouveau_Jean-Claude)	Mertz,_Fritsch_and_Homenick	692	2	0
+Brodhead	Jamilya	Smith-Roob	199	1	1
+Gellier	The_Boyfriend_School	Hessel_and_Sons	284	2	1
+Burrells	Hitch_Hikers_Guide_to_the_Galaxy,_The	Schmeler,_Ortiz_and_Roberts	575	0	chemistry	0	0	1912
+Macrae	Cocoon	Sawayn,_O'Reilly_and_Pagac	214	0	IT	1	0	2014
+Adams	Open_Water_2:_Adrift	Green_and_Sons	520	1	0
+Jantet	Paradise:_Love	Cummings,_Quitzon_and_Gleason	358	0	IT	1	0	1974
+Cornilli	Flags_of_Our_Fathers	McGlynn-Jast	769	0	psychology	1	1	1927
+Manntschke	All_That_Heaven_Allows	Grimes,_Yost_and_Moen	527	0	chemistry	1	1	2018
+Reubbens	Amer	Collier,_Rutherford_and_Schuster	292	0	biology	0	1	1944
+Meadowcraft	Welcome_Home,_Roscoe_Jenkins	Nader,_Terry_and_Wilderman	324	2	0
+Danihelka	Murderous_Maids_(Blessures_assassines,_Les)	Emmerich-Greenfelder	539	1	2
+Gobourn	Nature_Calls	Morissette_LLC	336	2	1
+Maskall	Herbie_Goes_Bananas	Brekke-Rowe	384	2	0
+D'eathe	Hong_Kong_Confidential_(Amaya)	Hegmann_Inc	994	1	2
+Braidon	Day_the_Universe_Changed,_The	Wehner_Inc	668	0	maths	1	1	2014
+Itzhaki	Birdy	Kirlin,_Blanda_and_Rath	29	0	psychology	0	0	2007
+Mottley	Bride_Came_C.O.D.,_The	Koss_Group	72	2	0
+Serris	Just_Looking	Conn_Inc	798	0	psychology	1	1	1899
+Clothier	Artist,_The_(El_Artista)	Okuneva-Nader	421	1	2
+Bubeer	Delivery_Man	Dickens,_Kohler_and_Prohaska	664	1	1
+Top	Beats_Rhymes_&_Life:_The_Travels_of_a_Tribe_Called_Quest	Murphy,_Batz_and_Watsica	135	1	1
+Blackwood	Patrik_Age_1.5_(Patrik_1,5)	Romaguera_and_Sons	990	0	psychology	1	0	1926
+June	Amber_Lake_	Hackett_LLC	288	1	0
+Banner	Summer_of_'04_(Sommer_'04)	Christiansen-Murray	634	0	maths	0	1	1948
+Wisham	Last_Casino,_The	Denesik_LLC	69	2	0
+Pawellek	Bone_Collector,_The	Wiegand,_Stokes_and_Gerhold	479	1	2
+Speek	Coming_Home	Yundt,_Emard_and_West	99	1	0
+Gurry	Bag_Man,_The	Ebert_and_Sons	773	1	0
+Eversley	Rage_in_Placid_Lake,_The	Greenholt_Group	797	0	psychology	1	0	1960
+Siemon	Normal_Life	Swift-Rempel	619	2	1
+Thorsen	Dilemma,_The	Turner_LLC	853	2	1
+Sprowson	Wedding_in_Blood_(Noces_rouges,_Les)	Berge_Group	58	0	psychology	0	1	2005
+Sphinxe	Resident_Evil:_Extinction	Corkery,_Lynch_and_Gutkowski	889	2	0
+Deesly	Around_the_World	Hills,_Lindgren_and_Bins	882	2	0
+Jones	Scarlet_Pimpernel,_The	Moen-Monahan	873	1	1
+Ioannou	Bloodsuckers	Jaskolski-Torp	747	1	2
+Juris	Two_Night_Stand	Zieme,_Adams_and_Funk	797	0	IT	1	1	1979
+Thrift	Chained_Heat	Douglas_and_Sons	334	2	0
+Peasnone	Han_Gong-ju	Lubowitz_and_Sons	620	2	1
+Flament	Force_Majeure_(Turist)	Waelchi,_Prohaska_and_Koelpin	190	1	0
+Mastrantone	Adonis_Factor,_The	Heaney,_Lakin_and_Marquardt	649	0	maths	1	1	1992
+Gorgler	Secret_Glory,_The	Waters,_Corwin_and_Batz	543	2	1
+Ovens	Redhead_from_Wyoming,_The	Schowalter_LLC	300	0	maths	0	0	1945
+Dienes	Inn_of_the_Sixth_Happiness,_The	Schultz_LLC	557	1	0
+Cagan	Repo!_The_Genetic_Opera	Koepp-Spencer	81	1	1
+Cussins	Errand_Boy,_The	Kuhlman-Toy	929	2	0
+Gummer	Fever_Pitch	Adams_Inc	915	1	0
+Eggar	Punk's_Dead:_SLC_Punk!_2	Grimes-Erdman	351	2	0
+Blackster	The_Count_of_Monte_Cristo	Feest_LLC	832	1	0
+O'Spillane	Price_of_Milk,_The	VonRueden_and_Sons	282	0	psychology	1	0	1969
+Senn	Joe_Versus_the_Volcano	Gibson,_Conn_and_Legros	408	1	2
+Vaughn	Stuck_Between_Stations	Feil,_Thompson_and_Runolfsdottir	765	0	physics	0	1	2018
+Ambroix	Undead,_The	Ullrich-Stamm	169	1	1
+O'Shirine	The_Blood_of_Fu_Manchu	Sporer-Funk	417	1	0
+Cheson	Control_Room	Moore,_Goldner_and_Rath	928	0	chemistry	1	0	1895
+Behrens	Hellhounds_on_My_Trail	Carter,_Rempel_and_Little	822	1	0
+Mouser	Newlyweds	Anderson_and_Sons	947	0	IT	1	1	1973
+Berthot	Little_Manhattan	Stroman_Group	96	2	0
+Bisseker	In_a_World...	Muller-Collier	672	0	IT	1	1	1908
+Bratley	Stranger_Than_Paradise	Lesch,_Koepp_and_Bogan	438	2	1
+Jeffcoat	Doctor_at_Sea	Boyle_Group	521	1	1
+Heddon	Fangs_of_the_Living_Dead_(Malenka)	Bins,_Tremblay_and_Hyatt	678	0	maths	1	0	1956
+Stainbridge	Normal_Adolescent_Behavior	Bins_Group	456	1	2
+Ebbetts	Shanghai_Kiss	Brown-Jenkins	295	2	1
+Gillooly	Rack,_The	Steuber_Inc	987	1	2
+Gingel	Rock_the_Boat	Halvorson_LLC	115	2	0
+Flanaghan	Airbag	Langworth-Murazik	514	0	psychology	1	1	1927
+Serotsky	Jenny	DuBuque,_Brakus_and_Keebler	617	0	maths	0	0	1927
+Barendtsen	Slaughter_of_the_Innocents	Cremin-Armstrong	49	1	0
+Kullmann	Paradise:_Faith_(Paradies:_Glaube)	VonRueden-Kunde	506	0	physics	0	1	1975
+McClarence	Born_into_Brothels	Kuphal_Group	695	1	0
+Loughney	Cloverfield	Ziemann-Wehner	387	0	biology	1	0	1930
+Teggart	Cinderella	Jakubowski_LLC	237	1	2
+Stienton	Trailer_Park_Jesus	Simonis_and_Sons	412	2	0
+Arnott	Cathy_Come_Home	Casper-Schmeler	322	1	0
+Royds	Cloak_&_Dagger	Daniel-Prohaska	981	0	IT	0	0	1992
+Ingold	Vincent:_A_Life_in_Color	Schamberger_LLC	356	2	0
+De_La_Haye	Tere_Bin_Laden	Sauer-Jaskolski	246	1	2
+Tesche	Catered_Affair,_The	Ward-Lesch	786	0	psychology	1	1	1959
+Haet	Dead_Meat	Toy-Gerhold	457	0	chemistry	0	1	2000
+Jacobovitz	Mercredi,_folle_journée!	Hackett-Sporer	530	0	maths	0	0	1962
+Abramsky	Warren_Oates:_Across_the_Border	Wisozk,_Jakubowski_and_Daugherty	848	1	2
+Epp	Yentl	King,_Leffler_and_Renner	376	2	0
+Vairow	Racket,_The	Watsica,_Schmitt_and_Erdman	290	1	0
+Cheer	BFFs	Wolf-Bradtke	374	2	1
+McAne	Real_Fiction_(Shilje_sanghwang)	Toy_Group	431	1	0
+Voss	Auntie_Mame	Simonis-Adams	537	0	maths	1	1	1899
+Badham	Berserk	Terry_and_Sons	429	2	1
+Mayho	Vassilisa_the_Beautiful_(Vasilisa_prekrasnaya)	McCullough-Wisozk	109	0	maths	0	0	1969
+Presnail	300:_Rise_of_an_Empire	Koepp-Price	176	2	1
+Kleuer	Alligator	Ryan-Konopelski	240	0	psychology	0	1	1919
+Anstice	Space_Movie,_The	Conroy_Inc	938	2	1
+Gainsburgh	Kozara	Streich,_White_and_Graham	805	1	1
+Laughrey	Storm_Center	Rogahn_Group	281	2	1
+Culshaw	Lucky_Night	Wyman-Mraz	66	1	1
+Pray	Argentina_latente	Kohler-Ebert	23	1	1
+Jimeno	Floating_Weeds_(Ukigusa)	Labadie,_Jacobson_and_Spinka	21	2	0
+Longhi	Glass_Key,_The	Mayer_LLC	200	2	1
+Neasham	Hostile_Intentions	Keeling-Harber	97	2	1
+Barents	Stars_Above	Bode,_Witting_and_Schiller	468	1	0
+Grimsey	Liquid_Sky	Davis_and_Sons	213	1	1
+Jaquiss	Christmas_Holiday	McDermott_LLC	478	2	0
+Szymczyk	This_Island_Earth	Lakin,_Wintheiser_and_Von	190	2	1
+Ewenson	The_Gamers	Romaguera_Group	688	2	1
+Rauprich	Last_Days_of_Disco,_The	Cassin,_Lang_and_Reichel	591	2	1
+Orthmann	Nut_Job,_The	Mosciski-Corkery	768	1	0
+Garside	Another_Woman	Hand-Gleichner	898	2	1
+Stieger	Four-Faced_Liar,_The	Lubowitz_LLC	276	2	0
+Brantzen	Great_Santini,_The	Gerhold-Kuphal	24	2	1
+Elijahu	After_the_Life	Steuber-Walter	548	1	0
+Smails	Good_Bye_(Bé_omid_é_didar)	Schultz,_Stracke_and_Hansen	646	2	0
+Ludvigsen	Paycheck	Beier,_Roob_and_Osinski	845	1	1
+Teasdale	Days_of_Being_Wild_(A_Fei_jingjyuhn)	Wiegand_Inc	775	1	0
+M'Quharge	Double_Hour,_The_(La_doppia_ora)	Lang-Baumbach	123	1	0
+McGarvie	Princess_Caraboo	Blick_and_Sons	737	0	chemistry	1	0	1995
+McGow	Once_in_a_Lifetime	Towne_LLC	878	1	2
+Gladyer	Woman_Always_Pays,_The_(Afgrunden)_(Abyss,_The)	Ankunding-Koepp	472	0	IT	0	1	1959
+Faulds	Fightville	Bogisich-Nienow	288	1	0
+Gant	Charlotte_Sometimes	Kunde,_Toy_and_Parisian	438	2	1
+Clarridge	So_Fine	Larson_LLC	48	1	1
+D'Orsay	My_Giant	Renner_LLC	142	1	0
+Brabant	Seduced_and_Abandoned_(Sedotta_e_abbandonata)	Willms_and_Sons	895	2	0
+Cicccitti	Circle_of_Friends	Mertz,_Tillman_and_Cassin	971	2	0
+Glantz	Blessed_Event	Hermiston-Zieme	439	1	2
+Crews	Romantic_Englishwoman,_The	Walter,_Legros_and_Von	680	1	2
+Borzoni	Venom	Auer_Group	571	1	1
+Franschini	Cake	Runolfsson-Schoen	853	0	physics	0	0	1922
+Klyn	Twice_in_a_Lifetime	Rippin_and_Sons	639	1	2
+Tumayan	Family_Game,_The_(Kazoku_gêmu)	Gutmann,_Marvin_and_Orn	846	0	maths	1	0	1993
+Bedingfield	Affluenza	Corwin,_McCullough_and_Glover	748	1	0
+Tibbs	Känd_från_TV	Lesch_and_Sons	709	0	psychology	0	1	1959
+Playfoot	Mayday_at_40,000_Feet!	Stark-Jerde	866	1	2
+Caulkett	Prom_Night	Nolan,_Christiansen_and_Mraz	70	1	1
+Manton	Boy,_Did_I_Get_a_Wrong_Number!	Schmidt,_Cruickshank_and_Auer	231	1	2
+Giacobazzi	My_Favorite_Season	Eichmann-Casper	52	1	2
+Peyro	Stalin	Satterfield-Cruickshank	229	0	biology	1	0	1921
+Spinozzi	Alien_Outpost	Cronin_and_Sons	164	0	chemistry	0	1	1899
+Fri	Harlem_Nights	Becker,_Schinner_and_Kozey	348	1	1
+Hallagan	The_Incite_Mill_-_7_Day_Death_Game	Cummerata-Jacobs	263	2	1
+Venour	Mirror,_The_(Ayneh)	Boyer-Harvey	402	2	0
+Spohrmann	Angels_and_Insects	Ortiz,_Howe_and_Ruecker	182	2	1
+Allday	Used_Cars	Schimmel_Inc	253	2	0
+Mocquer	$9.99	Wolff_LLC	680	1	2
+Dennes	Nothing_to_Lose	Paucek_LLC	217	2	1
+Measen	Beloved_Berlin_Wall_(Liebe_Mauer)	Lubowitz-Miller	147	2	0
+Jaher	Snowbeast	Brown,_Lowe_and_Stokes	533	0	IT	1	1	1944
+Habbershon	Z.P.G.	Kris,_Green_and_Huel	724	0	psychology	1	0	1940
+Oherlihy	Magnificent_Seven_Ride!,_The	Runolfsdottir-Renner	296	0	physics	1	0	1983
+Vogl	Timecrimes_(Cronocrímenes,_Los)	Oberbrunner,_Bogan_and_Jacobi	122	1	0
+Paulitschke	Girl_in_Progress	Deckow,_Zulauf_and_Gerhold	74	1	2
+Patton	I_Hope_They_Serve_Beer_in_Hell	Murphy-Durgan	578	2	1
+Garbar	Tumbledown	Yundt,_Hills_and_Lehner	324	0	physics	0	0	1903
+Hellcat	Inevitable_Defeat_of_Mister_&_Pete,_The	Hermann,_Hessel_and_Powlowski	249	2	1
+Lampert	William_Kunstler:_Disturbing_the_Universe	Funk-Oberbrunner	424	1	2
+Bailess	Apocalypse_Now	Paucek,_Rippin_and_Carroll	972	2	0
+Nutter	Cashback	Nienow,_Rogahn_and_Gutmann	290	0	psychology	0	0	1937
+Fogg	Lift,_De	Moore-Littel	864	2	0
+Beaty	Hey_Arnold!_The_Movie	Wuckert-Ledner	884	2	1
+Harverson	Mississippi_Mermaid_(Sirène_du_Mississipi,_La)	Schmidt-Lubowitz	694	1	0
+Mintram	Take,_The	White-Okuneva	829	2	1
+Cordeux	Racing_with_the_Moon	Muller_Inc	173	1	2
+Maitland	Miranda	Bartoletti_and_Sons	513	1	0
+Lempertz	Torrente_2:_Misión_Marbella	Feest,_Miller_and_Wunsch	188	0	maths	0	0	1921
+Powland	Act_Da_Fool	Feil,_Kuhic_and_Lebsack	615	0	psychology	0	1	1992
+Mattack	R.I.P.D.	Jakubowski_Group	985	2	0
+Stimson	Marilyn_in_Manhattan	Macejkovic-Veum	311	1	0
+Struan	Chop_Shop	Rath,_Trantow_and_Ziemann	492	1	0
+Candwell	Alila	Schaefer-Heidenreich	652	0	biology	1	1	2019
+Learoyde	Sorry,_Wrong_Number	Balistreri,_Schumm_and_Mayert	409	0	psychology	1	1	1987
+Clatworthy	Vincent:_A_Life_in_Color	Bergnaum-O'Hara	18	2	0
+Keaysell	Holy_Smoke	Rice_LLC	431	2	1
+Mayho	Boys_Life_4:_Four_Play	Herman,_Crona_and_Howe	902	2	0
+Instrell	A_Short_History_of_Decay	Kuhlman_and_Sons	619	2	1
+Morrott	I_Could_Go_on_Singing	Bogan,_Hills_and_Stoltenberg	303	2	0
+Braney	Employment,_The_(Empleo,_El)	Abbott_and_Sons	392	2	1
+Camois	Circle_of_Friends	Botsford_Group	427	2	0
+Tolotti	From_Hell_It_Came	Johns-Vandervort	960	2	1
+Redwin	Emergo_(Apartment_143)	Koelpin-Waters	641	0	biology	0	0	1987
+Tatam	Howling_II:_Your_Sister_Is_a_Werewolf	Gerhold-Ankunding	124	2	1
+Fockes	My_Mother_(Ma_mère)	Bayer,_Gleason_and_Bins	506	0	physics	1	1	2013
+Ilive	Mon_Paradis_-_Der_Winterpalast	Crona_and_Sons	635	1	1
+Wagenen	The_Legend_of_Awesomest_Maximus	Hand,_Stiedemann_and_Mohr	61	1	2
+Gallo	Hundred-Foot_Journey,_The	Osinski,_Nolan_and_Breitenberg	700	0	biology	1	1	1947
+Javes	Slam_Dance	Krajcik-Dibbert	577	0	IT	0	0	1926
+Heathcoat	Catch_a_Fire	Wintheiser,_Reichert_and_Bahringer	726	2	1
+Condliffe	Variety_Lights	Collier,_Aufderhar_and_Schowalter	686	1	1
+Stellman	Human_Experience,_The	Okuneva,_Huels_and_Tromp	420	0	chemistry	0	1	1934
+Simmen	Mr._Moto's_Gamble	Kuphal,_Ledner_and_Hessel	268	1	2
+Bartlosz	Who_Are_the_DeBolts?_[And_Where_Did_They_Get_19_Kids?]	Willms,_Stark_and_Rogahn	365	2	0
+Alty	Turks_&_Caicos	Nolan,_Anderson_and_Wolf	538	1	2
+Pudsall	Contract,_The	Boyer,_Spinka_and_Jacobs	908	1	0
+Sanbrooke	Topkapi	Rempel,_Pfeffer_and_Ferry	797	1	0
+Boyan	I_Got_Next	Schmeler,_Sanford_and_Schroeder	799	2	0
+Frizzell	Guendalina	Becker,_Carroll_and_Feil	566	2	0
+Chamberlain	Cadillac_Records	Gutkowski,_Upton_and_Metz	833	2	1
+Adrienne	Joe_Kidd	Stoltenberg-Johnson	146	2	0
+Van_Merwe	Big_Lebowski,_The	Sipes,_Eichmann_and_Windler	356	1	1
+Stamps	Bus_Stop	Vandervort,_Jacobi_and_Wiza	174	2	1
+Melanaphy	Fallen_Angels_(Duo_luo_tian_shi)	Hegmann-Stroman	644	2	1
+Rendall	Deep_Impact	Frami-Frami	809	0	physics	0	1	1921
+Haddrill	Ghosts_of_Mississippi	Kerluke_LLC	213	1	2
+Klageman	When_the_Road_Bends:_Tales_of_a_Gypsy_Caravan	O'Reilly,_Ernser_and_Hackett	427	1	2
+Archdeacon	Michael_the_Brave_(Mihai_Viteazul)	Glover,_Rempel_and_Cronin	843	1	1
+Reford	Stick	Metz-Marvin	112	2	0
+Pitblado	Dick_Figures:_The_Movie	Abernathy-Goodwin	863	2	0
+Ianson	Christmas_Holiday	Wolf,_Gerlach_and_Zulauf	53	2	0
+Haug	Sparkle	Wolf-Russel	115	0	IT	1	1	1959
+Pardue	Captains_Courageous	Maggio_Inc	917	0	chemistry	1	1	1929
+Iglesiaz	Varan_the_Unbelievable	Harris,_Thompson_and_Rutherford	879	1	0
+Greenhouse	Louis_C.K.:_Live_at_The_Comedy_Store	Brakus-Heathcote	723	1	0
+Cheke	Twin_Falls_Idaho	Collins-Boyle	159	0	chemistry	0	0	1921
+Silversmid	Kevin_Smith:_Sold_Out_-_A_Threevening_with_Kevin_Smith	McDermott_Inc	313	2	0
+Kinkead	Rebel,_The_(Le_Rebelle)	Ebert,_Hansen_and_Hartmann	59	0	psychology	1	0	1891
+Davey	Forgotten	Schneider,_Rippin_and_Gutmann	191	0	biology	1	1	2013
+Canter	Big_Shot:_Confessions_of_a_Campus_Bookie	Schroeder-Skiles	592	0	physics	0	0	1913
+Kebell	Loves_of_Carmen,_The	Vandervort_Group	707	2	1
+Beynke	Calculator	Jaskolski-White	788	2	1
+Chalke	Headquarters_(Päämaja)_	Reichel_Inc	486	0	chemistry	1	0	1997
+Shakelady	Limbo	Wisozk-Gottlieb	426	1	2
+Jude	Our_Town	McClure,_Kozey_and_Zieme	908	1	1
+Kestle	Hamlet,_Prince_of_Denmark	Kautzer-Casper	757	1	1
+Gideon	Delirious	Dibbert_Inc	783	1	2
+Instone	Revolution	Thompson,_Romaguera_and_Kiehn	984	0	physics	0	1	1939
+Poland	6954_Kilometriä_Kotiin	Ortiz,_McClure_and_Bogisich	283	0	physics	0	1	1929
+Mowsdill	Trails_(Veredas)	Osinski,_Kunze_and_Kilback	538	1	0
+Grog	Beats_Rhymes_&_Life:_The_Travels_of_a_Tribe_Called_Quest	Altenwerth_Inc	309	1	0
+Corday	Riot_Club,_The	Gerlach-Graham	203	0	psychology	1	0	1958
+Coulthard	Scenic_Route	Kuhic_LLC	68	2	1
+Blofeld	Friday_the_13th_Part_VII:_The_New_Blood	Williamson_Inc	270	2	0
+Purviss	Pecker	Deckow_and_Sons	615	2	1
+Chrystie	Waiting_for_Forever	Schowalter-Moore	247	0	physics	0	0	1913
+Dack	Prelude_to_War_(Why_We_Fight,_1)	Kutch-Gislason	453	0	chemistry	0	0	1978
+Corden	Blood_Moon	Herman_Inc	195	1	1
+Ravenshear	Borrower,_The	Rutherford_and_Sons	34	0	biology	1	1	1906
+Matyasik	Edward_II	Hermann,_Corwin_and_Stamm	459	1	1
+Stuther	With_Love..._from_the_Age_of_Reason	Quitzon_and_Sons	928	1	1
+Toffel	Like_Stars_on_Earth_(Taare_Zameen_Par)	Borer-Bogisich	759	2	1
+Pabelik	Creature	Emmerich,_Walter_and_Borer	631	0	chemistry	1	0	1920
+Tompkin	Spirit_Trap	Schaden_LLC	18	1	2
+Iuorio	City_for_Conquest	Okuneva-Ondricka	107	1	1
+Codlin	Fast_and_the_Furious:_Tokyo_Drift,_The_(Fast_and_the_Furious_3,_The)	Lebsack-Stracke	151	0	IT	0	0	1927
+Ausello	Fish_Child,_The_(El_niño_pez)	Berge_LLC	81	1	1
+Whipp	Computer_Chess	Wiegand-Beer	195	1	0
+Wadge	Family_Life	Grant-Brakus	562	2	0
+Bootes	Sitter,_The	Dickinson_Group	366	2	1
+Lamberti	Spun	Larkin-Kuhn	457	2	0
+Speedy	Lantana	Bogan-Treutel	858	2	1
+Bowmer	Hawaiians,_The	Abbott-Schoen	719	2	0
+Bateson	Roadside_Prophets	Feeney,_Hilll_and_Romaguera	341	1	2
+Bellhanger	All_the_Fine_Young_Cannibals	Halvorson_Inc	251	0	physics	1	1	1911
+Caton	Crimes_of_the_Heart	Rath_Group	574	1	0
+Service	20th_Century_Boys_-_Chapter_1:_Beginning_of_the_End	Murazik_and_Sons	637	2	0
+Mallabund	Phone_(Pon)	Lind-Sipes	609	2	1
+Bezley	Horse_in_the_Gray_Flannel_Suit,_The	Harris_Inc	928	0	chemistry	0	0	2003
+Freke	Sentinel,_The	Hilpert,_Medhurst_and_Corkery	266	0	biology	1	1	1979
+Astlatt	Me_and_Him_(Ich_und_Er)	Koss,_Veum_and_Crooks	441	2	0
+Tremathack	Cheeky_Girls	Reichel_Inc	70	0	IT	1	1	1973
+Fauning	Mama's_Boy	Ziemann_Inc	790	0	chemistry	1	1	1978
+Aust	Three_Marias,_The_(Três_Marias,_As)	Bergstrom,_Rogahn_and_Harvey	814	0	biology	0	0	1944
+Dowdeswell	Alamo,_The	Howell_Group	536	2	0
+Boulstridge	Buffalo_'66_(a.k.a._Buffalo_66)	Hintz,_Vandervort_and_Hettinger	281	2	1
+Fazakerley	After_the_Rehearsal_(Efter_repetitionen)	Gorczany,_Bernier_and_Adams	519	0	IT	1	0	1942
+Ottewell	Love,_etc.	Nader-Halvorson	944	0	physics	1	1	1907
+Lobbe	Hellion	Monahan,_O'Keefe_and_Schaefer	841	1	1
+Usmar	Grey_Fox,_The	Fisher_LLC	679	2	1
+Beare	Bombay_Talkie	Dooley_Inc	318	0	biology	1	0	1988
+Clougher	Payment_Deferred	Kuvalis-Reinger	617	2	1
+Washington	Marriage_Italian_Style_(Matrimonio_all'italiana)	Kuhic-Hand	285	2	0
+Chawkley	Great_Directors	Wunsch-Kuhic	701	0	physics	1	0	1987
+Etienne	Beyond_Borders	Kulas-Kuphal	778	0	physics	1	0	2015
+Rudloff	Crackerjack	Reilly-Hilll	954	1	1
+Lemmer	Black_Hawk_Down	Jenkins_LLC	285	0	chemistry	0	1	2017
+Flanaghan	Once_a_Thief_(Zong_heng_si_hai)	Stanton,_Mayert_and_Powlowski	125	0	biology	1	0	2001
+Bariball	Secret_Lives_of_Dentists,_The	Spinka_and_Sons	394	2	0
+Beloe	Bats	Botsford-Gusikowski	638	1	0
+Culleton	Transformers	Carroll-Feeney	860	1	1
+Menier	Air_America	Rice-O'Hara	384	1	2
+Ollcott	Man_with_the_Golden_Gun,_The	Oberbrunner_Inc	418	0	maths	0	1	1952
+Moulton	Guest,_The	Herman-Welch	289	2	1
+Capnerhurst	To_Have_and_Have_Not	Volkman_Inc	810	1	0
+Kingh	Horse_Whisperer,_The	Halvorson-Kertzmann	656	0	maths	0	1	1980
+Stellman	Lupin_the_3rd	Considine,_Barrows_and_Reilly	797	2	1
+Morrad	Swimming	Powlowski_Group	758	2	1
+Vogt	Can't_Help_Singing	Cassin-Gutkowski	999	0	biology	0	1	1891
+Belf	Je_m'appelle_Elisabeth	Mann_Inc	405	1	0
+Greenland	Heirloom,_The_(Zhai_Ban)	Effertz_LLC	869	2	0
+Marston	Fantomas_Unleashed	Koch_LLC	165	0	chemistry	1	1	1925
+Joplin	Night_and_Day_(Bam_gua_nat)	Greenfelder,_Moen_and_Abbott	346	0	maths	0	0	1950
+Banane	The_Diary_of_Preston_Plummer	Berge_LLC	36	1	0
+Pagen	Shaft	Hackett_and_Sons	437	1	2
+Fogt	Hitch-Hiker,_The	Torp,_Mertz_and_Schimmel	87	2	0
+Rowbury	Bachelor_Mother	Schaden-Lemke	296	2	1
+Govini	Red_Ensign	Spencer,_Prosacco_and_Zboncak	861	2	1
+MacElroy	Crime_Wave	Flatley,_Stark_and_Robel	346	1	0
+Ridley	World_of_Henry_Orient,_The	Schoen-Collier	392	0	psychology	1	1	1973
+Westoff	Daddy_Long_Legs	Wolff-D'Amore	73	1	0
+Slegg	Peace,_Love_&_Misunderstanding	Marquardt-Marquardt	483	1	1
+Martine	An_Empress_and_the_Warriors	Wintheiser,_Moen_and_Davis	931	1	1
+Sturdey	Battleground	MacGyver_LLC	28	2	0
+Petrosian	Out_Cold	Marvin-Kub	977	1	2
+Avramovitz	Eccentricities_of_a_Blonde-haired_Girl_(Singularidades_de_uma_Rapariga_Loura)	Herman-Ritchie	902	1	0
+Stackbridge	Wood,_The	Osinski,_Nader_and_Lind	422	2	0
+Seemmonds	Samaritan_Girl_(Samaria)	Kunze_LLC	182	0	physics	1	1	1935
+Pearce	Desert_Blue	White_LLC	523	1	0
+Kumar	Season's_Greetings	Doyle,_Zboncak_and_Balistreri	310	0	maths	0	0	1996
+Marshall	Comebacks,_The	Jacobs,_Goyette_and_Pfannerstill	878	1	1
+Dixie	Money_(L'argent)	Berge-Graham	853	1	2
+Knapp	King_Leopold's_Ghost	Crooks_Inc	818	2	0
+Battershall	Shanghai	Muller_LLC	60	0	IT	0	1	1998
+Yushin	Little_Manhattan	Rolfson_Group	975	1	0
+Brumbye	Langoliers,_The	Jacobson_Inc	831	1	0
+Arendt	Red_Dust	Roberts_Group	330	2	0
+Kinde	Shampoo	Greenfelder-Thiel	847	1	1
+Baish	Dr._Bronner's_Magic_Soapbox	Keeling-Cassin	257	0	IT	1	1	1954
+Marshfield	Porn_Theater_(Chatte_à_deux_têtes,_La)	Howell_Inc	550	0	psychology	0	1	1978
+Grombridge	Housemaid,_The_(Hanyo)	Ondricka-Bins	945	0	biology	1	1	1950
+Logsdail	Flightplan	Hickle_Group	390	2	1
+Cranshaw	Human_Tornado,_The	Dooley_LLC	913	0	maths	0	0	1987
+Sive	Summer_Magic	Strosin_and_Sons	661	1	0
+Kingscott	Russia_88	Blanda_LLC	447	0	maths	1	0	1900
+Braksper	Few_Best_Men,_A	Johnston-Bartoletti	540	2	1
+Urey	Catch_a_Fire	Raynor_and_Sons	569	0	chemistry	1	1	1905
+Rodman	Grown_Ups	Hammes_LLC	798	0	psychology	1	0	1927
+Guiduzzi	Brick	Wilkinson-Bashirian	680	2	0
+Ridett	Knight_of_Cups	Auer-Goodwin	487	0	physics	1	0	1945
+Gosart	I_Know_Who_Killed_Me	West,_Davis_and_Altenwerth	632	1	0
+Padula	Valentine's_Day	Durgan,_Stamm_and_Muller	885	1	0
+O'_Brian	Casting_By	Hammes,_Paucek_and_Daniel	897	2	0
+Cannaway	Marie_and_Bruce	Ward-Reilly	692	1	2
+Insull	Paperhouse	Grimes-Skiles	722	0	biology	0	0	1935
+Crombleholme	Bitter_Rice_(Riso_amaro)	Morar,_Romaguera_and_Cole	612	1	2
+Flann	War_and_Peace_(Voyna_i_mir)	Hartmann-Lockman	806	2	0
+Yellowlees	Squall,_The	Hirthe-Thompson	484	0	IT	1	1	1925
+Hyrons	Over_the_Hedge	Witting_Group	427	1	2
+Goter	Radioland_Murders	Oberbrunner-Koch	612	2	0
+Lutman	Pilate_and_Others_(Pilatus_und_andere_-_Ein_Film_für_Karfreitag)_	Paucek,_Langosh_and_Stiedemann	930	0	IT	1	0	1945
+Ingley	Cry_'Havoc'	Satterfield-Zboncak	801	1	1
+Delacourt	Bill_Bailey:_Qualmpeddler	Nicolas-Koepp	478	0	biology	1	0	1917
+Stambridge	Price_of_Milk,_The	Lowe-Altenwerth	898	0	chemistry	0	1	1899
+Mann	Blueprint_for_Murder,_A	Corkery,_Wehner_and_Nolan	546	1	2
+Rentz	Insomnia	Dibbert-Trantow	998	2	1
+Glassman	Boys	Dickens,_Wyman_and_Lebsack	321	2	0
+Klimuk	Sada	Prohaska-Shields	503	2	0
+Lacknor	Lost_City,_The	Predovic-Ullrich	581	1	0
+Jellett	Discovery_of_Heaven,_The	Ward,_Bergstrom_and_Hirthe	150	2	0
+Lehrian	Easy_Come,_Easy_Go	Price,_McLaughlin_and_Kassulke	173	1	0
+Spalls	1984	Mante-Roob	622	2	1
+Gon	Cabin_Fever	Hansen-Moen	931	1	1
+MacMarcuis	Resurrection,_A	Jerde-Blick	455	1	1
+Wybron	Winter_Sleepers_(Winterschläfer)	Mertz,_Crona_and_Brown	931	2	0
+Vigietti	Rolling_Family_(Familia_rodante)	Torp,_Reilly_and_Cartwright	914	1	1
+Abarough	Paradise_Lost_3:_Purgatory	Parisian-Monahan	673	2	1
+Fulker	Fragments_of_an_Alms-Film_(Fragmentos_de_um_Filme-Esmola:_A_Sagrada_Família)	Hegmann-Marquardt	510	1	0
+Artus	Buried	Kilback_Group	190	0	physics	1	1	1997
+Ranscombe	Our_Man_in_Havana	Walter-Harris	339	2	1
+Snowding	Hand_in_Hand	Toy_Inc	818	1	2
+Graffham	Chronicles_of_Riddick,_The	Swaniawski,_Hand_and_Mayert	531	1	1
+Alexsandrev	Watch_Out_for_the_Automobile_(Beregis_avtomobilya)	Rodriguez-Stamm	671	2	0
+Brixey	Five_Minarets_in_New_York_(Act_of_Vengeance)_(Terrorist,_The)	Ortiz_Group	369	1	1
+O'Regan	Pure_One_(Pakeezah)	West-Buckridge	655	0	IT	0	0	1990
+Rettie	Beautiful_City_(Shah-re_ziba)	Hane_Group	113	2	0
+Adam	Drive_Angry	Kshlerin_Inc	68	1	0
+Simmank	African_Queen,_The	Hartmann_LLC	979	1	1
+Raine	Body_of_War	Beatty-Fay	467	2	1
+Wicks	You_Belong_to_Me	Huel-Jaskolski	298	1	0
+Doniso	Adult_Camp	Kirlin_Inc	705	2	1
+Gullan	Re-Animator	Rodriguez_Group	63	0	chemistry	1	1	1965
+Shutt	Man_with_the_Screaming_Brain	Hagenes,_Crona_and_Rippin	214	1	1
+Standish-Brooks	Cop	Feeney-Dickinson	491	0	chemistry	0	0	1942
+Babar	Cut_and_Run_(Inferno_in_diretta)	Pacocha,_Gibson_and_Fahey	294	2	0
+Ballinghall	Cast_A_Deadly_Spell	Lebsack-Berge	716	2	1
+Hainey	Manufacturing_Dissent	Hammes-Schinner	582	2	1
+Leveritt	Stooge,_The	Von_Inc	914	1	1
+Diegan	Christmas_Carol,_A	Homenick-Dietrich	450	1	1
+Langlais	Never_Weaken	Reinger-Dickens	631	0	psychology	1	0	1920
+Jerrams	Cheetah	Gottlieb-Parker	944	0	physics	1	1	1899
+Davydochkin	Batman:_The_Dark_Knight_Returns,_Part_1	Dooley_Inc	793	2	0
+Smorthwaite	Looking_for_Cheyenne_(Oublier_Cheyenne)	Hane-Fadel	478	1	2
+Colaco	Tree,_The	Turcotte-Stroman	165	2	0
+Bradford	Maborosi_(Maboroshi_no_hikari)	Wiza-Pacocha	218	0	psychology	1	1	1904
+Reina	Densha_otoko_(Train_Man)	Botsford_LLC	166	1	0
+Spawton	Catch-22	Rice-Lindgren	396	2	1
+Feckey	American_Ninja_4:_The_Annihilation	Hudson_and_Sons	807	1	1
+Crowther	Place_Beyond_the_Pines,_The	Rohan,_Friesen_and_Terry	133	0	physics	1	0	1993
+Casali	Wings_of_Hope_(Julianes_Sturz_in_den_Dschungel)	Wisozk,_Kohler_and_Schneider	932	2	0
+Udale	Lupin_III:_The_Castle_Of_Cagliostro_(Rupan_sansei:_Kariosutoro_no_shiro)	Grimes-Wilderman	900	0	biology	1	1	1973
+Leijs	W_Delta_Z_(a.k.a._The_Killing_Gene)	Cole-Christiansen	729	2	1
+Royce	Dickson_Greeting	Hilpert,_Hilll_and_Shanahan	417	0	chemistry	1	1	1991
+Skeermor	Boat_Trip	Rohan_LLC	664	2	1
+Izacenko	Browning_Version,_The	Quigley,_Cummings_and_Koss	604	1	0
+Ramiro	Up_the_River	Kessler-McGlynn	377	1	2
+Filoniere	Antares	Douglas,_Koepp_and_Mueller	821	2	1
+Willock	Eden_Log	Hyatt_and_Sons	685	1	2
+Jeacop	Burning,_The	O'Reilly_Group	606	2	0
+Shortan	Taken	Brekke_and_Sons	951	1	1
+Rieflin	Leviathan	Gusikowski_and_Sons	597	0	psychology	0	1	1985
+Massen	Mosaic	Feil_LLC	213	0	psychology	1	1	1959
+Ciccone	Dry_Summer_(Susuz_yaz)_(Reflections)	Emmerich-Cremin	740	1	2
+Saing	Soldier_in_the_Rain	Maggio-Leuschke	493	0	chemistry	0	1	1928
+Cowin	She_No_Longer_Talks,_She_Shoots	Larson,_Labadie_and_Turcotte	997	0	biology	1	0	2001
+MacGebenay	Mi_Amigo_Hugo	Bradtke,_Stracke_and_Torp	909	0	psychology	0	0	1991
+Nicklin	Romy_and_Michele's_High_School_Reunion	Miller_Group	819	1	0
+Blevin	Snake_Woman's_Curse	Grimes,_Hudson_and_Kutch	84	2	1
+Calder	Tarzan's_Greatest_Adventure	Bartoletti-Shanahan	854	2	1
+Seivertsen	Mark,_The	Howell-Hegmann	264	0	chemistry	1	1	1945
+Haslock	What_We_Did_on_Our_Holiday	Schmidt-Abbott	103	1	2
+Conybear	Rich_in_Love	Mante-Harvey	820	0	chemistry	0	1	1933
+Flasby	Plans_for_Tomorrow_(Planes_para_mañana)	Gulgowski-Sporer	620	0	physics	0	1	1958
+Triebner	Against_the_Current	Johns-Huels	366	2	0
+Howsin	Frozen_Hell_(Jäämarssi)_	Rohan,_Marks_and_Lynch	143	0	IT	1	1	2000
+Robb	Three_Way	Gibson_LLC	610	0	IT	0	0	2005
+Goodboddy	Greatest_Game_Ever_Played,_The	Bosco,_Hand_and_Quitzon	412	0	psychology	1	1	1952
+Whelan	Babylon_5:_The_Legend_of_the_Rangers:_To_Live_and_Die_in_Starlight	Jaskolski,_Schowalter_and_Baumbach	138	0	chemistry	0	1	1917
+Briereton	Detective_Story	Hand,_Johnson_and_Bayer	112	0	physics	0	0	1892
+Dowsing	Free_Will,_The_(Freie_Wille,_Der)	Mayer_LLC	87	2	1
+Bottrill	Gingerbread_Man,_The	Connelly_Inc	852	0	physics	0	0	1959
+Stitfall	Planet_51	Larson,_Wolf_and_Metz	738	1	0
+Charpling	Life,_Above_All	Kihn,_Fisher_and_Champlin	289	2	0
+Desbrow	The_Indifferent_Beauty	Quitzon-Leuschke	554	1	0
+Jessel	Commitments,_The	O'Hara-Beier	242	0	IT	0	0	1906
+Pickring	The_Bloody_Olive	Wehner-Legros	1000	1	0
+Morton	Gremlins_2:_The_New_Batch	Padberg-Skiles	974	1	1
+Bowlands	You_Don't_Mess_with_the_Zohan	Sanford,_Metz_and_Jast	869	0	biology	1	1	1938
+Wibberley	Ice_Age_4:_Continental_Drift	Koepp_and_Sons	301	1	1
+Durnin	The_Man_They_Could_Not_Hang	Keeling,_Turner_and_Wehner	81	1	1
+Stert	Not_as_a_Stranger	Adams,_Douglas_and_Boyer	239	1	2
+Wrathmell	MGS:_Philanthropy	Muller-Schaden	253	1	2
+Lowdyane	Accidental_Husband,_The	Runte,_Hudson_and_Hegmann	535	0	psychology	0	0	1983
+Pockey	Demons_(Dèmoni)	Connelly,_Farrell_and_Jenkins	795	1	0
+De_Bruin	Edvard_Munch	Grady_Inc	821	2	0
+Goggen	Cloak_and_Dagger	Stamm,_Mraz_and_Bechtelar	185	0	IT	0	1	1929
+Shyres	Macario	Tromp,_Smith_and_Schultz	839	0	IT	1	0	1893
+Oughton	Man_You_Had_in_Mind,_The	Reilly-Conn	931	0	biology	1	0	1915
+Cheson	Point_Blank	Quitzon-Beier	100	0	chemistry	1	0	1915
+Mulcock	Blackout	Stehr,_Ernser_and_Powlowski	875	0	physics	1	1	1935
+Marcinkowski	Vengo	Wyman,_Kuvalis_and_Turcotte	963	1	0
+Blaszczak	Great_White_Hype,_The	Kozey_Inc	878	0	chemistry	0	0	1994
+Winnister	Infamous	Harvey_Group	907	0	biology	1	1	1908
+Kick	Chasing_Papi_(a.k.a._Papi_Chulo)	Bartell-Blick	430	0	IT	1	1	1894
+Tregido	Man_Named_Pearl,_A	Bradtke,_Quigley_and_Kihn	509	2	1
+Mixter	The_Happy_Road	Ebert_and_Sons	517	1	2
+Stebbin	Sapphires,_The	Abshire-Graham	507	2	1
+Jessup	Serious_Man,_A	Ernser-Osinski	932	2	0
+O'Sharry	Prom_Night_in_Mississippi	Hartmann,_Labadie_and_Maggio	347	1	2
+Obray	First_Men_in_the_Moon	Ullrich,_Cummings_and_Heidenreich	562	0	physics	0	0	1912
+Naulls	George_of_the_Jungle	Daugherty,_MacGyver_and_Boyle	329	2	0
+Storr	Virgin_Spring,_The_(Jungfrukällan)	Hauck,_Beatty_and_Botsford	574	2	0
+Ponton	Wolf	Huel,_Sauer_and_Ferry	98	0	maths	1	1	1947
+Joderli	Separation_City	Spencer-Huel	951	2	1
+Hambridge	Ghost_Story	Feest-Gorczany	220	1	0
+Fellenor	Eddie_and_the_Cruisers_II:_Eddie_Lives!	White-Shanahan	30	2	1
+Janusik	Taxi_for_Tobruk	Vandervort,_Schoen_and_Kemmer	361	2	1
+Pimblott	Flowers_of_War,_The_(Jin_líng_shí_san_chai)	Heidenreich,_Bruen_and_Hauck	999	2	1
+Featonby	Bleeder	Schoen-Kuvalis	858	2	0
+Parfrey	1776	Bergnaum_Group	744	1	1
+Epelett	St._Ives	Monahan-Flatley	67	2	1
+Spino	Boy_in_Blue,_The	Vandervort,_Ratke_and_Dooley	303	0	physics	0	1	2015
+Defau	Dersu_Uzala	Lowe-Harris	837	2	1
+Nozzolii	Herbie_Goes_to_Monte_Carlo	Robel,_Cummings_and_Bernier	218	2	1
+Lipman	Numbers_Station,_The	Runte,_Feeney_and_Heathcote	13	1	1
+Czajka	Alvin_and_the_Chipmunks	Will,_Connelly_and_Gerlach	572	0	IT	0	0	1974
+Collicott	In_&_Out	Metz_and_Sons	383	0	physics	1	1	1977
+Conradsen	Cosmic_Journey	Halvorson-Reichert	658	2	0
+Sedgeworth	All_the_King's_Men	Block,_Harber_and_Hirthe	338	2	0
+Insole	Lavender_Hill_Mob,_The	Kulas_LLC	766	0	maths	1	0	1968
+Thorneley	Square,_The_(Al_Midan)	Hammes,_Williamson_and_O'Kon	24	1	2
+Mularkey	Seven_Alone	McClure-Bechtelar	544	0	psychology	0	1	1909
+Brithman	Dreamboat	Jenkins_and_Sons	685	2	1
+Hunton	How_to_Be_a_Man	Abbott_LLC	839	2	1
+Spur	Prodigal,_The	Smith-Lakin	806	2	1
+Spincks	Simple_Simon_(I_rymden_finns_inga_känslor)	Bradtke,_Stoltenberg_and_Mills	471	0	physics	0	1	1968
+Guerre	Live_Free_or_Die_Hard	Nitzsche_Group	350	2	1
+Tyndall	Citizen_Gangster_	Bernhard-Heaney	312	0	biology	0	1	1966
+Forsbey	Last_Man_on_Earth,_The_(Ultimo_uomo_della_Terra,_L')	Little_and_Sons	368	0	maths	0	1	1993
+Leglise	Surviving_Progress	Gaylord-Goyette	827	0	biology	0	0	1939
+Sigart	On_the_Threshold_(Lars_i_porten)	Corwin,_Hagenes_and_Hettinger	547	1	0
+Kilpin	Long_Walk_Home,_The	Labadie_Group	104	0	maths	1	0	2012
+Arnely	Rapture_(Arrebato)	Miller,_Rogahn_and_Jakubowski	145	1	2
+Drable	Devil_Rides_Out,_The	Schuppe-Collier	557	2	0
+Peotz	Marie_and_Bruce	Murazik_and_Sons	670	0	psychology	1	0	1913
+Meir	Island	Barton_and_Sons	561	1	2
+Kalb	Ghost,_The	Terry,_Toy_and_Gibson	740	2	1
+Hardi	Murderous_Maids_(Blessures_assassines,_Les)	Kutch-Erdman	967	0	maths	1	1	1913
+Oakshott	Things_Are_Tough_All_Over	Osinski-Nicolas	650	0	physics	0	0	1893
+Patrickson	Family_Stone,_The	Klein,_Schneider_and_Bahringer	668	2	1
+Marousek	Rio_Lobo	Hirthe-Wuckert	921	0	maths	0	1	1920
+Overbury	Baader_Meinhof_Komplex,_Der	Krajcik_Group	333	1	2
+Esmond	Bug	Huel,_Kozey_and_Keeling	163	1	0
+Tolliday	Special_Relationship,_The	Wyman-Heller	713	2	0
+Dionisii	Jagged_Edge	Windler-Kertzmann	791	1	2
+Rames	Sirens	Stokes_Inc	436	0	psychology	1	1	1979
+Fasson	I.O.U.S.A._(a.k.a._IOUSA)	O'Conner-Ernser	266	0	chemistry	0	0	1946
+Drinkeld	Summer_Magic	Walter-Mayer	944	0	IT	0	0	1899
+Godmar	La_Première_étoile	Friesen_Inc	911	0	IT	0	0	1964
+Kuna	Easier_with_Practice	Schinner-Wiza	329	2	1
+Jilliss	ATM	Ratke-Wiza	708	0	chemistry	1	1	1958
+Smallsman	Stuff,_The	Fisher,_Heathcote_and_Roob	146	0	psychology	1	1	2012
+McKevany	Rapture,_The	Kuhic-Predovic	150	2	0
+Scudder	Last_Holiday	Wunsch_LLC	507	2	1
+Richarz	Diary_of_a_Wimpy_Kid:_Rodrick_Rules	Deckow,_Kilback_and_Ankunding	807	2	1
+Yellop	Lonely_Villa,_The	Schamberger,_Bednar_and_Shanahan	958	2	1
+Oliveira	Making_'The_New_World'	Jacobson_and_Sons	465	0	maths	0	1	1991
+Benthall	Thirty_Day_Princess	Murphy_Group	690	0	physics	1	1	1922
+McCadden	Crawlspace	Wintheiser-Ebert	460	0	physics	0	0	1957
+Steaning	Invasion_of_the_Body_Snatchers	Littel_Group	373	1	2
+Bridie	See_How_They_Fall_(Regarde_les_hommes_tomber)	Grant-Schinner	166	0	psychology	0	1	2000
+Ninnis	Into_the_Wild	Grimes-Ruecker	147	0	maths	0	1	1897
+Gradwell	Maria,_ihm_schmeckt's_nicht!_(Maria,_He_Doesn't_Like_It)	Weimann,_Kutch_and_Yost	429	0	IT	0	0	1972
+Cremins	Keoma	Klocko-Vandervort	220	1	2
+Pigford	Chamber,_The	Schuster_and_Sons	908	2	1
+Vesty	Interview	Borer_Inc	228	0	IT	0	0	1924
+Janson	Alatriste	Pollich,_Kuhn_and_Walker	886	1	0
+Fitzsimons	Piranha	Pfeffer-Willms	618	2	0
+Newlands	Stepfather,_The	Kunde-Fisher	644	2	1
+Garrie	Dead_Pool,_The	Hessel_Inc	337	0	physics	0	1	1898
+Trim	McLintock!	MacGyver,_Wuckert_and_Davis	391	0	psychology	1	1	1985
+Mayte	Haunted_Echoes	Kessler_Group	907	0	biology	0	1	2006
+Baptie	Dracula_Untold	Gerlach_LLC	431	2	1
+Benson	City_Island	Klein_and_Sons	519	0	IT	1	0	1992
+Gaynes	Baader_Meinhof_Komplex,_Der	Goyette,_Weber_and_Ortiz	184	0	psychology	0	1	1902
+Garrioch	Haunted_Honeymoon	Nienow-Roberts	963	2	0
+Heeley	Red_Balloon,_The_(Ballon_rouge,_Le)	Schaden-Hessel	756	2	0
+Pantridge	Pinochet_Case,_The_(Cas_Pinochet,_Le)	Von-Huels	761	1	2
+Gregs	Paradine_Case,_The	Jacobi-Schiller	28	0	IT	0	1	2007
+Tanton	FernGully_2:_The_Magical_Rescue	Bosco-Leannon	522	1	2
+Swinerd	Mindscape_of_Alan_Moore,_The	Shanahan,_Mertz_and_Beatty	891	2	1
+Gilbart	Les_hautes_solitudes	Hilll,_Maggio_and_Trantow	360	2	1
+Wabersich	Trinity:_Gambling_for_High_Stakes_(Odds_and_Evens)_(Pari_e_dispari)	Turner_Group	710	2	0
+Bedminster	Great_Balls_of_Fire!	Barton,_Green_and_Leffler	939	2	1
+Elcoux	Def-Con_4	Tromp_and_Sons	320	1	2
+Spybey	A_Coming-Out_Party	Wisozk-Nolan	145	2	1
+Oxby	Rocks_in_my_Pockets	Denesik,_Huels_and_Bergstrom	477	2	0
+Vasentsov	I_Like_It_Like_That	Luettgen,_Roob_and_Bins	420	0	maths	0	1	2015
+Dillamore	Burning_Bed,_The	Kshlerin_and_Sons	577	1	0
+Guichard	Ride_the_High_Country	Swift,_Block_and_McClure	586	2	1
+Claye	Chiedimi_se_sono_felice	Boyle-Buckridge	80	1	1
+Bangham	Highball	Wiza-VonRueden	232	2	1
+Briand	Compulsion	Lang_Inc	105	0	physics	1	1	1938
+Dmiterko	Code,_The	Jerde_and_Sons	502	2	1
+Tuftin	Wimbledon	Kulas,_Little_and_O'Conner	753	1	2
+Burlingham	Steamroller_and_the_Violin,_The_(Katok_i_skripka)	D'Amore_Inc	977	1	0
+Hrynczyk	How_I_Live_Now	Jenkins,_Thiel_and_Gaylord	385	1	2
+Klauer	Man_Who_Knew_Too_Much,_The	Batz,_Carroll_and_Rippin	739	1	1
+Merrigans	Shock_Corridor	Bednar_Inc	729	1	2
+Gianolini	Where_Is_Fred!?_(Wo_ist_Fred?)	Fahey-Maggio	190	1	0
+Machans	Junior_Bonner	Gottlieb,_Purdy_and_Dickens	96	1	0
+Shinfield	Double_Life,_A	Osinski-Pacocha	633	2	0
+Kinworthy	Bikes_vs_Cars	Green-Greenfelder	873	0	physics	0	0	1954
+Boarleyson	Frida	Donnelly_Group	959	0	psychology	1	1	1953
+Legat	Gods_and_Monsters	Fadel_Inc	121	0	maths	0	1	1930
+O'Leahy	Rat_Race,_The_(Garson_Kanin's_The_Rat_Race)	Wunsch-Brown	173	1	1
+Garthshore	Proposition,_The	Senger-Trantow	649	2	1
+Simpkiss	Dark_Tower,_The	Veum-Stanton	477	0	chemistry	1	1	1906
+O'Fearguise	Super_Troopers	Farrell,_McKenzie_and_Runolfsson	687	0	physics	0	1	1941
+Leates	The_Magnet	Gorczany,_Russel_and_Howe	789	0	chemistry	0	0	1936
+Farlowe	Sunshine_on_Leith_	Rice_and_Sons	707	1	2
+Udall	Tai_Chi_Master_(Twin_Warriors)_(Tai_ji:_Zhang_San_Feng)	Lehner,_Christiansen_and_Rolfson	569	1	2
+Beamish	Blood_Shack	Lowe,_Zemlak_and_Fritsch	581	0	biology	0	0	1913
+Klosa	Joyride	Schultz_Group	943	1	0
+Alpe	Five_Heartbeats,_The	Sauer-Pollich	107	2	1
+Hansana	Nothing_to_Lose	Labadie,_Willms_and_Simonis	852	0	IT	0	0	1917
+Radford	The_Feathered_Serpent	Turcotte_Inc	277	0	biology	1	0	1978
+Ryde	Torn	Leannon,_Streich_and_Kozey	781	2	0
+d'Escoffier	Last_Stand_At_Saber_River	Johns-Wolf	532	0	chemistry	0	0	1990
+Marte	McCullochs,_The	Kunze-Cartwright	296	1	0
+Cromblehome	The_Squeeze	Vandervort_LLC	688	1	1
+Colthard	Lunch_Break	Mayer,_Hammes_and_Thompson	455	2	1
+Beadham	Get2Gether,_A	Howell,_Ryan_and_Buckridge	29	0	IT	1	0	2012
+Mohamed	Metalstorm:_The_Destruction_of_Jared-Syn	Stamm,_Bergnaum_and_Balistreri	396	2	0
+Piggens	More	Heller-Donnelly	837	1	0
+Spiring	City_Slacker	Kuhlman,_Erdman_and_Sauer	384	0	psychology	1	1	1945
+Leverton	Gridiron_Gang	Kshlerin-Hyatt	262	1	2
+Casford	Caótica_Ana	Hahn-Parisian	153	2	1
+Bohin	Ghost_and_Mrs._Muir,_The	Wolff-Becker	817	2	0
+Bellfield	Get_Shorty	Zboncak_and_Sons	415	0	chemistry	1	1	1961
+Klimowski	Pit,_the_Pendulum_and_Hope,_The_(Kyvadlo,_jáma_a_nadeje)	Gottlieb_and_Sons	976	2	1
+Parcells	Fat_People_(Gordos)	Rolfson_Inc	70	0	maths	1	1	1913
+Garfoot	Oldboy	Olson_and_Sons	761	2	1
+Vice	Zift	Lueilwitz,_Marquardt_and_Buckridge	21	0	physics	1	0	1969
+Brittles	Head_On	Larkin-Gutkowski	125	1	2
+Probbin	Light_Bulb_Conspiracy,_The	Wisoky_Inc	93	0	IT	0	0	1898
+Mogg	Royal_Wedding	Schuppe-Hoppe	997	0	chemistry	1	0	1936
+Rubenov	You_Can't_Win_'Em_All	Nicolas,_Steuber_and_O'Hara	484	2	1
+Jopson	I_Can_Get_It_for_You_Wholesale	Parker,_Gutkowski_and_Bartell	909	0	maths	1	1	1967
+Loos	Run_All_Night	DuBuque_Inc	444	0	chemistry	1	1	1961
+Pantridge	Clearing,_The	Green,_Glover_and_McLaughlin	738	0	psychology	0	1	1939
+Gumley	Where_Sleeping_Dogs_Lie	Bartoletti,_Kuhn_and_Mraz	731	1	2
+Meeking	Happy_Event,_A_(Un_Heureux_Evénement)	Bergnaum,_Schoen_and_Dooley	172	0	physics	1	1	1910
+Yole	Road_to_Guantanamo,_The	Hartmann,_Rosenbaum_and_Larson	717	1	1
+Vannuchi	B.N.B._(Bunty_Aur_Babli)	Turner_Inc	144	2	1
+Roberto	Place_in_the_Sun,_A	Larson-Kerluke	247	0	maths	1	1	1929
+Ivashov	I_Capture_the_Castle	Stamm_Inc	64	2	0
+Hammill	Rosario_Tijeras	Ondricka,_Prohaska_and_Keeling	92	0	IT	0	1	1940
+Bosher	William_Shakespeare's_Romeo_+_Juliet	Hammes_Group	850	2	1
+Chalk	Afflicted,_The	Hayes_Inc	116	2	0
+Larsen	Before_the_Rain_(Pred_dozhdot)	Fadel-Kuhic	984	1	2
+Faley	Bickford_Shmeckler's_Cool_Ideas	Heller-Trantow	750	2	1
+Eden	Endless_Love	Hodkiewicz,_Ward_and_Johnson	816	1	1
+Turton	Silence,_The_(Tystnaden)	Rodriguez,_Skiles_and_Wilderman	22	2	0
+Gisbourn	Grace_Unplugged	Littel,_Miller_and_Prosacco	811	0	IT	1	1	1894
+Giblin	Page_Turner,_The_(Tourneuse_de_pages,_La)	Goyette,_Kulas_and_Heller	171	0	psychology	0	1	1912
+Peaden	Snow_Walker,_The	Homenick_Inc	808	0	biology	1	1	1973
+Huegett	Thousand_Months,_A_(Mille_mois)	Hilpert_Inc	907	1	2
+Snazel	Prick_Up_Your_Ears	Carroll-Satterfield	140	2	0
+Weld	Curse_of_the_Oily_Man_(Sumpah_orang_minyak)_	Harris-Brakus	260	2	1
+Camili	Spread	Medhurst,_Adams_and_Schowalter	258	0	maths	1	0	1901
+Yitzhok	My_Best_Friend_(Mon_meilleur_ami)	Frami-Daugherty	224	2	1
+Brackley	At_Sword's_Point	McLaughlin,_Connelly_and_Fritsch	313	1	1
+Aikin	Non-Stop	Herzog,_Schmidt_and_Barrows	937	2	0
+Silverthorn	Nurse_Betty	Jaskolski,_Dietrich_and_Bartell	986	1	0
+McAnellye	Pacific_Rim	Hackett_Inc	842	2	1
+Bixley	Katsastus	Nikolaus-Borer	776	2	1
+Wands	McCabe_&_Mrs._Miller	Rosenbaum-Bergstrom	57	2	1
+Baber	Snow_White	Watsica-Bruen	947	1	0
+Turl	Born_to_Win	Torp-Kulas	130	1	0
+Kilfeather	Prince_&_Me_II:_The_Royal_Wedding,_The	Heathcote-Cole	493	0	biology	1	0	1931
+Ferries	I_Was_A_Communist_for_the_FBI	Greenholt-Kiehn	337	0	maths	0	0	1890
+Glasspool	Kill_List	Smith_Group	72	2	0
+Da_Costa	New_Scenes_from_America	Ratke,_Howell_and_Olson	701	0	maths	1	0	1988
+Wimpey	Come_Drink_with_Me_(Da_zui_xia)	MacGyver_and_Sons	956	2	1
+Melin	Doctor_Strange	Becker,_Beer_and_O'Kon	446	1	1
+Sline	Butcher's_Wife,_The	DuBuque_Inc	140	2	0
+Roof	Bio_Zombie_(Sun_faa_sau_si)	Ruecker_Group	799	1	1
+Kenn	Water_Drops_on_Burning_Rocks	Kutch-Hoppe	838	1	0
+O'Cannan	Hail_Caesar	Kling-Huel	327	0	biology	1	0	1939
+Toll	Eat_a_Bowl_of_Tea	Miller-Deckow	899	2	0
+Clawsley	Universal_Soldier:_Day_of_Reckoning	Haag,_Stamm_and_Dickens	567	0	IT	0	1	1988
+Burkett	Atalante,_L'	Flatley-Reichert	990	0	biology	0	1	1912
+Wrey	Expelled_from_Paradise	Cummerata_Inc	709	1	2
+Swinburne	Letters_to_Father_Jacob_(Postia_pappi_Jaakobille)	Moen-Lowe	240	2	1
+Dabnor	V:_The_Final_Battle	Murray,_Reichert_and_Nader	743	0	maths	0	1	1999
+Conew	A_Rumor_Of_War	Kunde,_Mosciski_and_Maggio	708	0	chemistry	0	0	1905
+Newbigging	Shara_(Sharasojyu)	Dare-Bauch	720	2	1
+Jobin	Anywhere_But_Here	Mosciski,_Wuckert_and_Wunsch	502	0	chemistry	0	1	2014
+Offa	H.H._Holmes:_America's_First_Serial_Killer	Zieme,_Wunsch_and_Goodwin	338	1	1
+Sefton	Dazed_and_Confused	Hilll-Cummings	232	2	0
+Spriddle	Beautiful_Girls	Schaefer,_Trantow_and_Hahn	338	1	0
+MacMenemy	Last_Night	Kutch_and_Sons	949	0	biology	1	1	1941
+Inglish	Joneses,_The	Huel-Abernathy	549	0	maths	0	1	1928
+Crofts	Suburbans,_The	Hegmann,_Wiegand_and_Jaskolski	752	1	0
+Rowson	Fiston	McDermott-Weber	150	2	1
+Gusticke	Faithless_(Trolösa)	Nader,_Lebsack_and_Murray	879	1	1
+Lashmar	Remember_the_Day	Hoeger_Inc	829	1	2
+Normanville	Bad_Men_of_Missouri	Lebsack,_Harber_and_Hagenes	640	0	psychology	1	1	1974
+Fairweather	Wrong_Guy,_The	Stamm_Group	147	1	1
+Bristow	Scaramouche	Hane-Bahringer	176	2	0
+Grimsditch	Lucky_Luke:_The_Ballad_of_the_Daltons	Monahan,_Morar_and_Ankunding	987	1	0
+Gamlen	Rikyu	Grimes_LLC	826	2	1
+Grisdale	Moving_the_Mountain	Rolfson,_Bashirian_and_Haag	247	0	biology	1	0	1993
+Easterfield	Public_Enemy,_The	Paucek-Cruickshank	376	1	1
+Andreolli	The_Cheat	Price,_Gislason_and_Schoen	791	2	1
+Dignan	Condemned,_The	Rowe_Inc	540	0	biology	1	1	1947
+Boundey	Executioners_(Xian_dai_hao_xia_zhuan)	Kautzer_LLC	933	0	psychology	1	0	1890
+Caldeyroux	Psychosis	Connelly-Dare	540	1	0
+Burril	Young_Tom_Edison	Abbott-Feeney	108	1	2
+Cathel	Bitter_Victory	Moore_Group	218	1	2
+McElvine	Big_Boss,_The_(Fists_of_Fury)_(Tang_shan_da_xiong)	Ledner,_Yundt_and_Sauer	112	1	0
+Turbat	East_Side_Story	Emard-Muller	102	0	psychology	0	1	1919
+Hartright	Tapped	Gottlieb-Bode	850	1	1
+Elvin	You_Belong_to_Me	Okuneva_Group	297	1	2
+Ickowics	I_Know_What_I_Saw	Considine-Larkin	632	1	1
+Showering	Cousinhood_(Primos)	Gleichner-Muller	651	2	1
+Pasley	Green_Room,_The_(a.k.a._Vanishing_Fiancee)_(La_chambre_verte)	Howe,_Sauer_and_Pollich	260	2	1
+Flemyng	Lightnin'	Shields-Moore	990	2	0
+Harm	My_Summer_of_Love	Donnelly-Nicolas	539	0	chemistry	0	1	2004
+Pallant	Mission_Bloody_Mary	Champlin-Hamill	424	1	0
+Derricoat	Satanic_Rites_of_Dracula,_The	McDermott,_Macejkovic_and_Streich	833	0	chemistry	0	0	1910
+Winspur	Wise_Kids,_The	Botsford-O'Keefe	901	1	2
+Shelbourne	Barenaked_in_America	Gerhold_LLC	171	1	2
+Nand	Road_to_Zanzibar	Terry_LLC	424	1	0
+Chishull	As_Tears_Go_By_(Wong_gok_ka_moon)	Schulist-Donnelly	999	0	IT	0	0	1891
+Thibodeaux	Dancer_Upstairs,_The	Lebsack_and_Sons	321	1	1
+O'Crotty	Waco:_A_New_Revelation	Dickinson,_Ferry_and_Herman	430	0	psychology	0	1	1977
+Wyllcocks	Watcher_in_the_Woods,_The	Ward,_Bartoletti_and_Shanahan	649	1	1
+Keirl	Bikini_Summer_II	D'Amore-Brekke	653	1	1
+Pilkington	Welcome,_or_No_Trespassing	Abbott,_Wunsch_and_Yundt	69	1	2
+Gooda	Toolbox_Murders,_The	Labadie,_Kiehn_and_Runolfsson	599	0	physics	1	1	1909
+Castagne	Hardball	Oberbrunner_Inc	779	2	0
+Bennedick	Peanuts_-_Die_Bank_zahlt_alles	Funk,_Kutch_and_Prosacco	221	2	0
+Markie	Horton_Hears_a_Who!	Hamill,_Schaefer_and_Ullrich	887	2	0
+Leyband	Mondo	Kassulke,_Pfeffer_and_Koch	388	0	chemistry	1	1	1984
+Stacey	Shipwrecked_(a.k.a._Haakon_Haakonsen)	Murphy_Group	121	1	1
+Szymonwicz	Human_Capital_(Il_capitale_umano)	Kautzer,_Barrows_and_Dietrich	162	2	0
+Canet	Woyzeck	Connelly-Herman	441	2	1
+Grigsby	Ocean's_Eleven	Upton,_Murazik_and_Langosh	298	0	biology	1	0	2004
+Juett	Mean_Creek	Morar,_Swift_and_Wisoky	527	1	0
+Whiffen	Kill_Buljo:_The_Movie	Wolff,_Brown_and_Sporer	10	2	0
+Pellissier	Black_Death	Skiles,_Wisoky_and_Crooks	241	0	IT	0	1	1907
+d'Escoffier	Rumor_Has_It...	Reinger,_Reichert_and_Stroman	300	1	2
+Gahan	Lords_of_Discipline,_The	Hickle-Ferry	799	2	0
+Healey	This_Thing_With_Sarah	Roob-Rodriguez	802	0	biology	1	0	1967
+Bruhke	Cobra_Verde	Hettinger,_Brown_and_Kozey	950	2	0
+Baldi	Animals_are_Beautiful_People	McKenzie_and_Sons	415	0	physics	0	0	1944
+Tilberry	White_Palms_(Fehér_tenyér)	Bradtke-Larson	354	0	IT	1	0	1939
+Yirrell	Happiness_of_the_Katakuris,_The_(Katakuri-ke_no_kôfuku)	Littel,_Nitzsche_and_Strosin	737	1	1
+Morville	Letters_to_Juliet	Emmerich_Inc	640	1	0
+Bridden	Jeffrey_Dahmer_Files,_The	Schmidt-Kuvalis	856	1	1
+Dekeyser	Thirst_(a.k.a._Three_Strange_Loves)_(Törst)	Hoeger_LLC	758	2	1
+Dupree	Poor_Us:_An_Animated_History_of_Poverty	McKenzie,_Botsford_and_Bogisich	335	0	physics	0	0	1943
+Burn	Wife_vs._Secretary	Pollich_and_Sons	571	2	1
+Nares	Dirty_Story	Dach_Inc	285	0	psychology	1	1	1951
+Daudray	Possible_Worlds	Kutch-Hilll	80	0	physics	0	0	2006
+Godwyn	Girl_of_Finland_(Lapualaismorsian)	Muller-Kling	238	2	1
+Nuschke	Centurion	Bauch,_Wisozk_and_Daugherty	944	2	0
+Hollyard	Métastases	Conroy_LLC	511	1	1
+Argyle	Spetters	Powlowski_Group	87	1	0
+Kasher	Woodstock	McLaughlin-Kerluke	412	1	1
+Do	Hart's_War	Thiel,_Johns_and_Legros	808	2	1
+Pic	Truman_Show,_The	Von_Inc	448	2	0
+Castelot	Lamerica	Stehr_and_Sons	382	0	physics	0	1	1956
+Perrone	Young_in_Heart,_The	Emard,_Prosacco_and_Leannon	882	2	1
+Phillippo	Antboy	Crona_LLC	346	1	1
+Trenouth	Savages,_The	Quigley,_Lubowitz_and_O'Reilly	223	2	1
+St._Ledger	Scooby-Doo!_WrestleMania_Mystery	Stokes-Berge	868	1	1
+Teaz	Kill_Switch	Bins_LLC	202	1	1
+Sillitoe	Farewell,_The_(Abschied_-_Brechts_letzter_Sommer)	Nienow-Kling	548	1	2
+Dmytryk	Bartok_the_Magnificent	Von-Mertz	316	1	2
+Rosser	Notes_on_a_Scandal	Schmitt,_Steuber_and_Turner	363	1	0
+Quakley	Endgame:_Blueprint_for_Global_Enslavement	MacGyver_and_Sons	549	2	0
+Tilt	Munekata_Sisters,_The_(Munekata_kyôdai)	Thompson-Lynch	934	0	psychology	0	1	1951
+Pidgeley	Petulia	Welch_LLC	977	0	psychology	1	1	1895
+Sewley	Rampage	Feil-McGlynn	362	1	1
+Bangley	Birdcage,_The	Wiegand_LLC	675	1	0
+Tuckerman	Maiden's_Cheek_(To_xylo_vgike_apo_ton_Paradeiso)	Metz_Group	648	1	2
+Roselli	Taking_of_Pelham_1_2_3,_The	Altenwerth,_Jones_and_Wiegand	875	0	biology	0	1	1953
+Sawley	Prisoners_of_the_Lost_Universe	Blanda_LLC	433	1	0
+O'Fielly	Out_of_the_Past	Weissnat,_Smith_and_Reinger	734	0	physics	1	0	1969
+Cody	Roberta	Huels_Group	189	0	physics	1	1	2015
+Abelson	Sometime_in_August_(Mitte_Ende_August)	Funk,_Kuhn_and_Moen	239	1	2
+Libri	Second_Chance,_The	O'Hara_Group	256	2	1
+Farries	Prom_Night_III:_The_Last_Kiss	Jacobi_LLC	558	1	0
+Ghio	Truth_About_Cats_&_Dogs,_The	Mann-Homenick	864	0	maths	0	0	1926
+Piris	It's_a_Great_Feeling	Rodriguez_LLC	762	1	2
+Cresser	North_to_Alaska	O'Conner-Gutmann	496	0	physics	0	1	2019
+Seeborne	She's_Out_of_My_League	Wiegand_Group	822	1	0
+Petrello	Household_Saints	Dare_Inc	450	0	psychology	1	1	1952
+Oulet	Jolson_Story,_The	Schaden-Langosh	642	0	biology	1	1	1967
+Phipps	Cab_for_Three,_A_(Taxi_para_tres)	Simonis_and_Sons	90	0	maths	1	0	1980
+Pattullo	Amazon_Women_on_the_Moon	Gislason-Mayert	249	1	1
+Frood	Light_Gradient	Boehm_Inc	416	0	biology	1	0	1985
+Blackborow	Pajeczarki	Flatley-Waelchi	536	1	1
+Pulbrook	Killing_Floor,_The	Borer,_Zemlak_and_Konopelski	590	0	maths	1	1	1897
+Redon	Survive_Style_5+	Koelpin,_Schamberger_and_Orn	399	2	0
+Vauls	Dancing_at_Lughnasa	Turner,_Stroman_and_Koelpin	39	2	0
+Hawksworth	Very_Potter_Musical,_A	Grady-Smith	297	0	biology	1	1	1988
+Eirwin	Midnight_Run	Toy_LLC	185	0	chemistry	0	0	2017
+De_la_Perrelle	Intimidation	Gaylord-Kerluke	483	2	1
+Georgievski	Four-Faced_Liar,_The	Pfeffer-Ondricka	846	0	physics	0	0	1914
+Lalley	Asterix:_The_Land_of_the_Gods	Weimann_LLC	532	0	physics	1	0	1938
+Leonardi	Vampire_in_Venice_(Nosferatu_a_Venezia)_(Nosferatu_in_Venice)	Runolfsson,_Blanda_and_Harvey	890	1	2
+Lenham	Same_Time,_Next_Year	Pfeffer,_Sauer_and_Padberg	407	2	1
+McCooke	Bringing_Up_Bobby	Gaylord,_Flatley_and_Walker	48	1	0
+MacGille	Rack,_The	Hane_LLC	66	0	maths	0	0	1923
+Vanichkov	Asphalt_Jungle,_The	Boyle_Inc	737	0	biology	0	0	1994
+Amoss	Stupids,_The	Fritsch-Satterfield	749	0	psychology	0	1	1986
+Buttfield	Nightmare_in_Las_Cruces,_A	Dietrich,_Vandervort_and_Farrell	439	1	1
+Mullis	The_Third_Reich:_The_Rise_&_Fall	Hammes,_Cummings_and_Gaylord	389	1	1
+Van_der_Beek	Rabbit_à_la_Berlin_(Królik_po_berlinsku)	Parker_Inc	868	1	0
+Oboy	Quatre_garçons_pleins_d'avenir	Kovacek-Macejkovic	82	0	chemistry	0	0	1899
+Kentish	Shut_Up_and_Play_the_Hits	Stamm,_Collier_and_Armstrong	201	0	biology	0	1	1912
+MacQueen	Commander_Hamilton_(Hamilton)	Prosacco,_Nikolaus_and_Krajcik	928	0	physics	1	1	1999
+Halton	Couples_Retreat	Johnson,_Trantow_and_D'Amore	108	1	2
+Staresmeare	Kiki	Rolfson_Inc	730	0	chemistry	0	0	1926
+Mathias	House_of_Flying_Daggers_(Shi_mian_mai_fu)	Emard,_Hahn_and_Schiller	206	0	maths	1	1	1905
+Mergue	Puckoon	Macejkovic_LLC	59	1	0
+Ronca	Alligator_People,_The	Mayert-Medhurst	518	2	0
+Genese	Double_Play:_James_Benning_and_Richard_Linklater	Bailey-Jerde	393	1	1
+Fatscher	Affluenza	Macejkovic-Metz	738	1	2
+Drury	Last_Days_of_Pompeii,_The_(Gli_ultimi_giorni_di_Pompeii)	Aufderhar,_Little_and_Fay	289	0	maths	0	0	1957
+Legan	Five_People_You_Meet_in_Heaven,_The	West,_Abbott_and_Rice	598	1	0
+Goolden	Gentle_Woman,_A_(Une_femme_douce)	Hoeger,_Kautzer_and_Bartoletti	467	2	0
+Fellenor	Final:_The_Rapture	Gleason-Tromp	650	0	chemistry	1	1	1972
+Garthside	Heart_of_America	Gulgowski_Group	305	2	0
+Kobu	One_Crazy_Summer	Hudson,_Goyette_and_Walter	467	0	chemistry	1	1	1903
+Diem	Against_the_Ropes	Mante,_Frami_and_Price	995	1	0
+Dilley	Possession,_The	Sauer_LLC	152	2	0
+Castanyer	Man_from_Planet_X,_The	Steuber-Trantow	526	0	IT	0	1	1939
+Saunter	Leo_the_Last	Feeney-Glover	821	2	1
+Ybarra	MacArthur	Parker_and_Sons	797	1	0
+Manuelli	Wild_Horse,_Wild_Ride	Kerluke_Inc	444	2	0
+Parsonson	The_Unexpected_Love	Mosciski,_Funk_and_Cormier	304	2	0
+Spini	Jungleground	Von-Kunde	318	2	0
+Krammer	Must_Love_Dogs	Pacocha_Group	872	0	psychology	1	0	1922
+Cluney	Rollo_and_the_Woods_Sprite_(Rölli_ja_metsänhenki)	Kertzmann-Upton	91	0	maths	0	1	2002
+Holt	Branded	Kunze-Bogisich	571	1	2
+Rothman	Superman_IV:_The_Quest_for_Peace	Kirlin_Inc	85	2	1
+Mityakov	Dillinger	Lesch_Group	220	0	maths	1	1	1954
+Ower	Big_Clock,_The	Conroy-Rempel	607	0	biology	1	0	1986
+Tamblingson	Jungle_Book,_The	McDermott_Group	222	0	chemistry	0	1	1960
+Fritchley	Puerta_de_Hierro,_el_exilio_de_Perón	Considine,_Leannon_and_Stamm	978	0	psychology	1	1	2005
+Aldham	Snails,_The_(Escargots,_Les)	Rath-Mayer	667	1	0
+Charnley	Divo,_Il	Barrows_and_Sons	746	2	0
+Johnsson	Mummy,_The	Kirlin,_Nienow_and_Flatley	434	2	0
+Southwell	Spider-Man_3	Collier_Group	161	1	2
+Alastair	Men_to_Kiss	Emard-Beer	802	0	psychology	1	1	1965
+Maydway	Ernest_Saves_Christmas	Breitenberg,_Jakubowski_and_Hand	614	0	psychology	0	1	1970
+Poundsford	Saw_III	Hansen-Ziemann	365	1	0
+Ladson	Little_Soldier,_The_(Petit_soldat,_Le)	Nitzsche-Cassin	834	0	IT	1	0	1983
+Tallon	Kind_Lady	Jerde-Mohr	252	0	IT	1	1	1955
+Kelsey	Close_Encounters_of_the_Third_Kind	Bradtke,_Botsford_and_Davis	751	2	1
+Impey	Final_Season,_The	Wilderman,_Ullrich_and_Gleichner	925	0	physics	1	1	1972
+Carnalan	My_Best_Friend's_Wife	Volkman-Macejkovic	436	0	biology	0	0	1938
+Elnor	Bling_Ring,_The	Langosh,_Littel_and_Gottlieb	222	2	1
+Riordan	Last_American_Virgin,_The	Kunze,_Huel_and_Langosh	559	2	1
+Bescoby	I_Wish_(Kiseki)	O'Conner-Bergnaum	272	1	0
+Ungerechts	Air_Up_There,_The	Labadie_and_Sons	847	1	2
+Kelsow	Elephant_in_the_Living_Room,_The	Connelly_Group	86	0	physics	1	0	1966
+Edghinn	Maidentrip	Ziemann,_Bode_and_Altenwerth	546	1	0
+Fleay	Splice	Skiles,_Rosenbaum_and_Lemke	436	2	0
+Sanham	Tonight_You're_Mine	Kessler_and_Sons	735	2	0
+Tarquinio	Cowboy_Bebop	Block-Russel	609	0	psychology	1	0	1931
+Gilvary	Beau_Pere_(a.k.a._Stepfather)_(Beau-père)	Treutel,_Wyman_and_Casper	750	1	1
+Giorgioni	Kenny_Begins	Klocko-Torp	987	2	1
+Prevett	Office_Space	Konopelski-Ankunding	975	0	biology	0	1	1907
+Salaman	Jauja	Brown-McGlynn	794	1	1
+Habin	For_Queen_and_Country	Dickinson,_Hamill_and_Muller	330	2	1
+Griston	Shanghai_Ghetto	Rippin_Inc	319	0	psychology	0	1	1924
+Pidgin	Walk_in_the_Sun,_A	Lindgren-Halvorson	886	2	1
+Scutcheon	Funny_Bones	Ortiz_and_Sons	716	2	1
+Valentinuzzi	Separation,_A_(Jodaeiye_Nader_az_Simin)	Bosco,_Bednar_and_Lind	841	2	0
+Pedden	Michael	Kovacek,_Fahey_and_Yundt	853	2	0
+Kightly	The_Violent_Professionals	Watsica-Wiegand	697	1	1
+Dyzart	Never_on_Sunday_(Pote_tin_Kyriaki)	Schneider-Schamberger	657	1	0
+Daughtrey	Ambulance,_The	Wisozk,_Kertzmann_and_Padberg	32	2	0
+Cancellor	Last_Mistress,_The_(vieille_maîtresse,_Une)	Cummings_Group	652	0	chemistry	0	0	1979
+Thynn	Ambulance,_The	Hagenes-Collier	964	2	0
+Tovey	Kelly's_Heroes	Olson-Homenick	870	0	physics	0	1	1911
+Nursey	Happy_End	Brekke-Sawayn	620	0	psychology	0	0	1946
+Merkle	The_Vexxer	Strosin-Rosenbaum	642	0	psychology	1	0	1967
+Willets	Ugly_Truth,_The	Goyette-Price	148	1	1
+Temperton	Tyler_Perry's_A_Madea_Christmas	Lang-Fay	271	2	1
+Farren	Claymation_Christmas_Celebration,_A	Trantow_and_Sons	599	1	2
